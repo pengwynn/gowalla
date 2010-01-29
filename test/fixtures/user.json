@@ -1,0 +1,41 @@
+{
+    "accept_url": "/friendships/accept?user_id=1707", 
+    "activity_url": "/users/1707/events", 
+    "bio": "Web designer and Ruby developer.", 
+    "events_url": "/users/1707/events", 
+    "fb_id": 605681706, 
+    "first_name": "Wynn", 
+    "friends_count": 27, 
+    "friends_only": false, 
+    "friends_url": "/users/1707/friends", 
+    "hometown": "Aubrey, TX", 
+    "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/1707-standard.jpg?1262011383", 
+    "is_friend": false, 
+    "items_count": 5, 
+    "items_url": "/users/1707/items", 
+    "last_name": "Netherland", 
+    "last_visit": {
+        "comment": "Closing every account I have ", 
+        "created_at": "2010/01/26 15:31:46 +0000", 
+        "spot": {
+            "image_url": "http://static.gowalla.com/categories/186-standard.png", 
+            "name": "Bank Of America", 
+            "small_image_url": "http://static.gowalla.com/categories/186-small-standard.png", 
+            "url": "/spots/164052"
+        }
+    }, 
+    "name": "Wynn Netherland", 
+    "pins_count": 3, 
+    "pins_url": "/users/1707/pins", 
+    "reject_url": "/friendships/reject?user_id=1707", 
+    "request_url": "/friendships/request?user_id=1707", 
+    "stamps_count": 15, 
+    "stamps_url": "/users/1707/stamps", 
+    "top_spots_url": "/users/1707/top_spots", 
+    "twitter_username": "pengwynn", 
+    "url": "/users/1707", 
+    "username": "pengwynn", 
+    "vaulted_kinds_count": 0, 
+    "visited_spots_count": 15, 
+    "website": "http://wynnnetherland.com"
+}

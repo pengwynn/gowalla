@@ -1,0 +1,152 @@
+[
+    {
+        "city_state": "Frisco, TX", 
+        "first_visited_at": "2010/01/26 15:31:46 +0000", 
+        "image_url": "http://static.gowalla.com/categories/186-standard.png", 
+        "last_visited_at": "2010/01/26 15:31:46 +0000", 
+        "name": "Bank Of America", 
+        "tier": 2, 
+        "url": "/spots/164052", 
+        "visits_count": 1
+    }, 
+    {
+        "city_state": "Aubrey, TX", 
+        "first_visited_at": "2010/01/26 13:02:38 +0000", 
+        "image_url": "http://static.gowalla.com/categories/16-standard.png", 
+        "last_visited_at": "2010/01/26 13:02:38 +0000", 
+        "name": "Betty's Cafe", 
+        "tier": 2, 
+        "url": "/spots/455129", 
+        "visits_count": 1
+    }, 
+    {
+        "city_state": "Frisco, TX", 
+        "first_visited_at": "2010/01/23 18:35:02 +0000", 
+        "image_url": "http://static.gowalla.com/categories/30-standard.png", 
+        "last_visited_at": "2010/01/23 18:35:02 +0000", 
+        "name": "AMC Stonebriar 24", 
+        "tier": 2, 
+        "url": "/spots/59817", 
+        "visits_count": 1
+    }, 
+    {
+        "city_state": "TX", 
+        "first_visited_at": "2010/01/12 00:55:59 +0000", 
+        "image_url": "http://static.gowalla.com/categories/64-standard.png", 
+        "last_visited_at": "2010/01/12 00:55:59 +0000", 
+        "name": "Londoner Restaurant", 
+        "tier": 2, 
+        "url": "/spots/366585", 
+        "visits_count": 1
+    }, 
+    {
+        "city_state": "Frisco, TX", 
+        "first_visited_at": "2010/01/11 17:05:14 +0000", 
+        "image_url": "http://static.gowalla.com/categories/154-standard.png", 
+        "last_visited_at": "2010/01/11 17:05:14 +0000", 
+        "name": "MOOYAH Burgers & Fries", 
+        "tier": 2, 
+        "url": "/spots/78953", 
+        "visits_count": 1
+    }, 
+    {
+        "city_state": "Dallas, TX", 
+        "first_visited_at": "2010/01/05 22:55:51 +0000", 
+        "image_url": "http://static.gowalla.com/categories/96-standard.png", 
+        "last_visited_at": "2010/01/05 22:55:51 +0000", 
+        "name": "Barnes and Noble", 
+        "tier": 2, 
+        "url": "/spots/11641", 
+        "visits_count": 1
+    }, 
+    {
+        "city_state": "Frisco, TX", 
+        "first_visited_at": "2009/12/30 23:32:30 +0000", 
+        "image_url": "http://static.gowalla.com/categories/17-standard.png", 
+        "last_visited_at": "2009/12/30 23:32:30 +0000", 
+        "name": "Rudy's", 
+        "tier": 2, 
+        "url": "/spots/43464", 
+        "visits_count": 1
+    }, 
+    {
+        "city_state": "Fredericksburg, TX", 
+        "first_visited_at": "2009/12/29 18:39:20 +0000", 
+        "image_url": "http://static.gowalla.com/categories/30-standard.png", 
+        "last_visited_at": "2009/12/29 18:39:20 +0000", 
+        "name": "Stagecoach Theater", 
+        "tier": 2, 
+        "url": "/spots/136029", 
+        "visits_count": 1
+    }, 
+    {
+        "city_state": "Fredericksburg, TX", 
+        "first_visited_at": "2009/12/29 15:33:11 +0000", 
+        "image_url": "http://static.gowalla.com/categories/73-standard.png", 
+        "last_visited_at": "2009/12/29 15:33:11 +0000", 
+        "name": "National Museum of the Pacific War", 
+        "tier": 2, 
+        "url": "/spots/11300", 
+        "visits_count": 1
+    }, 
+    {
+        "city_state": "Fredericksburg, TX", 
+        "first_visited_at": "2009/12/28 23:56:05 +0000", 
+        "image_url": "http://static.gowalla.com/categories/167-standard.png", 
+        "last_visited_at": "2009/12/28 23:56:05 +0000", 
+        "name": "Fredericksburg Brewing Co.", 
+        "tier": 2, 
+        "url": "/spots/261180", 
+        "visits_count": 1
+    }, 
+    {
+        "city_state": "Boerne, TX", 
+        "first_visited_at": "2009/12/28 17:16:16 +0000", 
+        "image_url": "http://static.gowalla.com/categories/157-standard.png", 
+        "last_visited_at": "2009/12/28 17:16:16 +0000", 
+        "name": "Sister Creek Vineyards", 
+        "tier": 2, 
+        "url": "/spots/284084", 
+        "visits_count": 1
+    }, 
+    {
+        "city_state": "Fredericksburg, TX", 
+        "first_visited_at": "2009/12/28 16:23:46 +0000", 
+        "image_url": "http://static.gowalla.com/categories/157-standard.png", 
+        "last_visited_at": "2009/12/28 16:23:46 +0000", 
+        "name": "Grape Creek Vineyards", 
+        "tier": 2, 
+        "url": "/spots/142525", 
+        "visits_count": 1
+    }, 
+    {
+        "city_state": "Mckinney, TX", 
+        "first_visited_at": "2009/10/16 16:04:05 +0000", 
+        "image_url": "http://static.gowalla.com/categories/73-standard.png", 
+        "last_visited_at": "2009/10/16 16:04:05 +0000", 
+        "name": "Heard Museum ", 
+        "tier": 2, 
+        "url": "/spots/49747", 
+        "visits_count": 1
+    }, 
+    {
+        "city_state": "Celina, TX", 
+        "first_visited_at": "2009/05/17 17:26:01 +0000", 
+        "image_url": "http://static.gowalla.com/categories/125-standard.png", 
+        "last_visited_at": "2009/05/17 17:26:01 +0000", 
+        "name": "Celina City Hall", 
+        "tier": 2, 
+        "url": "/spots/13354", 
+        "visits_count": 1
+    }, 
+    {
+        "city_state": null, 
+        "first_visited_at": "2009/05/17 17:26:01 +0000", 
+        "image_url": "http://static.gowalla.com/spots/18320-5120ee4f995831b24c67d8d86ae185ae.png", 
+        "last_visited_at": "2009/05/17 17:26:01 +0000", 
+        "name": "Texas", 
+        "tier": 2, 
+        "url": "/spots/18320", 
+        "visits_count": 1
+    }
+]

@@ -1,0 +1,22 @@
+{
+    "completed_users_count": 104779, 
+    "created_at": "2009/06/22 18:44:46 +0000", 
+    "creator": {
+        "name": "Team Gowalla"
+    }, 
+    "description": "", 
+    "featured": true, 
+    "image_url": "http://static.gowalla.com/missions/1-ec53eae4b07e222b9a95805d28508986.png", 
+    "map_bounds": {
+        "east": -63.457031000000001, 
+        "north": 49.496675000000003, 
+        "south": 24.046464, 
+        "west": -125.419922
+    }, 
+    "name": "I Installed Gowalla!", 
+    "published": true, 
+    "spots": [], 
+    "spots_visited": 0, 
+    "url": "/trips/1", 
+    "user_url": "/users/1934"
+}

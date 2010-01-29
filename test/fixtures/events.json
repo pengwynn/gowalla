@@ -1,0 +1,266 @@
+{
+    "events": [
+        {
+            "comment": "Closing every account I have ", 
+            "created_at": "2010/01/26 15:31:46 +0000", 
+            "item": null, 
+            "spot": {
+                "image_url": "http://static.gowalla.com/categories/186-standard.png", 
+                "name": "Bank Of America", 
+                "url": "/spots/164052"
+            }, 
+            "type": "visit"
+        }, 
+        {
+            "comment": "Grabbing breakfast with a good friend ", 
+            "created_at": "2010/01/26 13:02:38 +0000", 
+            "item": null, 
+            "spot": {
+                "image_url": "http://static.gowalla.com/categories/16-standard.png", 
+                "name": "Betty's Cafe", 
+                "url": "/spots/455129"
+            }, 
+            "type": "visit"
+        }, 
+        {
+            "comment": null, 
+            "created_at": "2010/01/26 13:01:19 +0000", 
+            "item": null, 
+            "spot": {
+                "image_url": "http://static.gowalla.com/categories/16-standard.png", 
+                "name": "Betty's Cafe", 
+                "url": "/spots/455129"
+            }, 
+            "type": "create_spot"
+        }, 
+        {
+            "comment": "Catching The Squeakquel with Reagan ", 
+            "created_at": "2010/01/23 18:35:02 +0000", 
+            "item": null, 
+            "spot": {
+                "image_url": "http://static.gowalla.com/categories/30-standard.png", 
+                "name": "AMC Stonebriar 24", 
+                "url": "/spots/59817"
+            }, 
+            "type": "visit"
+        }, 
+        {
+            "comment": "Looking for some #JavaScript ninjas at Dallas.js ", 
+            "created_at": "2010/01/12 00:55:59 +0000", 
+            "item": null, 
+            "spot": {
+                "image_url": "http://static.gowalla.com/categories/64-standard.png", 
+                "name": "Londoner Restaurant", 
+                "url": "/spots/366585"
+            }, 
+            "type": "visit"
+        }, 
+        {
+            "comment": null, 
+            "created_at": "2010/01/12 00:54:27 +0000", 
+            "item": null, 
+            "spot": {
+                "image_url": "http://static.gowalla.com/categories/64-standard.png", 
+                "name": "Londoner Restaurant", 
+                "url": "/spots/366585"
+            }, 
+            "type": "create_spot"
+        }, 
+        {
+            "comment": "lunch with @curvezilla", 
+            "created_at": "2010/01/11 17:05:14 +0000", 
+            "item": null, 
+            "spot": {
+                "image_url": "http://static.gowalla.com/categories/154-standard.png", 
+                "name": "MOOYAH Burgers & Fries", 
+                "url": "/spots/78953"
+            }, 
+            "type": "visit"
+        }, 
+        {
+            "comment": "Grabbing some coffee and wifi before heading to Dallas.rb", 
+            "created_at": "2010/01/05 22:55:51 +0000", 
+            "item": null, 
+            "spot": {
+                "image_url": "http://static.gowalla.com/categories/96-standard.png", 
+                "name": "Barnes and Noble", 
+                "url": "/spots/11641"
+            }, 
+            "type": "visit"
+        }, 
+        {
+            "comment": null, 
+            "created_at": "2009/12/30 23:32:51 +0000", 
+            "item": {
+                "determiner": "a", 
+                "image_url": "http://static.gowalla.com/kinds/1454-d888b87a4a427793a25f47b35c31bfb9.png", 
+                "issue_number": 9775, 
+                "issue_number_str": "9775", 
+                "name": "Longneck", 
+                "url": "/items/676687"
+            }, 
+            "spot": {
+                "image_url": "http://static.gowalla.com/categories/17-standard.png", 
+                "name": "Rudy's", 
+                "url": "/spots/43464"
+            }, 
+            "type": "pick_up"
+        }, 
+        {
+            "comment": null, 
+            "created_at": "2009/12/30 23:32:50 +0000", 
+            "item": {
+                "determiner": "some", 
+                "image_url": "http://static.gowalla.com/kinds/1481-715ebdc408fb284eaaa58994db0e2395.png", 
+                "issue_number": 669, 
+                "issue_number_str": "669", 
+                "name": "Ribs", 
+                "url": "/items/86727"
+            }, 
+            "spot": {
+                "image_url": "http://static.gowalla.com/categories/17-standard.png", 
+                "name": "Rudy's", 
+                "url": "/spots/43464"
+            }, 
+            "type": "drop"
+        }, 
+        {
+            "comment": "Treating the in-laws to some Texas BBQ ", 
+            "created_at": "2009/12/30 23:32:30 +0000", 
+            "item": null, 
+            "spot": {
+                "image_url": "http://static.gowalla.com/categories/17-standard.png", 
+                "name": "Rudy's", 
+                "url": "/spots/43464"
+            }, 
+            "type": "visit"
+        }, 
+        {
+            "comment": "Catching a matinee of Sherlock Holmes", 
+            "created_at": "2009/12/29 18:39:20 +0000", 
+            "item": null, 
+            "spot": {
+                "image_url": "http://static.gowalla.com/categories/30-standard.png", 
+                "name": "Stagecoach Theater", 
+                "url": "/spots/136029"
+            }, 
+            "type": "visit"
+        }, 
+        {
+            "comment": null, 
+            "created_at": "2009/12/29 15:33:34 +0000", 
+            "item": {
+                "determiner": "a", 
+                "image_url": "http://static.gowalla.com/kinds/1456-dea9fdef8416d6e8c880b4e3d4ef3a69.png", 
+                "issue_number": 243, 
+                "issue_number_str": "243", 
+                "name": "Big Bag o' Swag", 
+                "url": "/items/86728"
+            }, 
+            "spot": {
+                "image_url": "http://static.gowalla.com/categories/73-standard.png", 
+                "name": "National Museum of the Pacific War", 
+                "url": "/spots/11300"
+            }, 
+            "type": "drop"
+        }, 
+        {
+            "comment": "Learning about the Pacific War ", 
+            "created_at": "2009/12/29 15:33:11 +0000", 
+            "item": null, 
+            "spot": {
+                "image_url": "http://static.gowalla.com/categories/73-standard.png", 
+                "name": "National Museum of the Pacific War", 
+                "url": "/spots/11300"
+            }, 
+            "type": "visit"
+        }, 
+        {
+            "comment": null, 
+            "created_at": "2009/12/28 23:56:25 +0000", 
+            "item": {
+                "determiner": "a", 
+                "image_url": "http://static.gowalla.com/kinds/1480-c9d779a0f5be5f79756ed947fecff01c.png", 
+                "issue_number": 3080, 
+                "issue_number_str": "3080", 
+                "name": "Rattlesnake", 
+                "url": "/items/572465"
+            }, 
+            "spot": {
+                "image_url": "http://static.gowalla.com/categories/167-standard.png", 
+                "name": "Fredericksburg Brewing Co.", 
+                "url": "/spots/261180"
+            }, 
+            "type": "pick_up"
+        }, 
+        {
+            "comment": null, 
+            "created_at": "2009/12/28 23:56:24 +0000", 
+            "item": {
+                "determiner": "a", 
+                "image_url": "http://static.gowalla.com/kinds/1494-52dd471bc3d8d89f26df3b2e174d02e6.png", 
+                "issue_number": 987, 
+                "issue_number_str": "987", 
+                "name": "Koi Fish", 
+                "url": "/items/86730"
+            }, 
+            "spot": {
+                "image_url": "http://static.gowalla.com/categories/167-standard.png", 
+                "name": "Fredericksburg Brewing Co.", 
+                "url": "/spots/261180"
+            }, 
+            "type": "drop"
+        }, 
+        {
+            "comment": "Dinner and a brew ", 
+            "created_at": "2009/12/28 23:56:05 +0000", 
+            "item": null, 
+            "spot": {
+                "image_url": "http://static.gowalla.com/categories/167-standard.png", 
+                "name": "Fredericksburg Brewing Co.", 
+                "url": "/spots/261180"
+            }, 
+            "type": "visit"
+        }, 
+        {
+            "comment": "It's always wine:30 in Sisterdale. ", 
+            "created_at": "2009/12/28 17:16:16 +0000", 
+            "item": null, 
+            "spot": {
+                "image_url": "http://static.gowalla.com/categories/157-standard.png", 
+                "name": "Sister Creek Vineyards", 
+                "url": "/spots/284084"
+            }, 
+            "type": "visit"
+        }, 
+        {
+            "comment": null, 
+            "created_at": "2009/12/28 17:15:40 +0000", 
+            "item": null, 
+            "spot": {
+                "image_url": "http://static.gowalla.com/categories/157-standard.png", 
+                "name": "Sister Creek Vineyards", 
+                "url": "/spots/284084"
+            }, 
+            "type": "create_spot"
+        }, 
+        {
+            "comment": null, 
+            "created_at": "2009/12/28 16:24:00 +0000", 
+            "item": {
+                "determiner": "a", 
+                "image_url": "http://static.gowalla.com/kinds/1490-b45e3f8247e134202bdf63551e54283d.png", 
+                "issue_number": 991, 
+                "issue_number_str": "991", 
+                "name": "Bluebonnet", 
+                "url": "/items/86729"
+            }, 
+            "spot": {
+                "image_url": "http://static.gowalla.com/categories/157-standard.png", 
+                "name": "Grape Creek Vineyards", 
+                "url": "/spots/142525"
+            }, 
+            "type": "drop"
+        }
+    ]
+}

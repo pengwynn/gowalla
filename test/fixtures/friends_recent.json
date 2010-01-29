@@ -1,0 +1,243 @@
+[{
+    "events": [{
+        "event_type": "visit",
+        "comment": "",
+        "created_at": "2010/01/28 22:02:19 +0000",
+        "spot": {
+            "image_url": "http://static.gowalla.com/categories/230-standard.png",
+            "small_image_url": "http://static.gowalla.com/categories/230-small-standard.png",
+            "name": "Apple Store",
+            "url": "/spots/19911"
+        },
+        "user": {
+            "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/9490-standard.jpg?1255462237",
+            "name": "Wayne Sutton",
+            "url": "/users/9490"
+        }
+    },
+    {
+        "event_type": "visit",
+        "comment": "Chilin' with the @cote and @cowboyd",
+        "created_at": "2010/01/28 21:33:08 +0000",
+        "spot": {
+            "image_url": "http://static.gowalla.com/spots/13087-ca950b6505658ed293365c73ae5f2915.png",
+            "small_image_url": "http://static.gowalla.com/spots/13087-ca950b6505658ed293365c73ae5f2915.png",
+            "name": "The Hideout Coffeehouse \u0026 Theatre",
+            "url": "/spots/13087"
+        },
+        "user": {
+            "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/92-standard.jpg?1236959388",
+            "name": "Mando Escamilla",
+            "url": "/users/92"
+        }
+    },
+    {
+        "event_type": "visit",
+        "comment": "",
+        "created_at": "2010/01/28 20:56:18 +0000",
+        "spot": {
+            "image_url": "http://static.gowalla.com/categories/155-standard.png",
+            "small_image_url": "http://static.gowalla.com/categories/155-small-standard.png",
+            "name": "Johnnie's",
+            "url": "/spots/467768"
+        },
+        "user": {
+            "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/57808-standard.jpg?1261349437",
+            "name": "Josh Kleinpeter",
+            "url": "/users/57808"
+        }
+    },
+    {
+        "event_type": "visit",
+        "comment": "",
+        "created_at": "2010/01/28 19:58:57 +0000",
+        "spot": {
+            "image_url": "http://static.gowalla.com/categories/101-standard.png",
+            "small_image_url": "http://static.gowalla.com/categories/101-small-standard.png",
+            "name": "Schlotzsky's",
+            "url": "/spots/467452"
+        },
+        "user": {
+            "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/71444-standard.jpg?1262018781",
+            "name": "Aris Bartee",
+            "url": "/users/71444"
+        }
+    },
+    {
+        "event_type": "visit",
+        "comment": "Hangin' w/ youth pastors \u0026 clogging arteries. Good times! #stumin",
+        "created_at": "2010/01/28 18:52:11 +0000",
+        "spot": {
+            "image_url": "http://static.gowalla.com/categories/16-standard.png",
+            "small_image_url": "http://static.gowalla.com/categories/16-small-standard.png",
+            "name": "Cracker Barrel Old Country Store",
+            "url": "/spots/96082"
+        },
+        "user": {
+            "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/18382-standard.jpg?1257931629",
+            "name": "Michael McMinn",
+            "url": "/users/18382"
+        }
+    },
+    {
+        "event_type": "visit",
+        "comment": "",
+        "created_at": "2010/01/28 14:21:04 +0000",
+        "spot": {
+            "image_url": "http://static.gowalla.com/categories/1-standard.png",
+            "small_image_url": "http://static.gowalla.com/categories/1-small-standard.png",
+            "name": "Topeca Coffee",
+            "url": "/spots/422040"
+        },
+        "user": {
+            "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/88683-standard.jpg?1263322169",
+            "name": "Justin Shattuck",
+            "url": "/users/88683"
+        }
+    },
+    {
+        "event_type": "visit",
+        "comment": "",
+        "created_at": "2010/01/28 02:45:37 +0000",
+        "spot": {
+            "image_url": "http://static.gowalla.com/categories/24-standard.png",
+            "small_image_url": "http://static.gowalla.com/categories/24-small-standard.png",
+            "name": "Ginger Man",
+            "url": "/spots/203190"
+        },
+        "user": {
+            "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/84819-standard.jpg?1262984230",
+            "name": "Chris McCroskey",
+            "url": "/users/84819"
+        }
+    },
+    {
+        "event_type": "visit",
+        "comment": "",
+        "created_at": "2010/01/28 01:34:26 +0000",
+        "spot": {
+            "image_url": "http://static.gowalla.com/categories/118-standard.png",
+            "small_image_url": "http://static.gowalla.com/categories/118-small-standard.png",
+            "name": "Belmont Health Club",
+            "url": "/spots/77295"
+        },
+        "user": {
+            "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/1165-standard.jpg?1240030757",
+            "name": "Adam Keys",
+            "url": "/users/1165"
+        }
+    },
+    {
+        "event_type": "visit",
+        "comment": "Witnessing a quite elderly couple have a speakerphone family concall",
+        "created_at": "2010/01/28 00:46:41 +0000",
+        "spot": {
+            "image_url": "http://static.gowalla.com/categories/110-standard.png",
+            "small_image_url": "http://static.gowalla.com/categories/110-small-standard.png",
+            "name": "Panera Bread",
+            "url": "/spots/32197"
+        },
+        "user": {
+            "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/11151-standard.jpg?1255981226",
+            "name": "Jason Derrett",
+            "url": "/users/11151"
+        }
+    },
+    {
+        "event_type": "visit",
+        "comment": "",
+        "created_at": "2010/01/28 00:33:28 +0000",
+        "spot": {
+            "image_url": "http://static.gowalla.com/categories/1-standard.png",
+            "small_image_url": "http://static.gowalla.com/categories/1-small-standard.png",
+            "name": "Goldbergs Coffee House",
+            "url": "/spots/463773"
+        },
+        "user": {
+            "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/53443-standard.jpg?1264485676",
+            "name": "Michael Troy",
+            "url": "/users/53443"
+        }
+    },
+    {
+        "event_type": "visit",
+        "comment": "Latte!",
+        "created_at": "2010/01/27 16:38:59 +0000",
+        "spot": {
+            "image_url": "http://static.gowalla.com/categories/1-standard.png",
+            "small_image_url": "http://static.gowalla.com/categories/1-small-standard.png",
+            "name": "Scooters Coffee House",
+            "url": "/spots/23951"
+        },
+        "user": {
+            "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/23155-standard.jpg?1259097712",
+            "name": "Daniel Hedrick",
+            "url": "/users/23155"
+        }
+    },
+    {
+        "event_type": "visit",
+        "comment": "",
+        "created_at": "2010/01/27 07:17:52 +0000",
+        "spot": {
+            "image_url": "http://static.gowalla.com/categories/24-standard.png",
+            "small_image_url": "http://static.gowalla.com/categories/24-small-standard.png",
+            "name": "Shay McElroy's",
+            "url": "/spots/373211"
+        },
+        "user": {
+            "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/81147-standard.jpg?1263359391",
+            "name": "Wes Gamble",
+            "url": "/users/81147"
+        }
+    },
+    {
+        "event_type": "visit",
+        "comment": "",
+        "created_at": "2010/01/26 22:59:41 +0000",
+        "spot": {
+            "image_url": "http://static.gowalla.com/categories/167-standard.png",
+            "small_image_url": "http://static.gowalla.com/categories/167-small-standard.png",
+            "name": "Mad Anthony's",
+            "url": "/spots/54416"
+        },
+        "user": {
+            "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/3221-standard.jpg?1253323217",
+            "name": "John Nunemaker",
+            "url": "/users/3221"
+        }
+    },
+    {
+        "event_type": "visit",
+        "comment": "Getting breakfast",
+        "created_at": "2010/01/26 18:57:46 +0000",
+        "spot": {
+            "image_url": "http://static.gowalla.com/categories/64-standard.png",
+            "small_image_url": "http://static.gowalla.com/categories/64-small-standard.png",
+            "name": "Jamba Juice",
+            "url": "/spots/360716"
+        },
+        "user": {
+            "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/91630-standard.jpg?1263684512",
+            "name": "Erik Dungan",
+            "url": "/users/91630"
+        }
+    },
+    {
+        "event_type": "visit",
+        "comment": "Closing every account I have ",
+        "created_at": "2010/01/26 15:31:46 +0000",
+        "spot": {
+            "image_url": "http://static.gowalla.com/categories/186-standard.png",
+            "small_image_url": "http://static.gowalla.com/categories/186-small-standard.png",
+            "name": "Bank Of America",
+            "url": "/spots/164052"
+        },
+        "user": {
+            "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/1707-standard.jpg?1262011383",
+            "name": "Wynn Netherland",
+            "url": "/users/1707"
+        }
+    }],
+    "name": "Recent Activity"
+}]

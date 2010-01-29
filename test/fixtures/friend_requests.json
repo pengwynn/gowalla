@@ -1,0 +1,21 @@
+{
+    "friends_needing_approval": [
+        {
+            "accept_url": "/friendships/accept?user_id=2334", 
+            "bio": "", 
+            "fb_id": 659287847, 
+            "first_name": "Juan", 
+            "friends_only": false, 
+            "hometown": "Denver, CO", 
+            "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/2334-standard.jpg?1254786755", 
+            "last_name": "Sanchez", 
+            "name": "Juan Sanchez", 
+            "reject_url": "/friendships/reject?user_id=2334", 
+            "request_url": "/friendships/request?user_id=2334", 
+            "twitter_username": "juansanchez", 
+            "url": "/users/2334", 
+            "username": "juanchez", 
+            "website": ""
+        }
+    ]
+}

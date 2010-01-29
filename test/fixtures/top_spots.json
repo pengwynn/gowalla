@@ -1,0 +1,63 @@
+
+[
+    {
+        "image_url": "http://static.gowalla.com/categories/186-standard.png", 
+        "name": "Bank Of America", 
+        "url": "/spots/164052", 
+        "visits_count": "1"
+    }, 
+    {
+        "image_url": "http://static.gowalla.com/categories/16-standard.png", 
+        "name": "Betty's Cafe", 
+        "url": "/spots/455129", 
+        "visits_count": "1"
+    }, 
+    {
+        "image_url": "http://static.gowalla.com/categories/30-standard.png", 
+        "name": "AMC Stonebriar 24", 
+        "url": "/spots/59817", 
+        "visits_count": "1"
+    }, 
+    {
+        "image_url": "http://static.gowalla.com/categories/64-standard.png", 
+        "name": "Londoner Restaurant", 
+        "url": "/spots/366585", 
+        "visits_count": "1"
+    }, 
+    {
+        "image_url": "http://static.gowalla.com/categories/154-standard.png", 
+        "name": "MOOYAH Burgers & Fries", 
+        "url": "/spots/78953", 
+        "visits_count": "1"
+    }, 
+    {
+        "image_url": "http://static.gowalla.com/categories/96-standard.png", 
+        "name": "Barnes and Noble", 
+        "url": "/spots/11641", 
+        "visits_count": "1"
+    }, 
+    {
+        "image_url": "http://static.gowalla.com/categories/17-standard.png", 
+        "name": "Rudy's", 
+        "url": "/spots/43464", 
+        "visits_count": "1"
+    }, 
+    {
+        "image_url": "http://static.gowalla.com/categories/30-standard.png", 
+        "name": "Stagecoach Theater", 
+        "url": "/spots/136029", 
+        "visits_count": "1"
+    }, 
+    {
+        "image_url": "http://static.gowalla.com/categories/73-standard.png", 
+        "name": "National Museum of the Pacific War", 
+        "url": "/spots/11300", 
+        "visits_count": "1"
+    }, 
+    {
+        "image_url": "http://static.gowalla.com/categories/167-standard.png", 
+        "name": "Fredericksburg Brewing Co.", 
+        "url": "/spots/261180", 
+        "visits_count": "1"
+    }
+]

@@ -1,0 +1,59 @@
+{
+    "activity_url": "/spots/452593/events", 
+    "categories": [
+        {
+            "id": 133, 
+            "name": "Other - College & Education", 
+            "url": "/categories/153"
+        }
+    ], 
+    "city_state": "Aubrey, TX", 
+    "created_at": "2010/01/25 21:02:13 +0000", 
+    "creator": {
+        "hometown": null, 
+        "image_url": "http://gowalla.com/images/default-user.jpg", 
+        "name": "Cami Tompkins", 
+        "url": "/users/99005"
+    }, 
+    "creator_name": "Cami Tompkins", 
+    "description": "", 
+    "events_url": "/spots/452593/events", 
+    "founders": [], 
+    "icons_count": 0, 
+    "image_url": "http://static.gowalla.com/categories/153-standard.png", 
+    "items_count": 0, 
+    "items_url": "/spots/452593/items", 
+    "lat": 33.2315641, 
+    "lng": -96.948401329999996, 
+    "map_bounds": {
+        "east": null, 
+        "north": null, 
+        "south": null, 
+        "west": null
+    }, 
+    "max_items_count": 10, 
+    "name": "Paloma Creek Elementary", 
+    "radius": 50, 
+    "radius_meters": 50, 
+    "short_name": "Paloma Creek Elem...", 
+    "small_image_url": "http://static.gowalla.com/categories/153-small-standard.png", 
+    "strict_radius": false, 
+    "tier": 2, 
+    "top_10": [
+        {
+            "hometown": null, 
+            "image_url": "http://gowalla.com/images/default-user.jpg", 
+            "name": "Cami Tompkins", 
+            "url": "/users/99005", 
+            "visits_count": 1
+        }
+    ], 
+    "url": "/spots/452593", 
+    "user_url": "/users/99005", 
+    "view_json": true, 
+    "visitors_count": 1, 
+    "visits_count": 1, 
+    "visits_disabled": false, 
+    "visits_url": "/visits?spot_id=452593", 
+    "websites": []
+}
