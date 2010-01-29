@@ -1,0 +1,191 @@
+[{
+    "published": true,
+    "image_url": "http://static.gowalla.com/missions/64-ec96bdaa7de97afb32bb71f5d218d41c.png",
+    "name": "Explorer",
+    "user_url": null,
+    "featured": true,
+    "completed": false,
+    "url": "/trips/64",
+    "spots": []
+},
+{
+    "published": true,
+    "image_url": "http://static.gowalla.com/missions/65-bc5f0af5926aca115070df5243f1b4d8.png",
+    "name": "Wayfarer",
+    "user_url": "/users/1934",
+    "featured": true,
+    "completed": false,
+    "url": "/trips/65",
+    "spots": []
+},
+{
+    "published": true,
+    "image_url": "http://static.gowalla.com/missions/61-65f8a1f8f7790ac5c3d3feb860c02f2a.png",
+    "name": "Wanderer",
+    "user_url": "/users/1934",
+    "featured": true,
+    "completed": true,
+    "url": "/trips/61",
+    "spots": []
+},
+{
+    "published": true,
+    "image_url": "http://static.gowalla.com/missions/63-0dbd41d9053c01864e866f40e563c53c.png",
+    "name": "Discoverer",
+    "user_url": "/users/1934",
+    "featured": true,
+    "completed": false,
+    "url": "/trips/63",
+    "spots": []
+},
+{
+    "published": true,
+    "image_url": "http://static.gowalla.com/missions/4-b5b729af716e9a54b237ef844abc2ced.png",
+    "name": "Visit 10 Coffeeshops",
+    "user_url": "/users/1934",
+    "featured": true,
+    "completed": false,
+    "url": "/trips/4",
+    "spots": []
+},
+{
+    "published": true,
+    "image_url": "http://static.gowalla.com/missions/67-8929a62e2fb60c92b39c4c2c2a6d92cd.png",
+    "name": "Voyager",
+    "user_url": "/users/1934",
+    "featured": true,
+    "completed": false,
+    "url": "/trips/67",
+    "spots": []
+},
+{
+    "published": true,
+    "image_url": "http://static.gowalla.com/missions/72-8a3893f3eb38d92337c0067b2d8bf766.png",
+    "name": "Engineer",
+    "user_url": "/users/1934",
+    "featured": true,
+    "completed": false,
+    "url": "/trips/72",
+    "spots": []
+},
+{
+    "published": true,
+    "image_url": "http://static.gowalla.com/missions/71-73ebfa294b229b7c2749eaf6743435ab.png",
+    "name": "Hacker",
+    "user_url": "/users/1934",
+    "featured": true,
+    "completed": false,
+    "url": "/trips/71",
+    "spots": []
+},
+{
+    "published": true,
+    "image_url": "http://static.gowalla.com/missions/60-316a866168eadbff6507416187f0b7c8.png",
+    "name": "Ranger",
+    "user_url": "/users/1934",
+    "featured": true,
+    "completed": false,
+    "url": "/trips/60",
+    "spots": []
+},
+{
+    "published": true,
+    "image_url": "http://static.gowalla.com/missions/70-ab8c95b86111bd65f40132c2f9957852.png",
+    "name": "Code Monkey",
+    "user_url": "/users/1934",
+    "featured": true,
+    "completed": false,
+    "url": "/trips/70",
+    "spots": []
+},
+{
+    "published": true,
+    "image_url": "http://static.gowalla.com/missions/73-1980ec98fdcaba20b6e4c193018dd946.png",
+    "name": "The CTO",
+    "user_url": "/users/1934",
+    "featured": true,
+    "completed": false,
+    "url": "/trips/73",
+    "spots": []
+},
+{
+    "published": true,
+    "image_url": "http://static.gowalla.com/missions/68-f17452051947dd69abf741c91f5f9032.png",
+    "name": "Epic Voyager",
+    "user_url": "/users/1934",
+    "featured": true,
+    "completed": false,
+    "url": "/trips/68",
+    "spots": []
+},
+{
+    "published": true,
+    "image_url": "http://static.gowalla.com/missions/90-400a4d05f9acbe713c126ef06c48d740.png",
+    "name": "Get Out with Incase!",
+    "user_url": "/users/1934",
+    "featured": true,
+    "completed": false,
+    "url": "/trips/90",
+    "spots": []
+},
+{
+    "published": true,
+    "image_url": "http://static.gowalla.com/missions/62-18c1aa0ca22640afa0718655bb4c672c.png",
+    "name": "Sightseer",
+    "user_url": "/users/1934",
+    "featured": true,
+    "completed": true,
+    "url": "/trips/62",
+    "spots": []
+},
+{
+    "published": true,
+    "image_url": "http://static.gowalla.com/trips/23-5ee2c56564a0043fada19cb2762923be.png",
+    "name": "Green Jacket Tour",
+    "user_url": "/users/1934",
+    "featured": true,
+    "completed": false,
+    "url": "/trips/24",
+    "spots": [{
+        "url": "/spots/10840"
+    },
+    {
+        "url": "/spots/10810"
+    },
+    {
+        "url": "/spots/10808"
+    },
+    {
+        "url": "/spots/10812"
+    },
+    {
+        "url": "/spots/10835"
+    }]
+},
+{
+    "published": true,
+    "image_url": "http://static.gowalla.com/trips/20-560bb912f653ce1d5a033b8a40205687.png",
+    "name": "Ohio State",
+    "user_url": "/users/1934",
+    "featured": true,
+    "completed": false,
+    "url": "/trips/22",
+    "spots": [{
+        "url": "/spots/10449"
+    },
+    {
+        "url": "/spots/10448"
+    },
+    {
+        "url": "/spots/10445"
+    },
+    {
+        "url": "/spots/10447"
+    },
+    {
+        "url": "/spots/10446"
+    },
+    {
+        "url": "/spots/10452"
+    }]
+}]

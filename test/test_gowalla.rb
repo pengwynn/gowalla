@@ -89,7 +89,7 @@ class TestGowalla < Test::Unit::TestCase
     end
     
     should_eventually "request a friendship with a user" do
-      
+      # POST http://api.gowalla.com/friendships/accept?user_id=104421
     end
     
     should_eventually "accept a friendship with a user" do
@@ -118,11 +118,55 @@ class TestGowalla < Test::Unit::TestCase
     end
     
     should_eventually "drop an item" do
-      
+      # POST http://api.gowalla.com/items/899654/drop
+      # BODY spot_url=/spots/472093
     end
     
     should_eventually "pick up an item" do
       
+    end
+    
+    should_eventually "find spots by latitude and longitude" do
+      
+    end
+    
+    should_eventually "find featured spots by latitude and longitude" do
+      # http://api.gowalla.com/spots?featured=1&lat=+33.237593417&lng=-96.960559033
+    end
+    
+    should_eventually "find bookmarked spots by latitude and longitude" do
+      
+    end
+    
+    should_eventually "find spots by category, latitude, and longitude" do
+      # http://api.gowalla.com/spots?category_id=13&lat=+33.237155017&lng=-96.959596833
+    end
+    
+    should_eventually "find trips by latitude and longitude" do
+      
+    end
+    
+    should_eventually "find featured trips by latitude, longitude, and user" do
+      # http://api.gowalla.com/trips?context=featured&lat=+33.234042160&lng=-96.955138020&user_url=/users/1707
+    end
+    
+    should_eventually "find friends trips by latitude, longitude, and user" do
+      # http://api.gowalla.com/trips?context=friends&lat=+33.234042160&lng=-96.955138020&user_url=/users/1707
+    end
+    
+    should_eventually "list categories" do
+      
+    end
+    
+    
+    should_eventually "create a spot" do
+      # POST http://api.gowalla.com/spots
+      # BODY lat=33.23404216&name=TreeFrog%20Studios&category_url=/categories/217&description=Children%20and%20family%20photography%20studio&lng=-96.95513802000001
+    end
+    
+    should_eventually "check in at a spot" do
+      # POST http://api.gowalla.com/visits?spot_id=472093
+      # BODY fb_id=605681706&lat=33.23404216&accuracy=2055&post_to_facebook=0&fb_session_key=976e56d6baa517cfe77eadfc-605681706&lng=-96.95513802000001&comment=Testing%20Gowalla%20API%20&post_to_twitter=1
     end
     
     

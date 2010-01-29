@@ -1,0 +1,49 @@
+{
+    "events_url": "/spots/472093/events",
+    "view_json": true,
+    "small_image_url": "http://static.gowalla.com/categories/217-small-standard.png",
+    "visitors_count": 0,
+    "visits_disabled": false,
+    "strict_radius": false,
+    "max_items_count": 10,
+    "creator": {
+        "hometown": "Aubrey, TX",
+        "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/1707-standard.jpg?1262011383",
+        "name": "Wynn Netherland",
+        "url": "/users/1707"
+    },
+    "items_url": "/spots/472093/items",
+    "categories": [{
+        "name": "Other - Services",
+        "url": "/categories/217",
+        "id": 6
+    }],
+    "top_10": [],
+    "founders": [],
+    "short_name": "TreeFrog Studios",
+    "city_state": "Aubrey, TX",
+    "visits_url": "/visits?spot_id=472093",
+    "items_count": 0,
+    "tier": 2,
+    "image_url": "http://static.gowalla.com/categories/217-standard.png",
+    "name": "TreeFrog Studios",
+    "created_at": "2010/01/29 17:50:00 +0000",
+    "icons_count": 0,
+    "websites": [],
+    "lat": 33.23404216,
+    "radius_meters": 50,
+    "creator_name": "Wynn Netherland",
+    "user_url": "/users/1707",
+    "map_bounds": {
+        "east": null,
+        "south": null,
+        "west": null,
+        "north": null
+    },
+    "lng": -96.95513802,
+    "url": "/spots/472093",
+    "activity_url": "/spots/472093/events",
+    "visits_count": 0,
+    "radius": 50,
+    "description": "Children and family photography studio"
+}
