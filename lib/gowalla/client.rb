@@ -13,7 +13,7 @@ module Gowalla
       self.class.basic_auth(@username, password) unless @username.nil?
     end
     
-    def user(user_id="me")
+    def user(user_id=self.username)
       mashup(self.class.get("/users/#{user_id}"))
     end
     
@@ -65,7 +65,46 @@ module Gowalla
       mashup(self.class.get("/spots/#{spot_id}/events")).events
     end
     
+    def spots(options={})
+      query = format_geo_options(options)
+      mashup(self.class.get("/spots", :query => query))
+    end
+    
+    def featured_spots(options={})
+      spots(options.merge(:featured => 1))
+    end
+    
+    def bookmarked_spots(options={})
+      spots(options.merge(:bookmarked => 1))
+    end
+    
+    def trips(options={})
+      if user_id = options.delete(:user_id)
+        options[:user_url] = "/users/#{user_id}"
+      end
+      query = format_geo_options(options)
+      mashup(self.class.get("/trips", :query => query))
+    end
+    
+    def featured_trips(options={})
+      trips(options.merge(:context => 'featured'))
+    end
+    
+    def friends_trips(options={})
+      trips(options.merge(:context => 'friends'))
+    end
+    
+    def categories
+      mashup(self.class.get("/categories"))
+    end
+    
     private
+    
+      def format_geo_options(options={})
+        options[:lat] = "+#{options[:lat]}" if options[:lat] > 0
+        options[:lng] = "+#{options[:lng]}" if options[:lng] > 0
+        options
+      end
     
       def mashup(response)
         case response.code

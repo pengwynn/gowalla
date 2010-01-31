@@ -8,7 +8,7 @@ class TestGowalla < Test::Unit::TestCase
     end
     
     should "retrieve details for the current user" do
-      stub_get('http://pengwynn:0U812@api.gowalla.com/users/me', 'me.json')
+      stub_get('http://pengwynn:0U812@api.gowalla.com/users/pengwynn', 'me.json')
       user = @client.user
       user.can_post_to_twitter?.should == true
       user.can_post_to_facebook?.should == true
@@ -126,36 +126,66 @@ class TestGowalla < Test::Unit::TestCase
       
     end
     
-    should_eventually "find spots by latitude and longitude" do
-      
+    should "find spots by latitude and longitude" do
+      stub_get("http://pengwynn:0U812@api.gowalla.com/spots?lat=%2B33.237593417&lng=-96.960559033", "spots.json")
+      spots = @client.spots(:lat => 33.237593417, :lng => -96.960559033)
+      spots.first.name.should == 'Paloma Creek Elementary'
+      spots.first.radius.should == 50
     end
     
-    should_eventually "find featured spots by latitude and longitude" do
-      # http://api.gowalla.com/spots?featured=1&lat=+33.237593417&lng=-96.960559033
+    should "find featured spots by latitude and longitude" do
+      stub_get("http://pengwynn:0U812@api.gowalla.com/spots?featured=1&lat=%2B33.237593417&lng=-96.960559033", "spots.json")
+      spots = @client.featured_spots(:lat => 33.237593417, :lng => -96.960559033)
+      spots.first.name.should == 'Paloma Creek Elementary'
+      spots.first.radius.should == 50
     end
     
-    should_eventually "find bookmarked spots by latitude and longitude" do
-      
+    should "find bookmarked spots by latitude and longitude" do
+      stub_get("http://pengwynn:0U812@api.gowalla.com/spots?bookmarked=1&lat=%2B33.237593417&lng=-96.960559033", "spots.json")
+      spots = @client.bookmarked_spots(:lat => 33.237593417, :lng => -96.960559033)
+      spots.first.name.should == 'Paloma Creek Elementary'
+      spots.first.radius.should == 50
     end
     
-    should_eventually "find spots by category, latitude, and longitude" do
-      # http://api.gowalla.com/spots?category_id=13&lat=+33.237155017&lng=-96.959596833
+    should "find spots by category, latitude, and longitude" do
+      stub_get("http://pengwynn:0U812@api.gowalla.com/spots?category_id=13&lat=%2B33.237593417&lng=-96.960559033", "spots.json")
+      spots = @client.spots(:lat => 33.237593417, :lng => -96.960559033, :category_id => 13)
+      spots.first.name.should == 'Paloma Creek Elementary'
+      spots.first.radius.should == 50
     end
     
-    should_eventually "find trips by latitude and longitude" do
-      
+    should "find trips by latitude and longitude" do
+      stub_get("http://pengwynn:0U812@api.gowalla.com/trips?user_url=%2Fusers%2F1707&lat=%2B33.23404216&lng=-96.95513802", "find_trips.json")
+      trips = @client.trips(:lat => 33.234042160, :lng => -96.955138020, :user_id => 1707)
+      trips.first.name.should == 'Dallas Championship Chase'
+      trips.first.spots.size.should == 3
+      trips.first.published?.should == true
     end
     
-    should_eventually "find featured trips by latitude, longitude, and user" do
-      # http://api.gowalla.com/trips?context=featured&lat=+33.234042160&lng=-96.955138020&user_url=/users/1707
+    should "find featured trips by latitude, longitude, and user" do
+      stub_get("http://pengwynn:0U812@api.gowalla.com/trips?context=featured&user_url=%2Fusers%2F1707&lat=%2B33.23404216&lng=-96.95513802", "find_trips.json")
+      trips = @client.featured_trips(:lat => 33.234042160, :lng => -96.955138020, :user_id => 1707, :context => 'featured')
+      trips.first.name.should == 'Dallas Championship Chase'
+      trips.first.spots.size.should == 3
+      trips.first.published?.should == true    
     end
     
-    should_eventually "find friends trips by latitude, longitude, and user" do
-      # http://api.gowalla.com/trips?context=friends&lat=+33.234042160&lng=-96.955138020&user_url=/users/1707
+    should "find friends trips by latitude, longitude, and user" do
+      stub_get("http://pengwynn:0U812@api.gowalla.com/trips?context=friends&user_url=%2Fusers%2F1707&lat=%2B33.23404216&lng=-96.95513802", "find_trips.json")
+      trips = @client.friends_trips(:lat => 33.234042160, :lng => -96.955138020, :user_id => 1707, :context => 'featured')
+      trips.first.name.should == 'Dallas Championship Chase'
+      trips.first.spots.size.should == 3
+      trips.first.published?.should == true    
     end
     
-    should_eventually "list categories" do
-      
+    should "list categories" do
+      stub_get("http://pengwynn:0U812@api.gowalla.com/categories", "categories.json")
+      categories = @client.categories
+      categories.size.should == 9
+      categories.first.name.should == 'Architecture & Buildings'
+      categories.first.description.should == 'Bridge, Corporate, Home, Church, etc.'
+      categories.first.categories.size.should == 15
+      categories.first.categories.first.name.should == 'Bridge'
     end
     
     

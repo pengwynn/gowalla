@@ -36,14 +36,6 @@ TODO:
 * DEFERRED: When hitting the Gowalla API authenticated should accept a friendship with a user.
 * DEFERRED: When hitting the Gowalla API authenticated should drop an item.
 * DEFERRED: When hitting the Gowalla API authenticated should pick up an item.
-* DEFERRED: When hitting the Gowalla API authenticated should find spots by latitude and longitude.
-* DEFERRED: When hitting the Gowalla API authenticated should find featured spots by latitude and longitude.
-* DEFERRED: When hitting the Gowalla API authenticated should find bookmarked spots by latitude and longitude.
-* DEFERRED: When hitting the Gowalla API authenticated should find spots by category, latitude, and longitude.
-* DEFERRED: When hitting the Gowalla API authenticated should find trips by latitude and longitude.
-* DEFERRED: When hitting the Gowalla API authenticated should find featured trips by latitude, longitude, and user.
-* DEFERRED: When hitting the Gowalla API authenticated should find friends trips by latitude, longitude, and user.
-* DEFERRED: When hitting the Gowalla API authenticated should list categories.
 * DEFERRED: When hitting the Gowalla API authenticated should create a spot.
 * DEFERRED: When hitting the Gowalla API authenticated should check in at a spot
 
