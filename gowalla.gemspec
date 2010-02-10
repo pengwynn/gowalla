@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{gowalla}
-  s.version = "0.0.1"
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Wynn Netherland"]
-  s.date = %q{2010-01-29}
+  s.date = %q{2010-02-09}
   s.description = %q{Ruby wrapper for the Gowalla API}
   s.email = %q{wynn.netherland@gmail.com}
   s.extra_rdoc_files = [
@@ -24,21 +24,31 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "changelog.md",
+     "gowalla.gemspec",
      "lib/gowalla.rb",
      "lib/gowalla/client.rb",
+     "test/fixtures/categories.json",
+     "test/fixtures/category.json",
+     "test/fixtures/challenges.json",
      "test/fixtures/events.json",
+     "test/fixtures/find_spots.json",
+     "test/fixtures/find_trips.json",
      "test/fixtures/friend_requests.json",
      "test/fixtures/friends.json",
      "test/fixtures/friends_recent.json",
+     "test/fixtures/item.json",
      "test/fixtures/items.json",
      "test/fixtures/me.json",
+     "test/fixtures/new_spot.json",
      "test/fixtures/pins.json",
      "test/fixtures/potential_twitter_friends.json",
      "test/fixtures/spot.json",
      "test/fixtures/spots.json",
+     "test/fixtures/spots_by_category.json",
      "test/fixtures/stamps.json",
      "test/fixtures/top_spots.json",
      "test/fixtures/trip.json",
+     "test/fixtures/trips.json",
      "test/fixtures/user.json",
      "test/fixtures/visited_spots.json",
      "test/helper.rb",
