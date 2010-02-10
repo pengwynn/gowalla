@@ -1,59 +1,185 @@
 {
-    "activity_url": "/spots/452593/events", 
-    "categories": [
-        {
-            "id": 133, 
-            "name": "Other - College & Education", 
-            "url": "/categories/153"
-        }
-    ], 
-    "city_state": "Aubrey, TX", 
-    "created_at": "2010/01/25 21:02:13 +0000", 
-    "creator": {
-        "hometown": null, 
-        "image_url": "http://gowalla.com/images/default-user.jpg", 
-        "name": "Cami Tompkins", 
-        "url": "/users/99005"
-    }, 
-    "creator_name": "Cami Tompkins", 
-    "description": "", 
-    "events_url": "/spots/452593/events", 
-    "founders": [], 
-    "icons_count": 0, 
-    "image_url": "http://static.gowalla.com/categories/153-standard.png", 
-    "items_count": 0, 
-    "items_url": "/spots/452593/items", 
-    "lat": 33.2315641, 
-    "lng": -96.948401329999996, 
-    "map_bounds": {
-        "east": null, 
-        "north": null, 
-        "south": null, 
-        "west": null
-    }, 
-    "max_items_count": 10, 
-    "name": "Paloma Creek Elementary", 
-    "radius": 50, 
-    "radius_meters": 50, 
-    "short_name": "Paloma Creek Elem...", 
-    "small_image_url": "http://static.gowalla.com/categories/153-small-standard.png", 
-    "strict_radius": false, 
-    "tier": 2, 
-    "top_10": [
-        {
-            "hometown": null, 
-            "image_url": "http://gowalla.com/images/default-user.jpg", 
-            "name": "Cami Tompkins", 
-            "url": "/users/99005", 
-            "visits_count": 1
-        }
-    ], 
-    "url": "/spots/452593", 
-    "user_url": "/users/99005", 
-    "view_json": true, 
-    "visitors_count": 1, 
-    "visits_count": 1, 
-    "visits_disabled": false, 
-    "visits_url": "/visits?spot_id=452593", 
-    "websites": []
+  "creator": {
+    "hometown": "Austin, Texas",
+    "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/5-standard.jpg?1253829277",
+    "name": "Keegan Jones",
+    "url": "/users/5"
+  },
+  "twitter_username": "Wahoos512",
+  "map_bounds": {
+    "north": null,
+    "east": null,
+    "south": null,
+    "west": null
+  },
+  "websites": [
+    "http://www.wahoos.com/"
+  ],
+  "top_10": [
+    {
+      "hometown": "Austin, TX",
+      "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/33-standard.jpg?1237404524",
+      "name": "Sandi Weldon",
+      "checkins_count": 12,
+      "url": "/users/33"
+    },
+    {
+      "hometown": "Austin, TX",
+      "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/3-standard.jpg?1236873337",
+      "name": "Adam McManus",
+      "checkins_count": 9,
+      "url": "/users/3"
+    },
+    {
+      "hometown": "Austin, Texas",
+      "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/26700-standard.jpg?1259180481",
+      "name": "whurley *",
+      "checkins_count": 7,
+      "url": "/users/26700"
+    },
+    {
+      "hometown": "Austin, Texas",
+      "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/2-standard.jpg?1251170137",
+      "name": "Josh Williams",
+      "checkins_count": 7,
+      "url": "/users/2"
+    },
+    {
+      "hometown": "Austin, Texas",
+      "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/5-standard.jpg?1253829277",
+      "name": "Keegan Jones",
+      "checkins_count": 6,
+      "url": "/users/5"
+    },
+    {
+      "hometown": "Austin, TX",
+      "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/6-standard.jpg?1233854471",
+      "name": "John Marstall",
+      "checkins_count": 6,
+      "url": "/users/6"
+    },
+    {
+      "hometown": "Austin, TX",
+      "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/12-standard.jpg?1249405659",
+      "name": "Phillip Bowden",
+      "checkins_count": 5,
+      "url": "/users/12"
+    },
+    {
+      "hometown": "Austin, TX",
+      "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/29-standard.jpg?1249506826",
+      "name": "Jonathan Carroll",
+      "checkins_count": 4,
+      "url": "/users/29"
+    },
+    {
+      "hometown": "Austin, TX ",
+      "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/61797-standard.jpg?1264624166",
+      "name": "Chris Marlow",
+      "checkins_count": 3,
+      "url": "/users/61797"
+    },
+    {
+      "hometown": "Manor, Texas",
+      "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/2268-standard.jpg?1254105791",
+      "name": "Cristina Blanco-Adams",
+      "checkins_count": 3,
+      "url": "/users/2268"
+    }
+  ],
+  "list_image_url_320": null,
+  "max_items_count": 10,
+  "categories": [
+    {
+      "name": "Mexican",
+      "url": "/categories/15"
+    }
+  ],
+  "image_url": "http://static.gowalla.com/categories/15-standard.png",
+  "trending_level": 0,
+  "radius_meters": 50,
+  "name": "Wahoo's",
+  "founders": [
+    {
+      "hometown": "Dallas, TX",
+      "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/151-standard.jpg?1262780045",
+      "name": "Court Simas",
+      "url": "/users/151"
+    },
+    {
+      "hometown": "",
+      "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/159-standard.jpg?1237242693",
+      "name": "Lauryn Haase",
+      "url": "/users/159"
+    },
+    {
+      "hometown": "Austin, Texas",
+      "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/5-standard.jpg?1253829277",
+      "name": "Keegan Jones",
+      "url": "/users/5"
+    },
+    {
+      "hometown": "Austin, TX",
+      "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/6-standard.jpg?1233854471",
+      "name": "John Marstall",
+      "url": "/users/6"
+    },
+    {
+      "hometown": "Austin, TX",
+      "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/40-standard.jpg?1237587930",
+      "name": "Dr. Barnabus Peddingferd",
+      "url": "/users/40"
+    },
+    {
+      "hometown": "Planet Earth",
+      "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/1934-standard.jpg?1251325516",
+      "name": "Team Gowalla",
+      "url": "/users/1934"
+    },
+    {
+      "hometown": "Austin, TX",
+      "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/4339-standard.jpg?1253722671",
+      "name": "Laura Young",
+      "url": "/users/4339"
+    },
+    {
+      "hometown": "Austin, TX",
+      "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/29-standard.jpg?1249506826",
+      "name": "Jonathan Carroll",
+      "url": "/users/29"
+    },
+    {
+      "hometown": "austin, tx",
+      "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/107-standard.jpg?1237418143",
+      "name": "jenni carroll",
+      "url": "/users/107"
+    },
+    {
+      "hometown": "78746",
+      "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/1665-standard.jpg?1254614891",
+      "name": "Tom Walton",
+      "url": "/users/1665"
+    },
+    {
+      "hometown": "Austin, Texas",
+      "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/2-standard.jpg?1251170137",
+      "name": "Josh Williams",
+      "url": "/users/2"
+    }
+  ],
+  "activity_url": "/spots/18568/events",
+  "visitors_count": 103,
+  "checkins_count": 277,
+  "lat": 30.2695755256,
+  "location": {
+    "city": null
+  },
+  "checkins_url": "/visits?spot_id=18568",
+  "strict_radius": false,
+  "lng": -97.7495133877,
+  "url": "/spots/18568",
+  "created_at": "2009/07/23 17:58:14 +0000",
+  "items_count": 12,
+  "description": "All the fun of fish tacos at the beach, without the sand in your shorts.",
+  "items_url": "/spots/18568/items"
 }

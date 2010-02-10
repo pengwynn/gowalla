@@ -12,25 +12,50 @@ Hash.send :include, Hashie::HashExtensions
 
 module Gowalla
   
-  def self.user(user_id)
-    Gowalla::Client.new.user(user_id)
+  # config/initializers/gowalla.rb (for instance)
+  # 
+  # Gowalla.configure do |config|
+  #   config.api_key = 'api_key'
+  #   config.username = 'username'
+  #   config.password = 'password'
+  # end
+  # 
+  # elsewhere
+  #
+  # client = Gowalla::Client.new
+  def self.configure
+    yield self
+      
+    Gowalla.api_key = api_key
+    Gowalla.username = username
+    Gowalla.password = password
+    true
   end
   
-  def self.events(user_id)
-    Gowalla::Client.new.events(user_id)
+  def self.api_key
+    @api_key
   end
   
-  def self.trip(trip_id)
-    Gowalla::Client.new.trip(trip_id)
+  def self.api_key=(value)
+    @api_key = value
   end
   
-  def self.spot(spot_id)
-    Gowalla::Client.new.spot(spot_id)
+  def self.username
+    @username
   end
   
-  def self.spot_events(spot_id)
-    Gowalla::Client.new.spot_events(spot_id)
+  def self.username=(value)
+    @username = value
   end
+  
+  def self.password
+    @password
+  end
+  
+  def self.password=(value)
+    @password = value
+  end
+  
   
 end
 

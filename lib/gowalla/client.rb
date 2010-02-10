@@ -8,9 +8,12 @@ module Gowalla
     
     attr_reader :username
     
-    def initialize(username=nil, password=nil)
-      @username = username
+    def initialize(options={})
+      api_key = options[:api_key] || Gowalla.api_key
+      @username = options[:username] || Gowalla.username
+      password = options[:password] || Gowalla.password
       self.class.basic_auth(@username, password) unless @username.nil?
+      self.class.headers({'X-Gowalla-API-Key' => api_key })
     end
     
     def user(user_id=self.username)
@@ -34,15 +37,19 @@ module Gowalla
     end
     
     def items(user_id=self.username)
-      mashup(self.class.get("/users/#{user_id}/items"))
+      mashup(self.class.get("/users/#{user_id}/items")).items
+    end
+    
+    def item(id)
+      mashup(self.class.get("/items/#{id}"))
     end
     
     def pins(user_id=self.username)
       mashup(self.class.get("/users/#{user_id}/pins"))
     end
     
-    def stamps(user_id=self.username)
-      mashup(self.class.get("/users/#{user_id}/stamps"))
+    def stamps(user_id=self.username, limit=20)
+      mashup(self.class.get("/users/#{user_id}/stamps", :query => {:limit => limit}))
     end
     
     def top_spots(user_id=self.username)
@@ -65,17 +72,21 @@ module Gowalla
       mashup(self.class.get("/spots/#{spot_id}/events")).events
     end
     
-    def spots(options={})
+    def spot_items(spot_id)
+      mashup(self.class.get("/spots/#{spot_id}/items")).items
+    end
+    
+    def list_spots(options={})
       query = format_geo_options(options)
-      mashup(self.class.get("/spots", :query => query))
+      mashup(self.class.get("/spots", :query => query)).spots
     end
     
     def featured_spots(options={})
-      spots(options.merge(:featured => 1))
+      list_spots(options.merge(:featured => 1))
     end
     
     def bookmarked_spots(options={})
-      spots(options.merge(:bookmarked => 1))
+      list_spots(options.merge(:bookmarked => 1))
     end
     
     def trips(options={})
@@ -98,11 +109,15 @@ module Gowalla
       mashup(self.class.get("/categories"))
     end
     
+    def category(id)
+      mashup(self.class.get("/categories/#{id}"))
+    end
+    
     private
     
       def format_geo_options(options={})
-        options[:lat] = "+#{options[:lat]}" if options[:lat] > 0
-        options[:lng] = "+#{options[:lng]}" if options[:lng] > 0
+        options[:lat] = "+#{options[:lat]}" if options[:lat].to_i > 0
+        options[:lng] = "+#{options[:lng]}" if options[:lng].to_i > 0
         options
       end
     
