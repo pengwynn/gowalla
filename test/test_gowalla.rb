@@ -67,9 +67,9 @@ class TestGowalla < Test::Unit::TestCase
       should "retrieve a list of the stamps the user has collected" do
         stub_get('http://pengwynn:0U812@api.gowalla.com/users/1707/stamps?limit=20', 'stamps.json')
         stamps = @client.stamps(1707)
-        stamps.size.should == 15
-        stamps.first.name.should == 'Bank Of America'
-        stamps.first.tier.should == 2
+        stamps.size.should == 20
+        stamps.first.name.should == 'Juan Pelota Cafe'
+        stamps.first.location.city.should == 'Austin, TX'
       end
       
       should "retrieve a list of spots the user has visited most often" do
