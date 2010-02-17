@@ -49,7 +49,7 @@ module Gowalla
     end
     
     def stamps(user_id=self.username, limit=20)
-      mashup(self.class.get("/users/#{user_id}/stamps", :query => {:limit => limit}))
+      mashup(self.class.get("/users/#{user_id}/stamps", :query => {:limit => limit})).stamps
     end
     
     def top_spots(user_id=self.username)

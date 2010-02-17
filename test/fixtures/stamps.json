@@ -1,4 +1,5 @@
-[
+{
+  "stamps": [
     {
         "city_state": "Frisco, TX", 
         "first_visited_at": "2010/01/26 15:31:46 +0000", 
@@ -149,4 +150,5 @@
         "url": "/spots/18320", 
         "visits_count": 1
     }
-]
+  ]
+}
