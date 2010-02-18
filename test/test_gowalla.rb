@@ -43,15 +43,14 @@ class TestGowalla < Test::Unit::TestCase
         categories.size.should == 9
         categories.first.name.should == 'Architecture & Buildings'
         categories.first.description.should == 'Bridge, Corporate, Home, Church, etc.'
-        categories.first.categories.size.should == 15
-        categories.first.categories.first.name.should == 'Bridge'
+        categories.first.spot_categories.size.should == 15
+        categories.first.spot_categories.first.name.should == 'Bridge'
       end
 
       should "retrieve information about a specific category" do
         stub_get("http://pengwynn:0U812@api.gowalla.com/categories/1", "category.json")
         category = @client.category(1)
         category.name.should == 'Coffee Shop'
-        category.id.should == 1
       end
     end
     

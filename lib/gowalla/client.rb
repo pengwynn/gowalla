@@ -106,7 +106,7 @@ module Gowalla
     end
     
     def categories
-      mashup(self.class.get("/categories"))
+      mashup(self.class.get("/categories")).spot_categories
     end
     
     def category(id)

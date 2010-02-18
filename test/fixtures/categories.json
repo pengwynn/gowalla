@@ -1,2056 +1,1826 @@
-[
+{
+  "spot_categories": [
     {
-        "categories": [
+      "image_url": "http://static.gowalla.com/categories/13-standard.png",
+      "name": "Architecture & Buildings",
+      "small_image_url": "http://static.gowalla.com/categories/13-small-standard.png",
+      "url": "/categories/13",
+      "spot_categories": [
+        {
+          "image_url": "http://static.gowalla.com/categories/128-standard.png",
+          "name": "Bridge",
+          "small_image_url": "http://static.gowalla.com/categories/128-small-standard.png",
+          "url": "/categories/128",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/185-standard.png",
+          "name": "Castle",
+          "small_image_url": "http://static.gowalla.com/categories/185-small-standard.png",
+          "url": "/categories/185",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/121-standard.png",
+          "name": "Corporate - Office",
+          "small_image_url": "http://static.gowalla.com/categories/121-small-standard.png",
+          "url": "/categories/121",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/126-standard.png",
+          "name": "Courthouse",
+          "small_image_url": "http://static.gowalla.com/categories/126-small-standard.png",
+          "url": "/categories/126",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/150-standard.png",
+          "name": "Fountain",
+          "small_image_url": "http://static.gowalla.com/categories/150-small-standard.png",
+          "url": "/categories/150",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/166-standard.png",
+          "name": "Historic Landmark",
+          "small_image_url": "http://static.gowalla.com/categories/166-small-standard.png",
+          "url": "/categories/166",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/21-standard.png",
+          "name": "Home",
+          "small_image_url": "http://static.gowalla.com/categories/21-small-standard.png",
+          "url": "/categories/21",
+          "spot_categories": [
             {
-                "categories": [], 
-                "description": "", 
-                "id": 128, 
-                "image_url": "http://static.gowalla.com/categories/128-standard.png", 
-                "name": "Bridge", 
-                "small_image_url": "http://static.gowalla.com/categories/128-small-standard.png", 
-                "url": "/categories/128"
-            }, 
+              "image_url": "http://static.gowalla.com/categories/20-standard.png",
+              "name": "Apartment",
+              "small_image_url": "http://static.gowalla.com/categories/20-small-standard.png",
+              "url": "/categories/20",
+              "description": ""
+            },
             {
-                "categories": [], 
-                "description": "", 
-                "id": 185, 
-                "image_url": "http://static.gowalla.com/categories/185-standard.png", 
-                "name": "Castle", 
-                "small_image_url": "http://static.gowalla.com/categories/185-small-standard.png", 
-                "url": "/categories/185"
-            }, 
+              "image_url": "http://static.gowalla.com/categories/29-standard.png",
+              "name": "Condo",
+              "small_image_url": "http://static.gowalla.com/categories/29-small-standard.png",
+              "url": "/categories/29",
+              "description": ""
+            },
             {
-                "categories": [], 
-                "description": "", 
-                "id": 121, 
-                "image_url": "http://static.gowalla.com/categories/121-standard.png", 
-                "name": "Corporate - Office", 
-                "small_image_url": "http://static.gowalla.com/categories/121-small-standard.png", 
-                "url": "/categories/121"
-            }, 
+              "image_url": "http://static.gowalla.com/categories/89-standard.png",
+              "name": "Craftsman",
+              "small_image_url": "http://static.gowalla.com/categories/89-small-standard.png",
+              "url": "/categories/89",
+              "description": ""
+            },
             {
-                "categories": [], 
-                "description": "", 
-                "id": 126, 
-                "image_url": "http://static.gowalla.com/categories/126-standard.png", 
-                "name": "Courthouse", 
-                "small_image_url": "http://static.gowalla.com/categories/126-small-standard.png", 
-                "url": "/categories/126"
-            }, 
+              "image_url": "http://static.gowalla.com/categories/87-standard.png",
+              "name": "Duplex",
+              "small_image_url": "http://static.gowalla.com/categories/87-small-standard.png",
+              "url": "/categories/87",
+              "description": ""
+            },
             {
-                "categories": [], 
-                "description": "", 
-                "id": 150, 
-                "image_url": "http://static.gowalla.com/categories/150-standard.png", 
-                "name": "Fountain", 
-                "small_image_url": "http://static.gowalla.com/categories/150-small-standard.png", 
-                "url": "/categories/150"
-            }, 
+              "image_url": "http://static.gowalla.com/categories/90-standard.png",
+              "name": "Modern",
+              "small_image_url": "http://static.gowalla.com/categories/90-small-standard.png",
+              "url": "/categories/90",
+              "description": ""
+            },
             {
-                "categories": [], 
-                "description": "", 
-                "id": 166, 
-                "image_url": "http://static.gowalla.com/categories/166-standard.png", 
-                "name": "Historic Landmark", 
-                "small_image_url": "http://static.gowalla.com/categories/166-small-standard.png", 
-                "url": "/categories/166"
-            }, 
-            {
-                "categories": [
-                    {
-                        "description": "", 
-                        "id": 20, 
-                        "image_url": "http://static.gowalla.com/categories/20-standard.png", 
-                        "name": "Apartment", 
-                        "small_image_url": "http://static.gowalla.com/categories/20-small-standard.png", 
-                        "url": "/categories/20"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 29, 
-                        "image_url": "http://static.gowalla.com/categories/29-standard.png", 
-                        "name": "Condo", 
-                        "small_image_url": "http://static.gowalla.com/categories/29-small-standard.png", 
-                        "url": "/categories/29"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 89, 
-                        "image_url": "http://static.gowalla.com/categories/89-standard.png", 
-                        "name": "Craftsman", 
-                        "small_image_url": "http://static.gowalla.com/categories/89-small-standard.png", 
-                        "url": "/categories/89"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 87, 
-                        "image_url": "http://static.gowalla.com/categories/87-standard.png", 
-                        "name": "Duplex", 
-                        "small_image_url": "http://static.gowalla.com/categories/87-small-standard.png", 
-                        "url": "/categories/87"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 90, 
-                        "image_url": "http://static.gowalla.com/categories/90-standard.png", 
-                        "name": "Modern", 
-                        "small_image_url": "http://static.gowalla.com/categories/90-small-standard.png", 
-                        "url": "/categories/90"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 88, 
-                        "image_url": "http://static.gowalla.com/categories/88-standard.png", 
-                        "name": "Victorian", 
-                        "small_image_url": "http://static.gowalla.com/categories/88-small-standard.png", 
-                        "url": "/categories/88"
-                    }
-                ], 
-                "description": "", 
-                "id": 21, 
-                "image_url": "http://static.gowalla.com/categories/21-standard.png", 
-                "name": "Home", 
-                "small_image_url": "http://static.gowalla.com/categories/21-small-standard.png", 
-                "url": "/categories/21"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 216, 
-                "image_url": "http://static.gowalla.com/categories/216-standard.png", 
-                "name": "Lighthouse", 
-                "small_image_url": "http://static.gowalla.com/categories/216-small-standard.png", 
-                "url": "/categories/216"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 69, 
-                "image_url": "http://static.gowalla.com/categories/69-standard.png", 
-                "name": "Mission", 
-                "small_image_url": "http://static.gowalla.com/categories/69-small-standard.png", 
-                "url": "/categories/69"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 60, 
-                "image_url": "http://static.gowalla.com/categories/60-standard.png", 
-                "name": "Other - Architecture", 
-                "small_image_url": "http://static.gowalla.com/categories/60-small-standard.png", 
-                "url": "/categories/60"
-            }, 
-            {
-                "categories": [
-                    {
-                        "description": "", 
-                        "id": 65, 
-                        "image_url": "http://static.gowalla.com/categories/65-standard.png", 
-                        "name": "Church", 
-                        "small_image_url": "http://static.gowalla.com/categories/65-small-standard.png", 
-                        "url": "/categories/65"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 68, 
-                        "image_url": "http://static.gowalla.com/categories/68-standard.png", 
-                        "name": "Contemporary Church", 
-                        "small_image_url": "http://static.gowalla.com/categories/68-small-standard.png", 
-                        "url": "/categories/68"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 22, 
-                        "image_url": "http://static.gowalla.com/categories/22-standard.png", 
-                        "name": "Historic Church", 
-                        "small_image_url": "http://static.gowalla.com/categories/22-small-standard.png", 
-                        "url": "/categories/22"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 70, 
-                        "image_url": "http://static.gowalla.com/categories/70-standard.png", 
-                        "name": "Mosque", 
-                        "small_image_url": "http://static.gowalla.com/categories/70-small-standard.png", 
-                        "url": "/categories/70"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 208, 
-                        "image_url": "http://static.gowalla.com/categories/208-standard.png", 
-                        "name": "Other - Place of Worship", 
-                        "small_image_url": "http://static.gowalla.com/categories/208-small-standard.png", 
-                        "url": "/categories/208"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 71, 
-                        "image_url": "http://static.gowalla.com/categories/71-standard.png", 
-                        "name": "Synagogue", 
-                        "small_image_url": "http://static.gowalla.com/categories/71-small-standard.png", 
-                        "url": "/categories/71"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 184, 
-                        "image_url": "http://static.gowalla.com/categories/184-standard.png", 
-                        "name": "Temple", 
-                        "small_image_url": "http://static.gowalla.com/categories/184-small-standard.png", 
-                        "url": "/categories/184"
-                    }
-                ], 
-                "description": "", 
-                "id": 205, 
-                "image_url": "http://static.gowalla.com/categories/205-standard.png", 
-                "name": "Place of Worship", 
-                "small_image_url": "http://static.gowalla.com/categories/205-small-standard.png", 
-                "url": "/categories/205"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 165, 
-                "image_url": "http://static.gowalla.com/categories/165-standard.png", 
-                "name": "Plaza / Square", 
-                "small_image_url": "http://static.gowalla.com/categories/165-small-standard.png", 
-                "url": "/categories/165"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 23, 
-                "image_url": "http://static.gowalla.com/categories/23-standard.png", 
-                "name": "Skyscraper", 
-                "small_image_url": "http://static.gowalla.com/categories/23-small-standard.png", 
-                "url": "/categories/23"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 146, 
-                "image_url": "http://static.gowalla.com/categories/146-standard.png", 
-                "name": "Tower", 
-                "small_image_url": "http://static.gowalla.com/categories/146-small-standard.png", 
-                "url": "/categories/146"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 170, 
-                "image_url": "http://static.gowalla.com/categories/170-standard.png", 
-                "name": "Warehouse & Industrial", 
-                "small_image_url": "http://static.gowalla.com/categories/170-small-standard.png", 
-                "url": "/categories/170"
+              "image_url": "http://static.gowalla.com/categories/88-standard.png",
+              "name": "Victorian",
+              "small_image_url": "http://static.gowalla.com/categories/88-small-standard.png",
+              "url": "/categories/88",
+              "description": ""
             }
-        ], 
-        "description": "Bridge, Corporate, Home, Church, etc.", 
-        "id": 13, 
-        "image_url": "http://static.gowalla.com/categories/13-standard.png", 
-        "name": "Architecture & Buildings", 
-        "small_image_url": "http://static.gowalla.com/categories/13-small-standard.png", 
-        "url": "/categories/13"
-    }, 
+          ],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/216-standard.png",
+          "name": "Lighthouse",
+          "small_image_url": "http://static.gowalla.com/categories/216-small-standard.png",
+          "url": "/categories/216",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/69-standard.png",
+          "name": "Mission",
+          "small_image_url": "http://static.gowalla.com/categories/69-small-standard.png",
+          "url": "/categories/69",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/60-standard.png",
+          "name": "Other - Architecture",
+          "small_image_url": "http://static.gowalla.com/categories/60-small-standard.png",
+          "url": "/categories/60",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/205-standard.png",
+          "name": "Place of Worship",
+          "small_image_url": "http://static.gowalla.com/categories/205-small-standard.png",
+          "url": "/categories/205",
+          "spot_categories": [
+            {
+              "image_url": "http://static.gowalla.com/categories/65-standard.png",
+              "name": "Church",
+              "small_image_url": "http://static.gowalla.com/categories/65-small-standard.png",
+              "url": "/categories/65",
+              "description": ""
+            },
+            {
+              "image_url": "http://static.gowalla.com/categories/68-standard.png",
+              "name": "Contemporary Church",
+              "small_image_url": "http://static.gowalla.com/categories/68-small-standard.png",
+              "url": "/categories/68",
+              "description": ""
+            },
+            {
+              "image_url": "http://static.gowalla.com/categories/22-standard.png",
+              "name": "Historic Church",
+              "small_image_url": "http://static.gowalla.com/categories/22-small-standard.png",
+              "url": "/categories/22",
+              "description": ""
+            },
+            {
+              "image_url": "http://static.gowalla.com/categories/70-standard.png",
+              "name": "Mosque",
+              "small_image_url": "http://static.gowalla.com/categories/70-small-standard.png",
+              "url": "/categories/70",
+              "description": ""
+            },
+            {
+              "image_url": "http://static.gowalla.com/categories/208-standard.png",
+              "name": "Other - Place of Worship",
+              "small_image_url": "http://static.gowalla.com/categories/208-small-standard.png",
+              "url": "/categories/208",
+              "description": ""
+            },
+            {
+              "image_url": "http://static.gowalla.com/categories/71-standard.png",
+              "name": "Synagogue",
+              "small_image_url": "http://static.gowalla.com/categories/71-small-standard.png",
+              "url": "/categories/71",
+              "description": ""
+            },
+            {
+              "image_url": "http://static.gowalla.com/categories/184-standard.png",
+              "name": "Temple",
+              "small_image_url": "http://static.gowalla.com/categories/184-small-standard.png",
+              "url": "/categories/184",
+              "description": ""
+            }
+          ],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/165-standard.png",
+          "name": "Plaza / Square",
+          "small_image_url": "http://static.gowalla.com/categories/165-small-standard.png",
+          "url": "/categories/165",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/23-standard.png",
+          "name": "Skyscraper",
+          "small_image_url": "http://static.gowalla.com/categories/23-small-standard.png",
+          "url": "/categories/23",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/146-standard.png",
+          "name": "Tower",
+          "small_image_url": "http://static.gowalla.com/categories/146-small-standard.png",
+          "url": "/categories/146",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/170-standard.png",
+          "name": "Warehouse & Industrial",
+          "small_image_url": "http://static.gowalla.com/categories/170-small-standard.png",
+          "url": "/categories/170",
+          "spot_categories": [],
+          "description": ""
+        }
+      ],
+      "description": "Bridge, Corporate, Home, Church, etc."
+    },
     {
-        "categories": [
+      "image_url": "http://static.gowalla.com/categories/2-standard.png",
+      "name": "Art & Culture",
+      "small_image_url": "http://static.gowalla.com/categories/2-small-standard.png",
+      "url": "/categories/2",
+      "spot_categories": [
+        {
+          "image_url": "http://static.gowalla.com/categories/188-standard.png",
+          "name": "Gallery",
+          "small_image_url": "http://static.gowalla.com/categories/188-small-standard.png",
+          "url": "/categories/188",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/102-standard.png",
+          "name": "Library",
+          "small_image_url": "http://static.gowalla.com/categories/102-small-standard.png",
+          "url": "/categories/102",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/63-standard.png",
+          "name": "Monument",
+          "small_image_url": "http://static.gowalla.com/categories/63-small-standard.png",
+          "url": "/categories/63",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/207-standard.png",
+          "name": "Museum",
+          "small_image_url": "http://static.gowalla.com/categories/207-small-standard.png",
+          "url": "/categories/207",
+          "spot_categories": [
             {
-                "categories": [], 
-                "description": "", 
-                "id": 188, 
-                "image_url": "http://static.gowalla.com/categories/188-standard.png", 
-                "name": "Gallery", 
-                "small_image_url": "http://static.gowalla.com/categories/188-small-standard.png", 
-                "url": "/categories/188"
-            }, 
+              "image_url": "http://static.gowalla.com/categories/72-standard.png",
+              "name": "Asian Art Museum",
+              "small_image_url": "http://static.gowalla.com/categories/72-small-standard.png",
+              "url": "/categories/72",
+              "description": ""
+            },
             {
-                "categories": [], 
-                "description": "", 
-                "id": 102, 
-                "image_url": "http://static.gowalla.com/categories/102-standard.png", 
-                "name": "Library", 
-                "small_image_url": "http://static.gowalla.com/categories/102-small-standard.png", 
-                "url": "/categories/102"
-            }, 
+              "image_url": "http://static.gowalla.com/categories/73-standard.png",
+              "name": "History Museum",
+              "small_image_url": "http://static.gowalla.com/categories/73-small-standard.png",
+              "url": "/categories/73",
+              "description": ""
+            },
             {
-                "categories": [], 
-                "description": "", 
-                "id": 63, 
-                "image_url": "http://static.gowalla.com/categories/63-standard.png", 
-                "name": "Monument", 
-                "small_image_url": "http://static.gowalla.com/categories/63-small-standard.png", 
-                "url": "/categories/63"
-            }, 
+              "image_url": "http://static.gowalla.com/categories/52-standard.png",
+              "name": "Modern Art Museum",
+              "small_image_url": "http://static.gowalla.com/categories/52-small-standard.png",
+              "url": "/categories/52",
+              "description": ""
+            },
             {
-                "categories": [
-                    {
-                        "description": "", 
-                        "id": 72, 
-                        "image_url": "http://static.gowalla.com/categories/72-standard.png", 
-                        "name": "Asian Art Museum", 
-                        "small_image_url": "http://static.gowalla.com/categories/72-small-standard.png", 
-                        "url": "/categories/72"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 73, 
-                        "image_url": "http://static.gowalla.com/categories/73-standard.png", 
-                        "name": "History Museum", 
-                        "small_image_url": "http://static.gowalla.com/categories/73-small-standard.png", 
-                        "url": "/categories/73"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 52, 
-                        "image_url": "http://static.gowalla.com/categories/52-standard.png", 
-                        "name": "Modern Art Museum", 
-                        "small_image_url": "http://static.gowalla.com/categories/52-small-standard.png", 
-                        "url": "/categories/52"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 212, 
-                        "image_url": "http://static.gowalla.com/categories/212-standard.png", 
-                        "name": "Science Museum", 
-                        "small_image_url": "http://static.gowalla.com/categories/212-small-standard.png", 
-                        "url": "/categories/212"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 50, 
-                        "image_url": "http://static.gowalla.com/categories/50-standard.png", 
-                        "name": "Traditional Art Museum", 
-                        "small_image_url": "http://static.gowalla.com/categories/50-small-standard.png", 
-                        "url": "/categories/50"
-                    }
-                ], 
-                "description": "", 
-                "id": 207, 
-                "image_url": "http://static.gowalla.com/categories/207-standard.png", 
-                "name": "Museum", 
-                "small_image_url": "http://static.gowalla.com/categories/207-small-standard.png", 
-                "url": "/categories/207"
-            }, 
+              "image_url": "http://static.gowalla.com/categories/212-standard.png",
+              "name": "Science Museum",
+              "small_image_url": "http://static.gowalla.com/categories/212-small-standard.png",
+              "url": "/categories/212",
+              "description": ""
+            },
             {
-                "categories": [], 
-                "description": "", 
-                "id": 59, 
-                "image_url": "http://static.gowalla.com/categories/59-standard.png", 
-                "name": "Other - Art & Culture", 
-                "small_image_url": "http://static.gowalla.com/categories/59-small-standard.png", 
-                "url": "/categories/59"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 213, 
-                "image_url": "http://static.gowalla.com/categories/213-standard.png", 
-                "name": "Planetarium", 
-                "small_image_url": "http://static.gowalla.com/categories/213-small-standard.png", 
-                "url": "/categories/213"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 51, 
-                "image_url": "http://static.gowalla.com/categories/51-standard.png", 
-                "name": "Sculpture", 
-                "small_image_url": "http://static.gowalla.com/categories/51-small-standard.png", 
-                "url": "/categories/51"
+              "image_url": "http://static.gowalla.com/categories/50-standard.png",
+              "name": "Traditional Art Museum",
+              "small_image_url": "http://static.gowalla.com/categories/50-small-standard.png",
+              "url": "/categories/50",
+              "description": ""
             }
-        ], 
-        "description": "Library, Monument, Museum, Sculpture", 
-        "id": 2, 
-        "image_url": "http://static.gowalla.com/categories/2-standard.png", 
-        "name": "Art & Culture", 
-        "small_image_url": "http://static.gowalla.com/categories/2-small-standard.png", 
-        "url": "/categories/2"
-    }, 
+          ],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/59-standard.png",
+          "name": "Other - Art & Culture",
+          "small_image_url": "http://static.gowalla.com/categories/59-small-standard.png",
+          "url": "/categories/59",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/213-standard.png",
+          "name": "Planetarium",
+          "small_image_url": "http://static.gowalla.com/categories/213-small-standard.png",
+          "url": "/categories/213",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/51-standard.png",
+          "name": "Sculpture",
+          "small_image_url": "http://static.gowalla.com/categories/51-small-standard.png",
+          "url": "/categories/51",
+          "spot_categories": [],
+          "description": ""
+        }
+      ],
+      "description": "Library, Monument, Museum, Sculpture"
+    },
     {
-        "categories": [
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 135, 
-                "image_url": "http://static.gowalla.com/categories/135-standard.png", 
-                "name": "Administration", 
-                "small_image_url": "http://static.gowalla.com/categories/135-small-standard.png", 
-                "url": "/categories/135"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 137, 
-                "image_url": "http://static.gowalla.com/categories/137-standard.png", 
-                "name": "Aquatics", 
-                "small_image_url": "http://static.gowalla.com/categories/137-small-standard.png", 
-                "url": "/categories/137"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 136, 
-                "image_url": "http://static.gowalla.com/categories/136-standard.png", 
-                "name": "Arts", 
-                "small_image_url": "http://static.gowalla.com/categories/136-small-standard.png", 
-                "url": "/categories/136"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 96, 
-                "image_url": "http://static.gowalla.com/categories/96-standard.png", 
-                "name": "Bookstore", 
-                "small_image_url": "http://static.gowalla.com/categories/96-small-standard.png", 
-                "url": "/categories/96"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 138, 
-                "image_url": "http://static.gowalla.com/categories/138-standard.png", 
-                "name": "Campus Commons", 
-                "small_image_url": "http://static.gowalla.com/categories/138-small-standard.png", 
-                "url": "/categories/138"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 149, 
-                "image_url": "http://static.gowalla.com/categories/149-standard.png", 
-                "name": "County College", 
-                "small_image_url": "http://static.gowalla.com/categories/149-small-standard.png", 
-                "url": "/categories/149"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 139, 
-                "image_url": "http://static.gowalla.com/categories/139-standard.png", 
-                "name": "Dormitory", 
-                "small_image_url": "http://static.gowalla.com/categories/139-small-standard.png", 
-                "url": "/categories/139"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 150, 
-                "image_url": "http://static.gowalla.com/categories/150-standard.png", 
-                "name": "Fountain", 
-                "small_image_url": "http://static.gowalla.com/categories/150-small-standard.png", 
-                "url": "/categories/150"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 140, 
-                "image_url": "http://static.gowalla.com/categories/140-standard.png", 
-                "name": "Frat House", 
-                "small_image_url": "http://static.gowalla.com/categories/140-small-standard.png", 
-                "url": "/categories/140"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 141, 
-                "image_url": "http://static.gowalla.com/categories/141-standard.png", 
-                "name": "Hall", 
-                "small_image_url": "http://static.gowalla.com/categories/141-small-standard.png", 
-                "url": "/categories/141"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 152, 
-                "image_url": "http://static.gowalla.com/categories/152-standard.png", 
-                "name": "High School", 
-                "small_image_url": "http://static.gowalla.com/categories/152-small-standard.png", 
-                "url": "/categories/152"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 142, 
-                "image_url": "http://static.gowalla.com/categories/142-standard.png", 
-                "name": "Lab", 
-                "small_image_url": "http://static.gowalla.com/categories/142-small-standard.png", 
-                "url": "/categories/142"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 147, 
-                "image_url": "http://static.gowalla.com/categories/147-standard.png", 
-                "name": "Law School", 
-                "small_image_url": "http://static.gowalla.com/categories/147-small-standard.png", 
-                "url": "/categories/147"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 102, 
-                "image_url": "http://static.gowalla.com/categories/102-standard.png", 
-                "name": "Library", 
-                "small_image_url": "http://static.gowalla.com/categories/102-small-standard.png", 
-                "url": "/categories/102"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 148, 
-                "image_url": "http://static.gowalla.com/categories/148-standard.png", 
-                "name": "Medical School", 
-                "small_image_url": "http://static.gowalla.com/categories/148-small-standard.png", 
-                "url": "/categories/148"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 153, 
-                "image_url": "http://static.gowalla.com/categories/153-standard.png", 
-                "name": "Other - College & Education", 
-                "small_image_url": "http://static.gowalla.com/categories/153-small-standard.png", 
-                "url": "/categories/153"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 143, 
-                "image_url": "http://static.gowalla.com/categories/143-standard.png", 
-                "name": "Rec Center", 
-                "small_image_url": "http://static.gowalla.com/categories/143-small-standard.png", 
-                "url": "/categories/143"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 144, 
-                "image_url": "http://static.gowalla.com/categories/144-standard.png", 
-                "name": "Sorority House", 
-                "small_image_url": "http://static.gowalla.com/categories/144-small-standard.png", 
-                "url": "/categories/144"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 79, 
-                "image_url": "http://static.gowalla.com/categories/79-standard.png", 
-                "name": "Stadium", 
-                "small_image_url": "http://static.gowalla.com/categories/79-small-standard.png", 
-                "url": "/categories/79"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 145, 
-                "image_url": "http://static.gowalla.com/categories/145-standard.png", 
-                "name": "Student Center", 
-                "small_image_url": "http://static.gowalla.com/categories/145-small-standard.png", 
-                "url": "/categories/145"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 103, 
-                "image_url": "http://static.gowalla.com/categories/103-standard.png", 
-                "name": "Theatre", 
-                "small_image_url": "http://static.gowalla.com/categories/103-small-standard.png", 
-                "url": "/categories/103"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 146, 
-                "image_url": "http://static.gowalla.com/categories/146-standard.png", 
-                "name": "Tower", 
-                "small_image_url": "http://static.gowalla.com/categories/146-small-standard.png", 
-                "url": "/categories/146"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 151, 
-                "image_url": "http://static.gowalla.com/categories/151-standard.png", 
-                "name": "Trade/Tech School", 
-                "small_image_url": "http://static.gowalla.com/categories/151-small-standard.png", 
-                "url": "/categories/151"
-            }
-        ], 
-        "description": "Dorm, Stadium, High School, Commons", 
-        "id": 133, 
-        "image_url": "http://static.gowalla.com/categories/133-standard.png", 
-        "name": "College & Education", 
-        "small_image_url": "http://static.gowalla.com/categories/133-small-standard.png", 
-        "url": "/categories/133"
-    }, 
+      "image_url": "http://static.gowalla.com/categories/133-standard.png",
+      "name": "College & Education",
+      "small_image_url": "http://static.gowalla.com/categories/133-small-standard.png",
+      "url": "/categories/133",
+      "spot_categories": [
+        {
+          "image_url": "http://static.gowalla.com/categories/135-standard.png",
+          "name": "Administration",
+          "small_image_url": "http://static.gowalla.com/categories/135-small-standard.png",
+          "url": "/categories/135",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/137-standard.png",
+          "name": "Aquatics",
+          "small_image_url": "http://static.gowalla.com/categories/137-small-standard.png",
+          "url": "/categories/137",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/136-standard.png",
+          "name": "Arts",
+          "small_image_url": "http://static.gowalla.com/categories/136-small-standard.png",
+          "url": "/categories/136",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/96-standard.png",
+          "name": "Bookstore",
+          "small_image_url": "http://static.gowalla.com/categories/96-small-standard.png",
+          "url": "/categories/96",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/138-standard.png",
+          "name": "Campus Commons",
+          "small_image_url": "http://static.gowalla.com/categories/138-small-standard.png",
+          "url": "/categories/138",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/149-standard.png",
+          "name": "County College",
+          "small_image_url": "http://static.gowalla.com/categories/149-small-standard.png",
+          "url": "/categories/149",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/139-standard.png",
+          "name": "Dormitory",
+          "small_image_url": "http://static.gowalla.com/categories/139-small-standard.png",
+          "url": "/categories/139",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/150-standard.png",
+          "name": "Fountain",
+          "small_image_url": "http://static.gowalla.com/categories/150-small-standard.png",
+          "url": "/categories/150",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/140-standard.png",
+          "name": "Frat House",
+          "small_image_url": "http://static.gowalla.com/categories/140-small-standard.png",
+          "url": "/categories/140",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/141-standard.png",
+          "name": "Hall",
+          "small_image_url": "http://static.gowalla.com/categories/141-small-standard.png",
+          "url": "/categories/141",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/152-standard.png",
+          "name": "High School",
+          "small_image_url": "http://static.gowalla.com/categories/152-small-standard.png",
+          "url": "/categories/152",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/142-standard.png",
+          "name": "Lab",
+          "small_image_url": "http://static.gowalla.com/categories/142-small-standard.png",
+          "url": "/categories/142",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/147-standard.png",
+          "name": "Law School",
+          "small_image_url": "http://static.gowalla.com/categories/147-small-standard.png",
+          "url": "/categories/147",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/102-standard.png",
+          "name": "Library",
+          "small_image_url": "http://static.gowalla.com/categories/102-small-standard.png",
+          "url": "/categories/102",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/148-standard.png",
+          "name": "Medical School",
+          "small_image_url": "http://static.gowalla.com/categories/148-small-standard.png",
+          "url": "/categories/148",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/153-standard.png",
+          "name": "Other - College & Education",
+          "small_image_url": "http://static.gowalla.com/categories/153-small-standard.png",
+          "url": "/categories/153",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/143-standard.png",
+          "name": "Rec Center",
+          "small_image_url": "http://static.gowalla.com/categories/143-small-standard.png",
+          "url": "/categories/143",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/144-standard.png",
+          "name": "Sorority House",
+          "small_image_url": "http://static.gowalla.com/categories/144-small-standard.png",
+          "url": "/categories/144",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/79-standard.png",
+          "name": "Stadium",
+          "small_image_url": "http://static.gowalla.com/categories/79-small-standard.png",
+          "url": "/categories/79",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/145-standard.png",
+          "name": "Student Center",
+          "small_image_url": "http://static.gowalla.com/categories/145-small-standard.png",
+          "url": "/categories/145",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/103-standard.png",
+          "name": "Theatre",
+          "small_image_url": "http://static.gowalla.com/categories/103-small-standard.png",
+          "url": "/categories/103",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/146-standard.png",
+          "name": "Tower",
+          "small_image_url": "http://static.gowalla.com/categories/146-small-standard.png",
+          "url": "/categories/146",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/151-standard.png",
+          "name": "Trade/Tech School",
+          "small_image_url": "http://static.gowalla.com/categories/151-small-standard.png",
+          "url": "/categories/151",
+          "spot_categories": [],
+          "description": ""
+        }
+      ],
+      "description": "Dorm, Stadium, High School, Commons"
+    },
     {
-        "categories": [
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 76, 
-                "image_url": "http://static.gowalla.com/categories/76-standard.png", 
-                "name": "Aquarium", 
-                "small_image_url": "http://static.gowalla.com/categories/76-small-standard.png", 
-                "url": "/categories/76"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 74, 
-                "image_url": "http://static.gowalla.com/categories/74-standard.png", 
-                "name": "Arcade", 
-                "small_image_url": "http://static.gowalla.com/categories/74-small-standard.png", 
-                "url": "/categories/74"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 215, 
-                "image_url": "http://static.gowalla.com/categories/215-standard.png", 
-                "name": "Bowling", 
-                "small_image_url": "http://static.gowalla.com/categories/215-small-standard.png", 
-                "url": "/categories/215"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 77, 
-                "image_url": "http://static.gowalla.com/categories/77-standard.png", 
-                "name": "Casino", 
-                "small_image_url": "http://static.gowalla.com/categories/77-small-standard.png", 
-                "url": "/categories/77"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 30, 
-                "image_url": "http://static.gowalla.com/categories/30-standard.png", 
-                "name": "Cineplex", 
-                "small_image_url": "http://static.gowalla.com/categories/30-small-standard.png", 
-                "url": "/categories/30"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 32, 
-                "image_url": "http://static.gowalla.com/categories/32-standard.png", 
-                "name": "Live Music", 
-                "small_image_url": "http://static.gowalla.com/categories/32-small-standard.png", 
-                "url": "/categories/32"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 58, 
-                "image_url": "http://static.gowalla.com/categories/58-standard.png", 
-                "name": "Other - Entertainment", 
-                "small_image_url": "http://static.gowalla.com/categories/58-small-standard.png", 
-                "url": "/categories/58"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 31, 
-                "image_url": "http://static.gowalla.com/categories/31-standard.png", 
-                "name": "Performing Arts", 
-                "small_image_url": "http://static.gowalla.com/categories/31-small-standard.png", 
-                "url": "/categories/31"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 78, 
-                "image_url": "http://static.gowalla.com/categories/78-standard.png", 
-                "name": "Racetrack", 
-                "small_image_url": "http://static.gowalla.com/categories/78-small-standard.png", 
-                "url": "/categories/78"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 79, 
-                "image_url": "http://static.gowalla.com/categories/79-standard.png", 
-                "name": "Stadium", 
-                "small_image_url": "http://static.gowalla.com/categories/79-small-standard.png", 
-                "url": "/categories/79"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 103, 
-                "image_url": "http://static.gowalla.com/categories/103-standard.png", 
-                "name": "Theatre", 
-                "small_image_url": "http://static.gowalla.com/categories/103-small-standard.png", 
-                "url": "/categories/103"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 75, 
-                "image_url": "http://static.gowalla.com/categories/75-standard.png", 
-                "name": "Theme Park", 
-                "small_image_url": "http://static.gowalla.com/categories/75-small-standard.png", 
-                "url": "/categories/75"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 33, 
-                "image_url": "http://static.gowalla.com/categories/33-standard.png", 
-                "name": "Zoo", 
-                "small_image_url": "http://static.gowalla.com/categories/33-small-standard.png", 
-                "url": "/categories/33"
-            }
-        ], 
-        "description": "Aquarium, Casino, Theatre, Zoo", 
-        "id": 12, 
-        "image_url": "http://static.gowalla.com/categories/12-standard.png", 
-        "name": "Entertainment", 
-        "small_image_url": "http://static.gowalla.com/categories/12-small-standard.png", 
-        "url": "/categories/12"
-    }, 
+      "image_url": "http://static.gowalla.com/categories/12-standard.png",
+      "name": "Entertainment",
+      "small_image_url": "http://static.gowalla.com/categories/12-small-standard.png",
+      "url": "/categories/12",
+      "spot_categories": [
+        {
+          "image_url": "http://static.gowalla.com/categories/76-standard.png",
+          "name": "Aquarium",
+          "small_image_url": "http://static.gowalla.com/categories/76-small-standard.png",
+          "url": "/categories/76",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/74-standard.png",
+          "name": "Arcade",
+          "small_image_url": "http://static.gowalla.com/categories/74-small-standard.png",
+          "url": "/categories/74",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/215-standard.png",
+          "name": "Bowling",
+          "small_image_url": "http://static.gowalla.com/categories/215-small-standard.png",
+          "url": "/categories/215",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/77-standard.png",
+          "name": "Casino",
+          "small_image_url": "http://static.gowalla.com/categories/77-small-standard.png",
+          "url": "/categories/77",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/30-standard.png",
+          "name": "Cineplex",
+          "small_image_url": "http://static.gowalla.com/categories/30-small-standard.png",
+          "url": "/categories/30",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/32-standard.png",
+          "name": "Live Music",
+          "small_image_url": "http://static.gowalla.com/categories/32-small-standard.png",
+          "url": "/categories/32",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/58-standard.png",
+          "name": "Other - Entertainment",
+          "small_image_url": "http://static.gowalla.com/categories/58-small-standard.png",
+          "url": "/categories/58",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/31-standard.png",
+          "name": "Performing Arts",
+          "small_image_url": "http://static.gowalla.com/categories/31-small-standard.png",
+          "url": "/categories/31",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/78-standard.png",
+          "name": "Racetrack",
+          "small_image_url": "http://static.gowalla.com/categories/78-small-standard.png",
+          "url": "/categories/78",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/79-standard.png",
+          "name": "Stadium",
+          "small_image_url": "http://static.gowalla.com/categories/79-small-standard.png",
+          "url": "/categories/79",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/103-standard.png",
+          "name": "Theatre",
+          "small_image_url": "http://static.gowalla.com/categories/103-small-standard.png",
+          "url": "/categories/103",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/75-standard.png",
+          "name": "Theme Park",
+          "small_image_url": "http://static.gowalla.com/categories/75-small-standard.png",
+          "url": "/categories/75",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/33-standard.png",
+          "name": "Zoo",
+          "small_image_url": "http://static.gowalla.com/categories/33-small-standard.png",
+          "url": "/categories/33",
+          "spot_categories": [],
+          "description": ""
+        }
+      ],
+      "description": "Aquarium, Casino, Theatre, Zoo"
+    },
     {
-        "categories": [
+      "image_url": "http://static.gowalla.com/categories/7-standard.png",
+      "name": "Food",
+      "small_image_url": "http://static.gowalla.com/categories/7-small-standard.png",
+      "url": "/categories/7",
+      "spot_categories": [
+        {
+          "image_url": "http://static.gowalla.com/categories/84-standard.png",
+          "name": "African",
+          "small_image_url": "http://static.gowalla.com/categories/84-small-standard.png",
+          "url": "/categories/84",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/16-standard.png",
+          "name": "American",
+          "small_image_url": "http://static.gowalla.com/categories/16-small-standard.png",
+          "url": "/categories/16",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/18-standard.png",
+          "name": "Asian",
+          "small_image_url": "http://static.gowalla.com/categories/18-small-standard.png",
+          "url": "/categories/18",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/110-standard.png",
+          "name": "Bakery",
+          "small_image_url": "http://static.gowalla.com/categories/110-small-standard.png",
+          "url": "/categories/110",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/17-standard.png",
+          "name": "BBQ",
+          "small_image_url": "http://static.gowalla.com/categories/17-small-standard.png",
+          "url": "/categories/17",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/123-standard.png",
+          "name": "Breakfast",
+          "small_image_url": "http://static.gowalla.com/categories/123-small-standard.png",
+          "url": "/categories/123",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/167-standard.png",
+          "name": "Brewery / Microbrewery",
+          "small_image_url": "http://static.gowalla.com/categories/167-small-standard.png",
+          "url": "/categories/167",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/154-standard.png",
+          "name": "Burgers",
+          "small_image_url": "http://static.gowalla.com/categories/154-small-standard.png",
+          "url": "/categories/154",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/1-standard.png",
+          "name": "Coffee Shop",
+          "small_image_url": "http://static.gowalla.com/categories/1-small-standard.png",
+          "url": "/categories/1",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/80-standard.png",
+          "name": "Dessert",
+          "small_image_url": "http://static.gowalla.com/categories/80-small-standard.png",
+          "url": "/categories/80",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/124-standard.png",
+          "name": "Diner",
+          "small_image_url": "http://static.gowalla.com/categories/124-small-standard.png",
+          "url": "/categories/124",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/236-standard.png",
+          "name": "Fine Dining",
+          "small_image_url": "http://static.gowalla.com/categories/236-small-standard.png",
+          "url": "/categories/236",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/82-standard.png",
+          "name": "French",
+          "small_image_url": "http://static.gowalla.com/categories/82-small-standard.png",
+          "url": "/categories/82",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/160-standard.png",
+          "name": "Indian",
+          "small_image_url": "http://static.gowalla.com/categories/160-small-standard.png",
+          "url": "/categories/160",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/19-standard.png",
+          "name": "Italian",
+          "small_image_url": "http://static.gowalla.com/categories/19-small-standard.png",
+          "url": "/categories/19",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/98-standard.png",
+          "name": "Mediterranean",
+          "small_image_url": "http://static.gowalla.com/categories/98-small-standard.png",
+          "url": "/categories/98",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/15-standard.png",
+          "name": "Mexican",
+          "small_image_url": "http://static.gowalla.com/categories/15-small-standard.png",
+          "url": "/categories/15",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/83-standard.png",
+          "name": "Middle Eastern",
+          "small_image_url": "http://static.gowalla.com/categories/83-small-standard.png",
+          "url": "/categories/83",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/64-standard.png",
+          "name": "Other - Food ",
+          "small_image_url": "http://static.gowalla.com/categories/64-small-standard.png",
+          "url": "/categories/64",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/85-standard.png",
+          "name": "Pan Pacific",
+          "small_image_url": "http://static.gowalla.com/categories/85-small-standard.png",
+          "url": "/categories/85",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/155-standard.png",
+          "name": "Pizza",
+          "small_image_url": "http://static.gowalla.com/categories/155-small-standard.png",
+          "url": "/categories/155",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/101-standard.png",
+          "name": "Sandwich Shop",
+          "small_image_url": "http://static.gowalla.com/categories/101-small-standard.png",
+          "url": "/categories/101",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/86-standard.png",
+          "name": "Seafood",
+          "small_image_url": "http://static.gowalla.com/categories/86-small-standard.png",
+          "url": "/categories/86",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/237-standard.png",
+          "name": "Soul Food",
+          "small_image_url": "http://static.gowalla.com/categories/237-small-standard.png",
+          "url": "/categories/237",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/81-standard.png",
+          "name": "South American / Latin",
+          "small_image_url": "http://static.gowalla.com/categories/81-small-standard.png",
+          "url": "/categories/81",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/100-standard.png",
+          "name": "Steakhouse",
+          "small_image_url": "http://static.gowalla.com/categories/100-small-standard.png",
+          "url": "/categories/100",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/178-standard.png",
+          "name": "Street Fare",
+          "small_image_url": "http://static.gowalla.com/categories/178-small-standard.png",
+          "url": "/categories/178",
+          "spot_categories": [
             {
-                "categories": [], 
-                "description": "", 
-                "id": 84, 
-                "image_url": "http://static.gowalla.com/categories/84-standard.png", 
-                "name": "African", 
-                "small_image_url": "http://static.gowalla.com/categories/84-small-standard.png", 
-                "url": "/categories/84"
-            }, 
+              "image_url": "http://static.gowalla.com/categories/187-standard.png",
+              "name": "Brat / Sausage Kiosk",
+              "small_image_url": "http://static.gowalla.com/categories/187-small-standard.png",
+              "url": "/categories/187",
+              "description": ""
+            },
             {
-                "categories": [], 
-                "description": "", 
-                "id": 16, 
-                "image_url": "http://static.gowalla.com/categories/16-standard.png", 
-                "name": "American", 
-                "small_image_url": "http://static.gowalla.com/categories/16-small-standard.png", 
-                "url": "/categories/16"
-            }, 
+              "image_url": "http://static.gowalla.com/categories/206-standard.png",
+              "name": "Donuts",
+              "small_image_url": "http://static.gowalla.com/categories/206-small-standard.png",
+              "url": "/categories/206",
+              "description": ""
+            },
             {
-                "categories": [], 
-                "description": "", 
-                "id": 18, 
-                "image_url": "http://static.gowalla.com/categories/18-standard.png", 
-                "name": "Asian", 
-                "small_image_url": "http://static.gowalla.com/categories/18-small-standard.png", 
-                "url": "/categories/18"
-            }, 
+              "image_url": "http://static.gowalla.com/categories/204-standard.png",
+              "name": "Other - Street Fare",
+              "small_image_url": "http://static.gowalla.com/categories/204-small-standard.png",
+              "url": "/categories/204",
+              "description": ""
+            },
             {
-                "categories": [], 
-                "description": "", 
-                "id": 110, 
-                "image_url": "http://static.gowalla.com/categories/110-standard.png", 
-                "name": "Bakery", 
-                "small_image_url": "http://static.gowalla.com/categories/110-small-standard.png", 
-                "url": "/categories/110"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 17, 
-                "image_url": "http://static.gowalla.com/categories/17-standard.png", 
-                "name": "BBQ", 
-                "small_image_url": "http://static.gowalla.com/categories/17-small-standard.png", 
-                "url": "/categories/17"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 123, 
-                "image_url": "http://static.gowalla.com/categories/123-standard.png", 
-                "name": "Breakfast", 
-                "small_image_url": "http://static.gowalla.com/categories/123-small-standard.png", 
-                "url": "/categories/123"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 167, 
-                "image_url": "http://static.gowalla.com/categories/167-standard.png", 
-                "name": "Brewery / Microbrewery", 
-                "small_image_url": "http://static.gowalla.com/categories/167-small-standard.png", 
-                "url": "/categories/167"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 154, 
-                "image_url": "http://static.gowalla.com/categories/154-standard.png", 
-                "name": "Burgers", 
-                "small_image_url": "http://static.gowalla.com/categories/154-small-standard.png", 
-                "url": "/categories/154"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 1, 
-                "image_url": "http://static.gowalla.com/categories/1-standard.png", 
-                "name": "Coffee Shop", 
-                "small_image_url": "http://static.gowalla.com/categories/1-small-standard.png", 
-                "url": "/categories/1"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 80, 
-                "image_url": "http://static.gowalla.com/categories/80-standard.png", 
-                "name": "Dessert", 
-                "small_image_url": "http://static.gowalla.com/categories/80-small-standard.png", 
-                "url": "/categories/80"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 124, 
-                "image_url": "http://static.gowalla.com/categories/124-standard.png", 
-                "name": "Diner", 
-                "small_image_url": "http://static.gowalla.com/categories/124-small-standard.png", 
-                "url": "/categories/124"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 236, 
-                "image_url": "http://static.gowalla.com/categories/236-standard.png", 
-                "name": "Fine Dining", 
-                "small_image_url": "http://static.gowalla.com/categories/236-small-standard.png", 
-                "url": "/categories/236"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 82, 
-                "image_url": "http://static.gowalla.com/categories/82-standard.png", 
-                "name": "French", 
-                "small_image_url": "http://static.gowalla.com/categories/82-small-standard.png", 
-                "url": "/categories/82"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 160, 
-                "image_url": "http://static.gowalla.com/categories/160-standard.png", 
-                "name": "Indian", 
-                "small_image_url": "http://static.gowalla.com/categories/160-small-standard.png", 
-                "url": "/categories/160"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 19, 
-                "image_url": "http://static.gowalla.com/categories/19-standard.png", 
-                "name": "Italian", 
-                "small_image_url": "http://static.gowalla.com/categories/19-small-standard.png", 
-                "url": "/categories/19"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 98, 
-                "image_url": "http://static.gowalla.com/categories/98-standard.png", 
-                "name": "Mediterranean", 
-                "small_image_url": "http://static.gowalla.com/categories/98-small-standard.png", 
-                "url": "/categories/98"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 15, 
-                "image_url": "http://static.gowalla.com/categories/15-standard.png", 
-                "name": "Mexican", 
-                "small_image_url": "http://static.gowalla.com/categories/15-small-standard.png", 
-                "url": "/categories/15"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 83, 
-                "image_url": "http://static.gowalla.com/categories/83-standard.png", 
-                "name": "Middle Eastern", 
-                "small_image_url": "http://static.gowalla.com/categories/83-small-standard.png", 
-                "url": "/categories/83"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 64, 
-                "image_url": "http://static.gowalla.com/categories/64-standard.png", 
-                "name": "Other - Food ", 
-                "small_image_url": "http://static.gowalla.com/categories/64-small-standard.png", 
-                "url": "/categories/64"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 85, 
-                "image_url": "http://static.gowalla.com/categories/85-standard.png", 
-                "name": "Pan Pacific", 
-                "small_image_url": "http://static.gowalla.com/categories/85-small-standard.png", 
-                "url": "/categories/85"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 155, 
-                "image_url": "http://static.gowalla.com/categories/155-standard.png", 
-                "name": "Pizza", 
-                "small_image_url": "http://static.gowalla.com/categories/155-small-standard.png", 
-                "url": "/categories/155"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 101, 
-                "image_url": "http://static.gowalla.com/categories/101-standard.png", 
-                "name": "Sandwich Shop", 
-                "small_image_url": "http://static.gowalla.com/categories/101-small-standard.png", 
-                "url": "/categories/101"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 86, 
-                "image_url": "http://static.gowalla.com/categories/86-standard.png", 
-                "name": "Seafood", 
-                "small_image_url": "http://static.gowalla.com/categories/86-small-standard.png", 
-                "url": "/categories/86"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 237, 
-                "image_url": "http://static.gowalla.com/categories/237-standard.png", 
-                "name": "Soul Food", 
-                "small_image_url": "http://static.gowalla.com/categories/237-small-standard.png", 
-                "url": "/categories/237"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 81, 
-                "image_url": "http://static.gowalla.com/categories/81-standard.png", 
-                "name": "South American / Latin", 
-                "small_image_url": "http://static.gowalla.com/categories/81-small-standard.png", 
-                "url": "/categories/81"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 100, 
-                "image_url": "http://static.gowalla.com/categories/100-standard.png", 
-                "name": "Steakhouse", 
-                "small_image_url": "http://static.gowalla.com/categories/100-small-standard.png", 
-                "url": "/categories/100"
-            }, 
-            {
-                "categories": [
-                    {
-                        "description": "", 
-                        "id": 187, 
-                        "image_url": "http://static.gowalla.com/categories/187-standard.png", 
-                        "name": "Brat / Sausage Kiosk", 
-                        "small_image_url": "http://static.gowalla.com/categories/187-small-standard.png", 
-                        "url": "/categories/187"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 206, 
-                        "image_url": "http://static.gowalla.com/categories/206-standard.png", 
-                        "name": "Donuts", 
-                        "small_image_url": "http://static.gowalla.com/categories/206-small-standard.png", 
-                        "url": "/categories/206"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 204, 
-                        "image_url": "http://static.gowalla.com/categories/204-standard.png", 
-                        "name": "Other - Street Fare", 
-                        "small_image_url": "http://static.gowalla.com/categories/204-small-standard.png", 
-                        "url": "/categories/204"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 189, 
-                        "image_url": "http://static.gowalla.com/categories/189-standard.png", 
-                        "name": "Tacos", 
-                        "small_image_url": "http://static.gowalla.com/categories/189-small-standard.png", 
-                        "url": "/categories/189"
-                    }
-                ], 
-                "description": "", 
-                "id": 178, 
-                "image_url": "http://static.gowalla.com/categories/178-standard.png", 
-                "name": "Street Fare", 
-                "small_image_url": "http://static.gowalla.com/categories/178-small-standard.png", 
-                "url": "/categories/178"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 159, 
-                "image_url": "http://static.gowalla.com/categories/159-standard.png", 
-                "name": "Sushi", 
-                "small_image_url": "http://static.gowalla.com/categories/159-small-standard.png", 
-                "url": "/categories/159"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 171, 
-                "image_url": "http://static.gowalla.com/categories/171-standard.png", 
-                "name": "Tea Room", 
-                "small_image_url": "http://static.gowalla.com/categories/171-small-standard.png", 
-                "url": "/categories/171"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 161, 
-                "image_url": "http://static.gowalla.com/categories/161-standard.png", 
-                "name": "Vegetarian / Vegan", 
-                "small_image_url": "http://static.gowalla.com/categories/161-small-standard.png", 
-                "url": "/categories/161"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 157, 
-                "image_url": "http://static.gowalla.com/categories/157-standard.png", 
-                "name": "Vineyard", 
-                "small_image_url": "http://static.gowalla.com/categories/157-small-standard.png", 
-                "url": "/categories/157"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 67, 
-                "image_url": "http://static.gowalla.com/categories/67-standard.png", 
-                "name": "Wings", 
-                "small_image_url": "http://static.gowalla.com/categories/67-small-standard.png", 
-                "url": "/categories/67"
+              "image_url": "http://static.gowalla.com/categories/189-standard.png",
+              "name": "Tacos",
+              "small_image_url": "http://static.gowalla.com/categories/189-small-standard.png",
+              "url": "/categories/189",
+              "description": ""
             }
-        ], 
-        "description": "Bakery, Coffeeshop, Dessert, Vineyard", 
-        "id": 7, 
-        "image_url": "http://static.gowalla.com/categories/7-standard.png", 
-        "name": "Food", 
-        "small_image_url": "http://static.gowalla.com/categories/7-small-standard.png", 
-        "url": "/categories/7"
-    }, 
+          ],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/159-standard.png",
+          "name": "Sushi",
+          "small_image_url": "http://static.gowalla.com/categories/159-small-standard.png",
+          "url": "/categories/159",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/171-standard.png",
+          "name": "Tea Room",
+          "small_image_url": "http://static.gowalla.com/categories/171-small-standard.png",
+          "url": "/categories/171",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/161-standard.png",
+          "name": "Vegetarian / Vegan",
+          "small_image_url": "http://static.gowalla.com/categories/161-small-standard.png",
+          "url": "/categories/161",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/157-standard.png",
+          "name": "Vineyard",
+          "small_image_url": "http://static.gowalla.com/categories/157-small-standard.png",
+          "url": "/categories/157",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/67-standard.png",
+          "name": "Wings",
+          "small_image_url": "http://static.gowalla.com/categories/67-small-standard.png",
+          "url": "/categories/67",
+          "spot_categories": [],
+          "description": ""
+        }
+      ],
+      "description": "Bakery, Coffeeshop, Dessert, Vineyard"
+    },
     {
-        "categories": [
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 241, 
-                "image_url": "http://static.gowalla.com/categories/241-standard.png", 
-                "name": "Bar", 
-                "small_image_url": "http://static.gowalla.com/categories/241-small-standard.png", 
-                "url": "/categories/241"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 167, 
-                "image_url": "http://static.gowalla.com/categories/167-standard.png", 
-                "name": "Brewery / Microbrewery", 
-                "small_image_url": "http://static.gowalla.com/categories/167-small-standard.png", 
-                "url": "/categories/167"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 25, 
-                "image_url": "http://static.gowalla.com/categories/25-standard.png", 
-                "name": "Dancefloor", 
-                "small_image_url": "http://static.gowalla.com/categories/25-small-standard.png", 
-                "url": "/categories/25"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 28, 
-                "image_url": "http://static.gowalla.com/categories/28-standard.png", 
-                "name": "Dive Bar", 
-                "small_image_url": "http://static.gowalla.com/categories/28-small-standard.png", 
-                "url": "/categories/28"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 177, 
-                "image_url": "http://static.gowalla.com/categories/177-standard.png", 
-                "name": "Karaoke", 
-                "small_image_url": "http://static.gowalla.com/categories/177-small-standard.png", 
-                "url": "/categories/177"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 56, 
-                "image_url": "http://static.gowalla.com/categories/56-standard.png", 
-                "name": "Other - Nightlife ", 
-                "small_image_url": "http://static.gowalla.com/categories/56-small-standard.png", 
-                "url": "/categories/56"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 24, 
-                "image_url": "http://static.gowalla.com/categories/24-standard.png", 
-                "name": "Pub", 
-                "small_image_url": "http://static.gowalla.com/categories/24-small-standard.png", 
-                "url": "/categories/24"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 97, 
-                "image_url": "http://static.gowalla.com/categories/97-standard.png", 
-                "name": "Saloon", 
-                "small_image_url": "http://static.gowalla.com/categories/97-small-standard.png", 
-                "url": "/categories/97"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 130, 
-                "image_url": "http://static.gowalla.com/categories/130-standard.png", 
-                "name": "Sports Bar", 
-                "small_image_url": "http://static.gowalla.com/categories/130-small-standard.png", 
-                "url": "/categories/130"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 26, 
-                "image_url": "http://static.gowalla.com/categories/26-standard.png", 
-                "name": "Ultra-lounge", 
-                "small_image_url": "http://static.gowalla.com/categories/26-small-standard.png", 
-                "url": "/categories/26"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 27, 
-                "image_url": "http://static.gowalla.com/categories/27-standard.png", 
-                "name": "Wine Bar", 
-                "small_image_url": "http://static.gowalla.com/categories/27-small-standard.png", 
-                "url": "/categories/27"
-            }
-        ], 
-        "description": "Pub, Dive Bar, Sports Bar, Ultra Lounge", 
-        "id": 4, 
-        "image_url": "http://static.gowalla.com/categories/4-standard.png", 
-        "name": "Nightlife", 
-        "small_image_url": "http://static.gowalla.com/categories/4-small-standard.png", 
-        "url": "/categories/4"
-    }, 
+      "image_url": "http://static.gowalla.com/categories/4-standard.png",
+      "name": "Nightlife",
+      "small_image_url": "http://static.gowalla.com/categories/4-small-standard.png",
+      "url": "/categories/4",
+      "spot_categories": [
+        {
+          "image_url": "http://static.gowalla.com/categories/241-standard.png",
+          "name": "Bar",
+          "small_image_url": "http://static.gowalla.com/categories/241-small-standard.png",
+          "url": "/categories/241",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/167-standard.png",
+          "name": "Brewery / Microbrewery",
+          "small_image_url": "http://static.gowalla.com/categories/167-small-standard.png",
+          "url": "/categories/167",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/25-standard.png",
+          "name": "Dancefloor",
+          "small_image_url": "http://static.gowalla.com/categories/25-small-standard.png",
+          "url": "/categories/25",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/28-standard.png",
+          "name": "Dive Bar",
+          "small_image_url": "http://static.gowalla.com/categories/28-small-standard.png",
+          "url": "/categories/28",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/177-standard.png",
+          "name": "Karaoke",
+          "small_image_url": "http://static.gowalla.com/categories/177-small-standard.png",
+          "url": "/categories/177",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/56-standard.png",
+          "name": "Other - Nightlife ",
+          "small_image_url": "http://static.gowalla.com/categories/56-small-standard.png",
+          "url": "/categories/56",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/24-standard.png",
+          "name": "Pub",
+          "small_image_url": "http://static.gowalla.com/categories/24-small-standard.png",
+          "url": "/categories/24",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/97-standard.png",
+          "name": "Saloon",
+          "small_image_url": "http://static.gowalla.com/categories/97-small-standard.png",
+          "url": "/categories/97",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/130-standard.png",
+          "name": "Sports Bar",
+          "small_image_url": "http://static.gowalla.com/categories/130-small-standard.png",
+          "url": "/categories/130",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/26-standard.png",
+          "name": "Ultra-lounge",
+          "small_image_url": "http://static.gowalla.com/categories/26-small-standard.png",
+          "url": "/categories/26",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/27-standard.png",
+          "name": "Wine Bar",
+          "small_image_url": "http://static.gowalla.com/categories/27-small-standard.png",
+          "url": "/categories/27",
+          "spot_categories": [],
+          "description": ""
+        }
+      ],
+      "description": "Pub, Dive Bar, Sports Bar, Ultra Lounge"
+    },
     {
-        "categories": [
+      "image_url": "http://static.gowalla.com/categories/5-standard.png",
+      "name": "Parks, Nature & Recreation",
+      "small_image_url": "http://static.gowalla.com/categories/5-small-standard.png",
+      "url": "/categories/5",
+      "spot_categories": [
+        {
+          "image_url": "http://static.gowalla.com/categories/223-standard.png",
+          "name": "Basketball Court",
+          "small_image_url": "http://static.gowalla.com/categories/223-small-standard.png",
+          "url": "/categories/223",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/99-standard.png",
+          "name": "Beach",
+          "small_image_url": "http://static.gowalla.com/categories/99-small-standard.png",
+          "url": "/categories/99",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/113-standard.png",
+          "name": "Big Blue Wet Thing",
+          "small_image_url": "http://static.gowalla.com/categories/113-small-standard.png",
+          "url": "/categories/113",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/111-standard.png",
+          "name": "Campground",
+          "small_image_url": "http://static.gowalla.com/categories/111-small-standard.png",
+          "url": "/categories/111",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/176-standard.png",
+          "name": "Canal / Waterway",
+          "small_image_url": "http://static.gowalla.com/categories/176-small-standard.png",
+          "url": "/categories/176",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/181-standard.png",
+          "name": "Cave",
+          "small_image_url": "http://static.gowalla.com/categories/181-small-standard.png",
+          "url": "/categories/181",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/162-standard.png",
+          "name": "Cemetery",
+          "small_image_url": "http://static.gowalla.com/categories/162-small-standard.png",
+          "url": "/categories/162",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/38-standard.png",
+          "name": "City Park",
+          "small_image_url": "http://static.gowalla.com/categories/38-small-standard.png",
+          "url": "/categories/38",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/209-standard.png",
+          "name": "Farm",
+          "small_image_url": "http://static.gowalla.com/categories/209-small-standard.png",
+          "url": "/categories/209",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/214-standard.png",
+          "name": "Garden",
+          "small_image_url": "http://static.gowalla.com/categories/214-small-standard.png",
+          "url": "/categories/214",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/42-standard.png",
+          "name": "Golf Course",
+          "small_image_url": "http://static.gowalla.com/categories/42-small-standard.png",
+          "url": "/categories/42",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/166-standard.png",
+          "name": "Historic Landmark",
+          "small_image_url": "http://static.gowalla.com/categories/166-small-standard.png",
+          "url": "/categories/166",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/114-standard.png",
+          "name": "Lake & Pond",
+          "small_image_url": "http://static.gowalla.com/categories/114-small-standard.png",
+          "url": "/categories/114",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/216-standard.png",
+          "name": "Lighthouse",
+          "small_image_url": "http://static.gowalla.com/categories/216-small-standard.png",
+          "url": "/categories/216",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/63-standard.png",
+          "name": "Monument",
+          "small_image_url": "http://static.gowalla.com/categories/63-small-standard.png",
+          "url": "/categories/63",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/41-standard.png",
+          "name": "National Park",
+          "small_image_url": "http://static.gowalla.com/categories/41-small-standard.png",
+          "url": "/categories/41",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/40-standard.png",
+          "name": "Nature Preserve",
+          "small_image_url": "http://static.gowalla.com/categories/40-small-standard.png",
+          "url": "/categories/40",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/55-standard.png",
+          "name": "Other - Parks ",
+          "small_image_url": "http://static.gowalla.com/categories/55-small-standard.png",
+          "url": "/categories/55",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/116-standard.png",
+          "name": "Pavilion",
+          "small_image_url": "http://static.gowalla.com/categories/116-small-standard.png",
+          "url": "/categories/116",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/37-standard.png",
+          "name": "Playground",
+          "small_image_url": "http://static.gowalla.com/categories/37-small-standard.png",
+          "url": "/categories/37",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/165-standard.png",
+          "name": "Plaza / Square",
+          "small_image_url": "http://static.gowalla.com/categories/165-small-standard.png",
+          "url": "/categories/165",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/39-standard.png",
+          "name": "Regional / State Park",
+          "small_image_url": "http://static.gowalla.com/categories/39-small-standard.png",
+          "url": "/categories/39",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/115-standard.png",
+          "name": "River & Stream",
+          "small_image_url": "http://static.gowalla.com/categories/115-small-standard.png",
+          "url": "/categories/115",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/105-standard.png",
+          "name": "Scenic Lookout",
+          "small_image_url": "http://static.gowalla.com/categories/105-small-standard.png",
+          "url": "/categories/105",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/51-standard.png",
+          "name": "Sculpture",
+          "small_image_url": "http://static.gowalla.com/categories/51-small-standard.png",
+          "url": "/categories/51",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/211-standard.png",
+          "name": "Skatepark",
+          "small_image_url": "http://static.gowalla.com/categories/211-small-standard.png",
+          "url": "/categories/211",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/131-standard.png",
+          "name": "Ski & Snowboard Area",
+          "small_image_url": "http://static.gowalla.com/categories/131-small-standard.png",
+          "url": "/categories/131",
+          "spot_categories": [
             {
-                "categories": [], 
-                "description": "", 
-                "id": 223, 
-                "image_url": "http://static.gowalla.com/categories/223-standard.png", 
-                "name": "Basketball Court", 
-                "small_image_url": "http://static.gowalla.com/categories/223-small-standard.png", 
-                "url": "/categories/223"
-            }, 
+              "image_url": "http://static.gowalla.com/categories/197-standard.png",
+              "name": "Chalet",
+              "small_image_url": "http://static.gowalla.com/categories/197-small-standard.png",
+              "url": "/categories/197",
+              "description": ""
+            },
             {
-                "categories": [], 
-                "description": "", 
-                "id": 99, 
-                "image_url": "http://static.gowalla.com/categories/99-standard.png", 
-                "name": "Beach", 
-                "small_image_url": "http://static.gowalla.com/categories/99-small-standard.png", 
-                "url": "/categories/99"
-            }, 
+              "image_url": "http://static.gowalla.com/categories/194-standard.png",
+              "name": "Glade",
+              "small_image_url": "http://static.gowalla.com/categories/194-small-standard.png",
+              "url": "/categories/194",
+              "description": ""
+            },
             {
-                "categories": [], 
-                "description": "", 
-                "id": 113, 
-                "image_url": "http://static.gowalla.com/categories/113-standard.png", 
-                "name": "Big Blue Wet Thing", 
-                "small_image_url": "http://static.gowalla.com/categories/113-small-standard.png", 
-                "url": "/categories/113"
-            }, 
+              "image_url": "http://static.gowalla.com/categories/219-standard.png",
+              "name": "Gondola",
+              "small_image_url": "http://static.gowalla.com/categories/219-small-standard.png",
+              "url": "/categories/219",
+              "description": ""
+            },
             {
-                "categories": [], 
-                "description": "", 
-                "id": 111, 
-                "image_url": "http://static.gowalla.com/categories/111-standard.png", 
-                "name": "Campground", 
-                "small_image_url": "http://static.gowalla.com/categories/111-small-standard.png", 
-                "url": "/categories/111"
-            }, 
+              "image_url": "http://static.gowalla.com/categories/198-standard.png",
+              "name": "Halfpipe",
+              "small_image_url": "http://static.gowalla.com/categories/198-small-standard.png",
+              "url": "/categories/198",
+              "description": ""
+            },
             {
-                "categories": [], 
-                "description": "", 
-                "id": 176, 
-                "image_url": "http://static.gowalla.com/categories/176-standard.png", 
-                "name": "Canal / Waterway", 
-                "small_image_url": "http://static.gowalla.com/categories/176-small-standard.png", 
-                "url": "/categories/176"
-            }, 
+              "image_url": "http://static.gowalla.com/categories/196-standard.png",
+              "name": "Lifthouse",
+              "small_image_url": "http://static.gowalla.com/categories/196-small-standard.png",
+              "url": "/categories/196",
+              "description": ""
+            },
             {
-                "categories": [], 
-                "description": "", 
-                "id": 181, 
-                "image_url": "http://static.gowalla.com/categories/181-standard.png", 
-                "name": "Cave", 
-                "small_image_url": "http://static.gowalla.com/categories/181-small-standard.png", 
-                "url": "/categories/181"
-            }, 
+              "image_url": "http://static.gowalla.com/categories/220-standard.png",
+              "name": "Summit",
+              "small_image_url": "http://static.gowalla.com/categories/220-small-standard.png",
+              "url": "/categories/220",
+              "description": ""
+            },
             {
-                "categories": [], 
-                "description": "", 
-                "id": 162, 
-                "image_url": "http://static.gowalla.com/categories/162-standard.png", 
-                "name": "Cemetery", 
-                "small_image_url": "http://static.gowalla.com/categories/162-small-standard.png", 
-                "url": "/categories/162"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 38, 
-                "image_url": "http://static.gowalla.com/categories/38-standard.png", 
-                "name": "City Park", 
-                "small_image_url": "http://static.gowalla.com/categories/38-small-standard.png", 
-                "url": "/categories/38"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 209, 
-                "image_url": "http://static.gowalla.com/categories/209-standard.png", 
-                "name": "Farm", 
-                "small_image_url": "http://static.gowalla.com/categories/209-small-standard.png", 
-                "url": "/categories/209"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 214, 
-                "image_url": "http://static.gowalla.com/categories/214-standard.png", 
-                "name": "Garden", 
-                "small_image_url": "http://static.gowalla.com/categories/214-small-standard.png", 
-                "url": "/categories/214"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 42, 
-                "image_url": "http://static.gowalla.com/categories/42-standard.png", 
-                "name": "Golf Course", 
-                "small_image_url": "http://static.gowalla.com/categories/42-small-standard.png", 
-                "url": "/categories/42"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 166, 
-                "image_url": "http://static.gowalla.com/categories/166-standard.png", 
-                "name": "Historic Landmark", 
-                "small_image_url": "http://static.gowalla.com/categories/166-small-standard.png", 
-                "url": "/categories/166"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 114, 
-                "image_url": "http://static.gowalla.com/categories/114-standard.png", 
-                "name": "Lake & Pond", 
-                "small_image_url": "http://static.gowalla.com/categories/114-small-standard.png", 
-                "url": "/categories/114"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 216, 
-                "image_url": "http://static.gowalla.com/categories/216-standard.png", 
-                "name": "Lighthouse", 
-                "small_image_url": "http://static.gowalla.com/categories/216-small-standard.png", 
-                "url": "/categories/216"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 63, 
-                "image_url": "http://static.gowalla.com/categories/63-standard.png", 
-                "name": "Monument", 
-                "small_image_url": "http://static.gowalla.com/categories/63-small-standard.png", 
-                "url": "/categories/63"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 41, 
-                "image_url": "http://static.gowalla.com/categories/41-standard.png", 
-                "name": "National Park", 
-                "small_image_url": "http://static.gowalla.com/categories/41-small-standard.png", 
-                "url": "/categories/41"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 40, 
-                "image_url": "http://static.gowalla.com/categories/40-standard.png", 
-                "name": "Nature Preserve", 
-                "small_image_url": "http://static.gowalla.com/categories/40-small-standard.png", 
-                "url": "/categories/40"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 55, 
-                "image_url": "http://static.gowalla.com/categories/55-standard.png", 
-                "name": "Other - Parks ", 
-                "small_image_url": "http://static.gowalla.com/categories/55-small-standard.png", 
-                "url": "/categories/55"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 116, 
-                "image_url": "http://static.gowalla.com/categories/116-standard.png", 
-                "name": "Pavilion", 
-                "small_image_url": "http://static.gowalla.com/categories/116-small-standard.png", 
-                "url": "/categories/116"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 37, 
-                "image_url": "http://static.gowalla.com/categories/37-standard.png", 
-                "name": "Playground", 
-                "small_image_url": "http://static.gowalla.com/categories/37-small-standard.png", 
-                "url": "/categories/37"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 165, 
-                "image_url": "http://static.gowalla.com/categories/165-standard.png", 
-                "name": "Plaza / Square", 
-                "small_image_url": "http://static.gowalla.com/categories/165-small-standard.png", 
-                "url": "/categories/165"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 39, 
-                "image_url": "http://static.gowalla.com/categories/39-standard.png", 
-                "name": "Regional / State Park", 
-                "small_image_url": "http://static.gowalla.com/categories/39-small-standard.png", 
-                "url": "/categories/39"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 115, 
-                "image_url": "http://static.gowalla.com/categories/115-standard.png", 
-                "name": "River & Stream", 
-                "small_image_url": "http://static.gowalla.com/categories/115-small-standard.png", 
-                "url": "/categories/115"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 105, 
-                "image_url": "http://static.gowalla.com/categories/105-standard.png", 
-                "name": "Scenic Lookout", 
-                "small_image_url": "http://static.gowalla.com/categories/105-small-standard.png", 
-                "url": "/categories/105"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 51, 
-                "image_url": "http://static.gowalla.com/categories/51-standard.png", 
-                "name": "Sculpture", 
-                "small_image_url": "http://static.gowalla.com/categories/51-small-standard.png", 
-                "url": "/categories/51"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 211, 
-                "image_url": "http://static.gowalla.com/categories/211-standard.png", 
-                "name": "Skatepark", 
-                "small_image_url": "http://static.gowalla.com/categories/211-small-standard.png", 
-                "url": "/categories/211"
-            }, 
-            {
-                "categories": [
-                    {
-                        "description": "", 
-                        "id": 197, 
-                        "image_url": "http://static.gowalla.com/categories/197-standard.png", 
-                        "name": "Chalet", 
-                        "small_image_url": "http://static.gowalla.com/categories/197-small-standard.png", 
-                        "url": "/categories/197"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 194, 
-                        "image_url": "http://static.gowalla.com/categories/194-standard.png", 
-                        "name": "Glade", 
-                        "small_image_url": "http://static.gowalla.com/categories/194-small-standard.png", 
-                        "url": "/categories/194"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 219, 
-                        "image_url": "http://static.gowalla.com/categories/219-standard.png", 
-                        "name": "Gondola", 
-                        "small_image_url": "http://static.gowalla.com/categories/219-small-standard.png", 
-                        "url": "/categories/219"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 198, 
-                        "image_url": "http://static.gowalla.com/categories/198-standard.png", 
-                        "name": "Halfpipe", 
-                        "small_image_url": "http://static.gowalla.com/categories/198-small-standard.png", 
-                        "url": "/categories/198"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 196, 
-                        "image_url": "http://static.gowalla.com/categories/196-standard.png", 
-                        "name": "Lifthouse", 
-                        "small_image_url": "http://static.gowalla.com/categories/196-small-standard.png", 
-                        "url": "/categories/196"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 220, 
-                        "image_url": "http://static.gowalla.com/categories/220-standard.png", 
-                        "name": "Summit", 
-                        "small_image_url": "http://static.gowalla.com/categories/220-small-standard.png", 
-                        "url": "/categories/220"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 195, 
-                        "image_url": "http://static.gowalla.com/categories/195-standard.png", 
-                        "name": "Terrain Park", 
-                        "small_image_url": "http://static.gowalla.com/categories/195-small-standard.png", 
-                        "url": "/categories/195"
-                    }
-                ], 
-                "description": "", 
-                "id": 131, 
-                "image_url": "http://static.gowalla.com/categories/131-standard.png", 
-                "name": "Ski & Snowboard Area", 
-                "small_image_url": "http://static.gowalla.com/categories/131-small-standard.png", 
-                "url": "/categories/131"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 157, 
-                "image_url": "http://static.gowalla.com/categories/157-standard.png", 
-                "name": "Vineyard", 
-                "small_image_url": "http://static.gowalla.com/categories/157-small-standard.png", 
-                "url": "/categories/157"
+              "image_url": "http://static.gowalla.com/categories/195-standard.png",
+              "name": "Terrain Park",
+              "small_image_url": "http://static.gowalla.com/categories/195-small-standard.png",
+              "url": "/categories/195",
+              "description": ""
             }
-        ], 
-        "description": "Beach, Cemetery, Golf Course, Playground", 
-        "id": 5, 
-        "image_url": "http://static.gowalla.com/categories/5-standard.png", 
-        "name": "Parks, Nature & Recreation", 
-        "small_image_url": "http://static.gowalla.com/categories/5-small-standard.png", 
-        "url": "/categories/5"
-    }, 
+          ],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/157-standard.png",
+          "name": "Vineyard",
+          "small_image_url": "http://static.gowalla.com/categories/157-small-standard.png",
+          "url": "/categories/157",
+          "spot_categories": [],
+          "description": ""
+        }
+      ],
+      "description": "Beach, Cemetery, Golf Course, Playground"
+    },
     {
-        "categories": [
+      "image_url": "http://static.gowalla.com/categories/6-standard.png",
+      "name": "Shopping & Services",
+      "small_image_url": "http://static.gowalla.com/categories/6-small-standard.png",
+      "url": "/categories/6",
+      "spot_categories": [
+        {
+          "image_url": "http://static.gowalla.com/categories/91-standard.png",
+          "name": "Antiques",
+          "small_image_url": "http://static.gowalla.com/categories/91-small-standard.png",
+          "url": "/categories/91",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/35-standard.png",
+          "name": "Apparel",
+          "small_image_url": "http://static.gowalla.com/categories/35-small-standard.png",
+          "url": "/categories/35",
+          "spot_categories": [
             {
-                "categories": [], 
-                "description": "", 
-                "id": 91, 
-                "image_url": "http://static.gowalla.com/categories/91-standard.png", 
-                "name": "Antiques", 
-                "small_image_url": "http://static.gowalla.com/categories/91-small-standard.png", 
-                "url": "/categories/91"
-            }, 
+              "image_url": "http://static.gowalla.com/categories/239-standard.png",
+              "name": "Accessories",
+              "small_image_url": "http://static.gowalla.com/categories/239-small-standard.png",
+              "url": "/categories/239",
+              "description": ""
+            },
             {
-                "categories": [
-                    {
-                        "description": "", 
-                        "id": 239, 
-                        "image_url": "http://static.gowalla.com/categories/239-standard.png", 
-                        "name": "Accessories", 
-                        "small_image_url": "http://static.gowalla.com/categories/239-small-standard.png", 
-                        "url": "/categories/239"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 238, 
-                        "image_url": "http://static.gowalla.com/categories/238-standard.png", 
-                        "name": "Children's Apparel", 
-                        "small_image_url": "http://static.gowalla.com/categories/238-small-standard.png", 
-                        "url": "/categories/238"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 221, 
-                        "image_url": "http://static.gowalla.com/categories/221-standard.png", 
-                        "name": "Men's Apparel", 
-                        "small_image_url": "http://static.gowalla.com/categories/221-small-standard.png", 
-                        "url": "/categories/221"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 240, 
-                        "image_url": "http://static.gowalla.com/categories/240-standard.png", 
-                        "name": "Shoes", 
-                        "small_image_url": "http://static.gowalla.com/categories/240-small-standard.png", 
-                        "url": "/categories/240"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 222, 
-                        "image_url": "http://static.gowalla.com/categories/222-standard.png", 
-                        "name": "Women's Apparel", 
-                        "small_image_url": "http://static.gowalla.com/categories/222-small-standard.png", 
-                        "url": "/categories/222"
-                    }
-                ], 
-                "description": "", 
-                "id": 35, 
-                "image_url": "http://static.gowalla.com/categories/35-standard.png", 
-                "name": "Apparel", 
-                "small_image_url": "http://static.gowalla.com/categories/35-small-standard.png", 
-                "url": "/categories/35"
-            }, 
+              "image_url": "http://static.gowalla.com/categories/238-standard.png",
+              "name": "Children's Apparel",
+              "small_image_url": "http://static.gowalla.com/categories/238-small-standard.png",
+              "url": "/categories/238",
+              "description": ""
+            },
             {
-                "categories": [], 
-                "description": "", 
-                "id": 186, 
-                "image_url": "http://static.gowalla.com/categories/186-standard.png", 
-                "name": "Bank & Financial", 
-                "small_image_url": "http://static.gowalla.com/categories/186-small-standard.png", 
-                "url": "/categories/186"
-            }, 
+              "image_url": "http://static.gowalla.com/categories/221-standard.png",
+              "name": "Men's Apparel",
+              "small_image_url": "http://static.gowalla.com/categories/221-small-standard.png",
+              "url": "/categories/221",
+              "description": ""
+            },
             {
-                "categories": [], 
-                "description": "", 
-                "id": 96, 
-                "image_url": "http://static.gowalla.com/categories/96-standard.png", 
-                "name": "Bookstore", 
-                "small_image_url": "http://static.gowalla.com/categories/96-small-standard.png", 
-                "url": "/categories/96"
-            }, 
+              "image_url": "http://static.gowalla.com/categories/240-standard.png",
+              "name": "Shoes",
+              "small_image_url": "http://static.gowalla.com/categories/240-small-standard.png",
+              "url": "/categories/240",
+              "description": ""
+            },
             {
-                "categories": [], 
-                "description": "", 
-                "id": 180, 
-                "image_url": "http://static.gowalla.com/categories/180-standard.png", 
-                "name": "Candy Store", 
-                "small_image_url": "http://static.gowalla.com/categories/180-small-standard.png", 
-                "url": "/categories/180"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 202, 
-                "image_url": "http://static.gowalla.com/categories/202-standard.png", 
-                "name": "Discount Store", 
-                "small_image_url": "http://static.gowalla.com/categories/202-small-standard.png", 
-                "url": "/categories/202"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 201, 
-                "image_url": "http://static.gowalla.com/categories/201-standard.png", 
-                "name": "Drugstore & Pharmacy", 
-                "small_image_url": "http://static.gowalla.com/categories/201-small-standard.png", 
-                "url": "/categories/201"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 229, 
-                "image_url": "http://static.gowalla.com/categories/229-standard.png", 
-                "name": "Flower Shop", 
-                "small_image_url": "http://static.gowalla.com/categories/229-small-standard.png", 
-                "url": "/categories/229"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 106, 
-                "image_url": "http://static.gowalla.com/categories/106-standard.png", 
-                "name": "Food & Foodies", 
-                "small_image_url": "http://static.gowalla.com/categories/106-small-standard.png", 
-                "url": "/categories/106"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 53, 
-                "image_url": "http://static.gowalla.com/categories/53-standard.png", 
-                "name": "Furniture", 
-                "small_image_url": "http://static.gowalla.com/categories/53-small-standard.png", 
-                "url": "/categories/53"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 119, 
-                "image_url": "http://static.gowalla.com/categories/119-standard.png", 
-                "name": "Gas & Automotive", 
-                "small_image_url": "http://static.gowalla.com/categories/119-small-standard.png", 
-                "url": "/categories/119"
-            }, 
-            {
-                "categories": [
-                    {
-                        "description": "", 
-                        "id": 125, 
-                        "image_url": "http://static.gowalla.com/categories/125-standard.png", 
-                        "name": "City Hall", 
-                        "small_image_url": "http://static.gowalla.com/categories/125-small-standard.png", 
-                        "url": "/categories/125"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 126, 
-                        "image_url": "http://static.gowalla.com/categories/126-standard.png", 
-                        "name": "Courthouse", 
-                        "small_image_url": "http://static.gowalla.com/categories/126-small-standard.png", 
-                        "url": "/categories/126"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 182, 
-                        "image_url": "http://static.gowalla.com/categories/182-standard.png", 
-                        "name": "Fire Station", 
-                        "small_image_url": "http://static.gowalla.com/categories/182-small-standard.png", 
-                        "url": "/categories/182"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 183, 
-                        "image_url": "http://static.gowalla.com/categories/183-standard.png", 
-                        "name": "Police Station", 
-                        "small_image_url": "http://static.gowalla.com/categories/183-small-standard.png", 
-                        "url": "/categories/183"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 235, 
-                        "image_url": "http://static.gowalla.com/categories/235-standard.png", 
-                        "name": "Post Office", 
-                        "small_image_url": "http://static.gowalla.com/categories/235-small-standard.png", 
-                        "url": "/categories/235"
-                    }
-                ], 
-                "description": "", 
-                "id": 218, 
-                "image_url": "http://static.gowalla.com/categories/218-standard.png", 
-                "name": "Government", 
-                "small_image_url": "http://static.gowalla.com/categories/218-small-standard.png", 
-                "url": "/categories/218"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 200, 
-                "image_url": "http://static.gowalla.com/categories/200-standard.png", 
-                "name": "Hardware Store", 
-                "small_image_url": "http://static.gowalla.com/categories/200-small-standard.png", 
-                "url": "/categories/200"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 118, 
-                "image_url": "http://static.gowalla.com/categories/118-standard.png", 
-                "name": "Health & Fitness", 
-                "small_image_url": "http://static.gowalla.com/categories/118-small-standard.png", 
-                "url": "/categories/118"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 11, 
-                "image_url": "http://static.gowalla.com/categories/11-standard.png", 
-                "name": "Mall", 
-                "small_image_url": "http://static.gowalla.com/categories/11-small-standard.png", 
-                "url": "/categories/11"
-            }, 
-            {
-                "categories": [
-                    {
-                        "description": "", 
-                        "id": 190, 
-                        "image_url": "http://static.gowalla.com/categories/190-standard.png", 
-                        "name": "Dentist", 
-                        "small_image_url": "http://static.gowalla.com/categories/190-small-standard.png", 
-                        "url": "/categories/190"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 192, 
-                        "image_url": "http://static.gowalla.com/categories/192-standard.png", 
-                        "name": "Doctor's Office", 
-                        "small_image_url": "http://static.gowalla.com/categories/192-small-standard.png", 
-                        "url": "/categories/192"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 201, 
-                        "image_url": "http://static.gowalla.com/categories/201-standard.png", 
-                        "name": "Drugstore & Pharmacy", 
-                        "small_image_url": "http://static.gowalla.com/categories/201-small-standard.png", 
-                        "url": "/categories/201"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 132, 
-                        "image_url": "http://static.gowalla.com/categories/132-standard.png", 
-                        "name": "Hospital", 
-                        "small_image_url": "http://static.gowalla.com/categories/132-small-standard.png", 
-                        "url": "/categories/132"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 210, 
-                        "image_url": "http://static.gowalla.com/categories/210-standard.png", 
-                        "name": "Other - Medical", 
-                        "small_image_url": "http://static.gowalla.com/categories/210-small-standard.png", 
-                        "url": "/categories/210"
-                    }
-                ], 
-                "description": "", 
-                "id": 191, 
-                "image_url": "http://static.gowalla.com/categories/191-standard.png", 
-                "name": "Medical", 
-                "small_image_url": "http://static.gowalla.com/categories/191-small-standard.png", 
-                "url": "/categories/191"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 242, 
-                "image_url": "http://static.gowalla.com/categories/242-standard.png", 
-                "name": "Movie Rental", 
-                "small_image_url": "http://static.gowalla.com/categories/242-small-standard.png", 
-                "url": "/categories/242"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 112, 
-                "image_url": "http://static.gowalla.com/categories/112-standard.png", 
-                "name": "Music", 
-                "small_image_url": "http://static.gowalla.com/categories/112-small-standard.png", 
-                "url": "/categories/112"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 217, 
-                "image_url": "http://static.gowalla.com/categories/217-standard.png", 
-                "name": "Other - Services", 
-                "small_image_url": "http://static.gowalla.com/categories/217-small-standard.png", 
-                "url": "/categories/217"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 54, 
-                "image_url": "http://static.gowalla.com/categories/54-standard.png", 
-                "name": "Other - Shopping", 
-                "small_image_url": "http://static.gowalla.com/categories/54-small-standard.png", 
-                "url": "/categories/54"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 163, 
-                "image_url": "http://static.gowalla.com/categories/163-standard.png", 
-                "name": "Paper Goods", 
-                "small_image_url": "http://static.gowalla.com/categories/163-small-standard.png", 
-                "url": "/categories/163"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 173, 
-                "image_url": "http://static.gowalla.com/categories/173-standard.png", 
-                "name": "Pet Store", 
-                "small_image_url": "http://static.gowalla.com/categories/173-small-standard.png", 
-                "url": "/categories/173"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 193, 
-                "image_url": "http://static.gowalla.com/categories/193-standard.png", 
-                "name": "Record Store", 
-                "small_image_url": "http://static.gowalla.com/categories/193-small-standard.png", 
-                "url": "/categories/193"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 227, 
-                "image_url": "http://static.gowalla.com/categories/227-standard.png", 
-                "name": "Rental Car", 
-                "small_image_url": "http://static.gowalla.com/categories/227-small-standard.png", 
-                "url": "/categories/227"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 117, 
-                "image_url": "http://static.gowalla.com/categories/117-standard.png", 
-                "name": "Salon & Barbershop", 
-                "small_image_url": "http://static.gowalla.com/categories/117-small-standard.png", 
-                "url": "/categories/117"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 61, 
-                "image_url": "http://static.gowalla.com/categories/61-standard.png", 
-                "name": "Sports & Outdoors", 
-                "small_image_url": "http://static.gowalla.com/categories/61-small-standard.png", 
-                "url": "/categories/61"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 36, 
-                "image_url": "http://static.gowalla.com/categories/36-standard.png", 
-                "name": "Technology", 
-                "small_image_url": "http://static.gowalla.com/categories/36-small-standard.png", 
-                "url": "/categories/36"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 34, 
-                "image_url": "http://static.gowalla.com/categories/34-standard.png", 
-                "name": "Thrift Store", 
-                "small_image_url": "http://static.gowalla.com/categories/34-small-standard.png", 
-                "url": "/categories/34"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 109, 
-                "image_url": "http://static.gowalla.com/categories/109-standard.png", 
-                "name": "Tobacco & Cigars", 
-                "small_image_url": "http://static.gowalla.com/categories/109-small-standard.png", 
-                "url": "/categories/109"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 62, 
-                "image_url": "http://static.gowalla.com/categories/62-standard.png", 
-                "name": "Toys & Games", 
-                "small_image_url": "http://static.gowalla.com/categories/62-small-standard.png", 
-                "url": "/categories/62"
+              "image_url": "http://static.gowalla.com/categories/222-standard.png",
+              "name": "Women's Apparel",
+              "small_image_url": "http://static.gowalla.com/categories/222-small-standard.png",
+              "url": "/categories/222",
+              "description": ""
             }
-        ], 
-        "description": "Antiques, Foodies, Clothes, Toys", 
-        "id": 6, 
-        "image_url": "http://static.gowalla.com/categories/6-standard.png", 
-        "name": "Shopping & Services", 
-        "small_image_url": "http://static.gowalla.com/categories/6-small-standard.png", 
-        "url": "/categories/6"
-    }, 
+          ],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/186-standard.png",
+          "name": "Bank & Financial",
+          "small_image_url": "http://static.gowalla.com/categories/186-small-standard.png",
+          "url": "/categories/186",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/96-standard.png",
+          "name": "Bookstore",
+          "small_image_url": "http://static.gowalla.com/categories/96-small-standard.png",
+          "url": "/categories/96",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/180-standard.png",
+          "name": "Candy Store",
+          "small_image_url": "http://static.gowalla.com/categories/180-small-standard.png",
+          "url": "/categories/180",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/202-standard.png",
+          "name": "Discount Store",
+          "small_image_url": "http://static.gowalla.com/categories/202-small-standard.png",
+          "url": "/categories/202",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/201-standard.png",
+          "name": "Drugstore & Pharmacy",
+          "small_image_url": "http://static.gowalla.com/categories/201-small-standard.png",
+          "url": "/categories/201",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/229-standard.png",
+          "name": "Flower Shop",
+          "small_image_url": "http://static.gowalla.com/categories/229-small-standard.png",
+          "url": "/categories/229",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/106-standard.png",
+          "name": "Food & Foodies",
+          "small_image_url": "http://static.gowalla.com/categories/106-small-standard.png",
+          "url": "/categories/106",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/53-standard.png",
+          "name": "Furniture",
+          "small_image_url": "http://static.gowalla.com/categories/53-small-standard.png",
+          "url": "/categories/53",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/119-standard.png",
+          "name": "Gas & Automotive",
+          "small_image_url": "http://static.gowalla.com/categories/119-small-standard.png",
+          "url": "/categories/119",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/218-standard.png",
+          "name": "Government",
+          "small_image_url": "http://static.gowalla.com/categories/218-small-standard.png",
+          "url": "/categories/218",
+          "spot_categories": [
+            {
+              "image_url": "http://static.gowalla.com/categories/125-standard.png",
+              "name": "City Hall",
+              "small_image_url": "http://static.gowalla.com/categories/125-small-standard.png",
+              "url": "/categories/125",
+              "description": ""
+            },
+            {
+              "image_url": "http://static.gowalla.com/categories/126-standard.png",
+              "name": "Courthouse",
+              "small_image_url": "http://static.gowalla.com/categories/126-small-standard.png",
+              "url": "/categories/126",
+              "description": ""
+            },
+            {
+              "image_url": "http://static.gowalla.com/categories/182-standard.png",
+              "name": "Fire Station",
+              "small_image_url": "http://static.gowalla.com/categories/182-small-standard.png",
+              "url": "/categories/182",
+              "description": ""
+            },
+            {
+              "image_url": "http://static.gowalla.com/categories/183-standard.png",
+              "name": "Police Station",
+              "small_image_url": "http://static.gowalla.com/categories/183-small-standard.png",
+              "url": "/categories/183",
+              "description": ""
+            },
+            {
+              "image_url": "http://static.gowalla.com/categories/235-standard.png",
+              "name": "Post Office",
+              "small_image_url": "http://static.gowalla.com/categories/235-small-standard.png",
+              "url": "/categories/235",
+              "description": ""
+            }
+          ],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/200-standard.png",
+          "name": "Hardware Store",
+          "small_image_url": "http://static.gowalla.com/categories/200-small-standard.png",
+          "url": "/categories/200",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/118-standard.png",
+          "name": "Health & Fitness",
+          "small_image_url": "http://static.gowalla.com/categories/118-small-standard.png",
+          "url": "/categories/118",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/11-standard.png",
+          "name": "Mall",
+          "small_image_url": "http://static.gowalla.com/categories/11-small-standard.png",
+          "url": "/categories/11",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/191-standard.png",
+          "name": "Medical",
+          "small_image_url": "http://static.gowalla.com/categories/191-small-standard.png",
+          "url": "/categories/191",
+          "spot_categories": [
+            {
+              "image_url": "http://static.gowalla.com/categories/190-standard.png",
+              "name": "Dentist",
+              "small_image_url": "http://static.gowalla.com/categories/190-small-standard.png",
+              "url": "/categories/190",
+              "description": ""
+            },
+            {
+              "image_url": "http://static.gowalla.com/categories/192-standard.png",
+              "name": "Doctor's Office",
+              "small_image_url": "http://static.gowalla.com/categories/192-small-standard.png",
+              "url": "/categories/192",
+              "description": ""
+            },
+            {
+              "image_url": "http://static.gowalla.com/categories/201-standard.png",
+              "name": "Drugstore & Pharmacy",
+              "small_image_url": "http://static.gowalla.com/categories/201-small-standard.png",
+              "url": "/categories/201",
+              "description": ""
+            },
+            {
+              "image_url": "http://static.gowalla.com/categories/132-standard.png",
+              "name": "Hospital",
+              "small_image_url": "http://static.gowalla.com/categories/132-small-standard.png",
+              "url": "/categories/132",
+              "description": ""
+            },
+            {
+              "image_url": "http://static.gowalla.com/categories/210-standard.png",
+              "name": "Other - Medical",
+              "small_image_url": "http://static.gowalla.com/categories/210-small-standard.png",
+              "url": "/categories/210",
+              "description": ""
+            }
+          ],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/242-standard.png",
+          "name": "Movie Rental",
+          "small_image_url": "http://static.gowalla.com/categories/242-small-standard.png",
+          "url": "/categories/242",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/112-standard.png",
+          "name": "Music",
+          "small_image_url": "http://static.gowalla.com/categories/112-small-standard.png",
+          "url": "/categories/112",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/217-standard.png",
+          "name": "Other - Services",
+          "small_image_url": "http://static.gowalla.com/categories/217-small-standard.png",
+          "url": "/categories/217",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/54-standard.png",
+          "name": "Other - Shopping",
+          "small_image_url": "http://static.gowalla.com/categories/54-small-standard.png",
+          "url": "/categories/54",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/163-standard.png",
+          "name": "Paper Goods",
+          "small_image_url": "http://static.gowalla.com/categories/163-small-standard.png",
+          "url": "/categories/163",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/173-standard.png",
+          "name": "Pet Store",
+          "small_image_url": "http://static.gowalla.com/categories/173-small-standard.png",
+          "url": "/categories/173",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/193-standard.png",
+          "name": "Record Store",
+          "small_image_url": "http://static.gowalla.com/categories/193-small-standard.png",
+          "url": "/categories/193",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/227-standard.png",
+          "name": "Rental Car",
+          "small_image_url": "http://static.gowalla.com/categories/227-small-standard.png",
+          "url": "/categories/227",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/117-standard.png",
+          "name": "Salon & Barbershop",
+          "small_image_url": "http://static.gowalla.com/categories/117-small-standard.png",
+          "url": "/categories/117",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/61-standard.png",
+          "name": "Sports & Outdoors",
+          "small_image_url": "http://static.gowalla.com/categories/61-small-standard.png",
+          "url": "/categories/61",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/36-standard.png",
+          "name": "Technology",
+          "small_image_url": "http://static.gowalla.com/categories/36-small-standard.png",
+          "url": "/categories/36",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/34-standard.png",
+          "name": "Thrift Store",
+          "small_image_url": "http://static.gowalla.com/categories/34-small-standard.png",
+          "url": "/categories/34",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/109-standard.png",
+          "name": "Tobacco & Cigars",
+          "small_image_url": "http://static.gowalla.com/categories/109-small-standard.png",
+          "url": "/categories/109",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/62-standard.png",
+          "name": "Toys & Games",
+          "small_image_url": "http://static.gowalla.com/categories/62-small-standard.png",
+          "url": "/categories/62",
+          "spot_categories": [],
+          "description": ""
+        }
+      ],
+      "description": "Antiques, Foodies, Clothes, Toys"
+    },
     {
-        "categories": [
+      "image_url": "http://static.gowalla.com/categories/3-standard.png",
+      "name": "Travel & Lodging",
+      "small_image_url": "http://static.gowalla.com/categories/3-small-standard.png",
+      "url": "/categories/3",
+      "spot_categories": [
+        {
+          "image_url": "http://static.gowalla.com/categories/45-standard.png",
+          "name": "Airport",
+          "small_image_url": "http://static.gowalla.com/categories/45-small-standard.png",
+          "url": "/categories/45",
+          "spot_categories": [
             {
-                "categories": [
-                    {
-                        "description": "", 
-                        "id": 225, 
-                        "image_url": "http://static.gowalla.com/categories/225-standard.png", 
-                        "name": "Gate", 
-                        "small_image_url": "http://static.gowalla.com/categories/225-small-standard.png", 
-                        "url": "/categories/225"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 228, 
-                        "image_url": "http://static.gowalla.com/categories/228-standard.png", 
-                        "name": "Other - Airport", 
-                        "small_image_url": "http://static.gowalla.com/categories/228-small-standard.png", 
-                        "url": "/categories/228"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 227, 
-                        "image_url": "http://static.gowalla.com/categories/227-standard.png", 
-                        "name": "Rental Car", 
-                        "small_image_url": "http://static.gowalla.com/categories/227-small-standard.png", 
-                        "url": "/categories/227"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 224, 
-                        "image_url": "http://static.gowalla.com/categories/224-standard.png", 
-                        "name": "Terminal", 
-                        "small_image_url": "http://static.gowalla.com/categories/224-small-standard.png", 
-                        "url": "/categories/224"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 226, 
-                        "image_url": "http://static.gowalla.com/categories/226-standard.png", 
-                        "name": "Tram", 
-                        "small_image_url": "http://static.gowalla.com/categories/226-small-standard.png", 
-                        "url": "/categories/226"
-                    }
-                ], 
-                "description": "", 
-                "id": 45, 
-                "image_url": "http://static.gowalla.com/categories/45-standard.png", 
-                "name": "Airport", 
-                "small_image_url": "http://static.gowalla.com/categories/45-small-standard.png", 
-                "url": "/categories/45"
-            }, 
+              "image_url": "http://static.gowalla.com/categories/225-standard.png",
+              "name": "Gate",
+              "small_image_url": "http://static.gowalla.com/categories/225-small-standard.png",
+              "url": "/categories/225",
+              "description": ""
+            },
             {
-                "categories": [], 
-                "description": "", 
-                "id": 92, 
-                "image_url": "http://static.gowalla.com/categories/92-standard.png", 
-                "name": "Bed & Breakfast", 
-                "small_image_url": "http://static.gowalla.com/categories/92-small-standard.png", 
-                "url": "/categories/92"
-            }, 
+              "image_url": "http://static.gowalla.com/categories/228-standard.png",
+              "name": "Other - Airport",
+              "small_image_url": "http://static.gowalla.com/categories/228-small-standard.png",
+              "url": "/categories/228",
+              "description": ""
+            },
             {
-                "categories": [], 
-                "description": "", 
-                "id": 46, 
-                "image_url": "http://static.gowalla.com/categories/46-standard.png", 
-                "name": "Bus Station", 
-                "small_image_url": "http://static.gowalla.com/categories/46-small-standard.png", 
-                "url": "/categories/46"
-            }, 
+              "image_url": "http://static.gowalla.com/categories/227-standard.png",
+              "name": "Rental Car",
+              "small_image_url": "http://static.gowalla.com/categories/227-small-standard.png",
+              "url": "/categories/227",
+              "description": ""
+            },
             {
-                "categories": [], 
-                "description": "", 
-                "id": 172, 
-                "image_url": "http://static.gowalla.com/categories/172-standard.png", 
-                "name": "Ferry", 
-                "small_image_url": "http://static.gowalla.com/categories/172-small-standard.png", 
-                "url": "/categories/172"
-            }, 
+              "image_url": "http://static.gowalla.com/categories/224-standard.png",
+              "name": "Terminal",
+              "small_image_url": "http://static.gowalla.com/categories/224-small-standard.png",
+              "url": "/categories/224",
+              "description": ""
+            },
             {
-                "categories": [], 
-                "description": "", 
-                "id": 93, 
-                "image_url": "http://static.gowalla.com/categories/93-standard.png", 
-                "name": "Hostel", 
-                "small_image_url": "http://static.gowalla.com/categories/93-small-standard.png", 
-                "url": "/categories/93"
-            }, 
-            {
-                "categories": [
-                    {
-                        "description": "", 
-                        "id": 43, 
-                        "image_url": "http://static.gowalla.com/categories/43-standard.png", 
-                        "name": "Antique Hotel", 
-                        "small_image_url": "http://static.gowalla.com/categories/43-small-standard.png", 
-                        "url": "/categories/43"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 49, 
-                        "image_url": "http://static.gowalla.com/categories/49-standard.png", 
-                        "name": "Luxury Hotel", 
-                        "small_image_url": "http://static.gowalla.com/categories/49-small-standard.png", 
-                        "url": "/categories/49"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 47, 
-                        "image_url": "http://static.gowalla.com/categories/47-standard.png", 
-                        "name": "Modern Hotel", 
-                        "small_image_url": "http://static.gowalla.com/categories/47-small-standard.png", 
-                        "url": "/categories/47"
-                    }, 
-                    {
-                        "description": "", 
-                        "id": 44, 
-                        "image_url": "http://static.gowalla.com/categories/44-standard.png", 
-                        "name": "Motel", 
-                        "small_image_url": "http://static.gowalla.com/categories/44-small-standard.png", 
-                        "url": "/categories/44"
-                    }
-                ], 
-                "description": "", 
-                "id": 199, 
-                "image_url": "http://static.gowalla.com/categories/199-standard.png", 
-                "name": "Hotels & Motels", 
-                "small_image_url": "http://static.gowalla.com/categories/199-small-standard.png", 
-                "url": "/categories/199"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 94, 
-                "image_url": "http://static.gowalla.com/categories/94-standard.png", 
-                "name": "Light Rail", 
-                "small_image_url": "http://static.gowalla.com/categories/94-small-standard.png", 
-                "url": "/categories/94"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 57, 
-                "image_url": "http://static.gowalla.com/categories/57-standard.png", 
-                "name": "Other - Travel & Lodging", 
-                "small_image_url": "http://static.gowalla.com/categories/57-small-standard.png", 
-                "url": "/categories/57"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 48, 
-                "image_url": "http://static.gowalla.com/categories/48-standard.png", 
-                "name": "Resort", 
-                "small_image_url": "http://static.gowalla.com/categories/48-small-standard.png", 
-                "url": "/categories/48"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 164, 
-                "image_url": "http://static.gowalla.com/categories/164-standard.png", 
-                "name": "Subway", 
-                "small_image_url": "http://static.gowalla.com/categories/164-small-standard.png", 
-                "url": "/categories/164"
-            }, 
-            {
-                "categories": [], 
-                "description": "", 
-                "id": 95, 
-                "image_url": "http://static.gowalla.com/categories/95-standard.png", 
-                "name": "Train Station", 
-                "small_image_url": "http://static.gowalla.com/categories/95-small-standard.png", 
-                "url": "/categories/95"
+              "image_url": "http://static.gowalla.com/categories/226-standard.png",
+              "name": "Tram",
+              "small_image_url": "http://static.gowalla.com/categories/226-small-standard.png",
+              "url": "/categories/226",
+              "description": ""
             }
-        ], 
-        "description": "Airport, Hotel, Train Station, Subway", 
-        "id": 3, 
-        "image_url": "http://static.gowalla.com/categories/3-standard.png", 
-        "name": "Travel & Lodging", 
-        "small_image_url": "http://static.gowalla.com/categories/3-small-standard.png", 
-        "url": "/categories/3"
+          ],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/92-standard.png",
+          "name": "Bed & Breakfast",
+          "small_image_url": "http://static.gowalla.com/categories/92-small-standard.png",
+          "url": "/categories/92",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/46-standard.png",
+          "name": "Bus Station",
+          "small_image_url": "http://static.gowalla.com/categories/46-small-standard.png",
+          "url": "/categories/46",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/172-standard.png",
+          "name": "Ferry",
+          "small_image_url": "http://static.gowalla.com/categories/172-small-standard.png",
+          "url": "/categories/172",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/93-standard.png",
+          "name": "Hostel",
+          "small_image_url": "http://static.gowalla.com/categories/93-small-standard.png",
+          "url": "/categories/93",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/199-standard.png",
+          "name": "Hotels & Motels",
+          "small_image_url": "http://static.gowalla.com/categories/199-small-standard.png",
+          "url": "/categories/199",
+          "spot_categories": [
+            {
+              "image_url": "http://static.gowalla.com/categories/43-standard.png",
+              "name": "Antique Hotel",
+              "small_image_url": "http://static.gowalla.com/categories/43-small-standard.png",
+              "url": "/categories/43",
+              "description": ""
+            },
+            {
+              "image_url": "http://static.gowalla.com/categories/49-standard.png",
+              "name": "Luxury Hotel",
+              "small_image_url": "http://static.gowalla.com/categories/49-small-standard.png",
+              "url": "/categories/49",
+              "description": ""
+            },
+            {
+              "image_url": "http://static.gowalla.com/categories/47-standard.png",
+              "name": "Modern Hotel",
+              "small_image_url": "http://static.gowalla.com/categories/47-small-standard.png",
+              "url": "/categories/47",
+              "description": ""
+            },
+            {
+              "image_url": "http://static.gowalla.com/categories/44-standard.png",
+              "name": "Motel",
+              "small_image_url": "http://static.gowalla.com/categories/44-small-standard.png",
+              "url": "/categories/44",
+              "description": ""
+            }
+          ],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/94-standard.png",
+          "name": "Light Rail",
+          "small_image_url": "http://static.gowalla.com/categories/94-small-standard.png",
+          "url": "/categories/94",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/57-standard.png",
+          "name": "Other - Travel & Lodging",
+          "small_image_url": "http://static.gowalla.com/categories/57-small-standard.png",
+          "url": "/categories/57",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/48-standard.png",
+          "name": "Resort",
+          "small_image_url": "http://static.gowalla.com/categories/48-small-standard.png",
+          "url": "/categories/48",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/164-standard.png",
+          "name": "Subway",
+          "small_image_url": "http://static.gowalla.com/categories/164-small-standard.png",
+          "url": "/categories/164",
+          "spot_categories": [],
+          "description": ""
+        },
+        {
+          "image_url": "http://static.gowalla.com/categories/95-standard.png",
+          "name": "Train Station",
+          "small_image_url": "http://static.gowalla.com/categories/95-small-standard.png",
+          "url": "/categories/95",
+          "spot_categories": [],
+          "description": ""
+        }
+      ],
+      "description": "Airport, Hotel, Train Station, Subway"
     }
-]
+  ]
+}
