@@ -13,7 +13,7 @@ module Gowalla
       @username = options[:username] || Gowalla.username
       password = options[:password] || Gowalla.password
       self.class.basic_auth(@username, password) unless @username.nil?
-      self.class.headers({'X-Gowalla-API-Key' => api_key })
+      self.class.headers({'X-Gowalla-API-Key' => api_key }) unless api_key.nil?
     end
     
     def user(user_id=self.username)
