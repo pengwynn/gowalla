@@ -25,37 +25,14 @@ module Gowalla
   # client = Gowalla::Client.new
   def self.configure
     yield self
-      
-    Gowalla.api_key = api_key
-    Gowalla.username = username
-    Gowalla.password = password
     true
   end
-  
-  def self.api_key
-    @api_key
+
+  class << self
+    attr_accessor :api_key
+    attr_accessor :username
+    attr_accessor :password
   end
-  
-  def self.api_key=(value)
-    @api_key = value
-  end
-  
-  def self.username
-    @username
-  end
-  
-  def self.username=(value)
-    @username = value
-  end
-  
-  def self.password
-    @password
-  end
-  
-  def self.password=(value)
-    @password = value
-  end
-  
   
 end
 
