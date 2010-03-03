@@ -14,6 +14,12 @@ class TestGowalla < Test::Unit::TestCase
         spots.first.name.should == 'Gnomb Bar'
         spots.first.radius_meters.should == 50
       end
+      
+      should "Retrieve a list of spots within a specified bounds" do
+        stub_get("http://pengwynn:0U812@api.gowalla.com/spots?sw=(39.25565142103586%2C%20-8.717308044433594)&nw=(39.31411296530539%2C%20-8.490715026855469)", "spots.json")
+        spots = @client.list_spots(:sw => "(39.25565142103586, -8.717308044433594)", :nw => "(39.31411296530539, -8.490715026855469)")
+        spots.first.name.should == 'Gnomb Bar'
+      end
 
       should "Retrieve information about a specific spot" do
         stub_get('http://pengwynn:0U812@api.gowalla.com/spots/18568', 'spot.json')
