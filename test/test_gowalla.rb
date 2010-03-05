@@ -26,7 +26,7 @@ class TestGowalla < Test::Unit::TestCase
         spot = @client.spot(18568)
         spot.name.should == "Wahoo's"
         spot.twitter_username.should == 'Wahoos512'
-        spot.categories.first.name.should == 'Mexican'
+        spot.spot_categories.first.name.should == 'Mexican'
       end
 
       should "retrieve a list of check-ins at a particular spot. Shows only the activity that is visible to a given user" do
@@ -199,7 +199,7 @@ class TestGowalla < Test::Unit::TestCase
       spot = @client.spot(452593)
       spot.name.should == "Wahoo's"
       spot.twitter_username.should == 'Wahoos512'
-      spot.categories.first.name.should == 'Mexican'
+      spot.spot_categories.first.name.should == 'Mexican'
     end
 
     
