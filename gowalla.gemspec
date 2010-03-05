@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{gowalla}
-  s.version = "0.1.1"
+  s.version = "0.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Wynn Netherland"]
-  s.date = %q{2010-02-18}
+  s.date = %q{2010-03-03}
   s.description = %q{Ruby wrapper for the Gowalla API}
   s.email = %q{wynn.netherland@gmail.com}
   s.extra_rdoc_files = [

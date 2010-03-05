@@ -4,7 +4,7 @@ module Gowalla
     include HTTParty
     format :json
     base_uri "http://api.gowalla.com"
-    headers({'Accept' => 'application/json', "User-Agent" => 'Ruby gem'})
+    headers({'Accept' => 'application/json, text/javascript, application/json', "User-Agent" => 'Ruby gem'})
     
     attr_reader :username
     
@@ -118,6 +118,9 @@ module Gowalla
       def format_geo_options(options={})
         options[:lat] = "+#{options[:lat]}" if options[:lat].to_i > 0
         options[:lng] = "+#{options[:lng]}" if options[:lng].to_i > 0
+        if options[:sw] && options[:ne]
+          options[:order] ||= "checkins_count desc"
+        end
         options
       end
     
