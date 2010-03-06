@@ -1,410 +1,184 @@
 {
-  "events": [
+  "activity": [
     {
-      "type": "visit",
-      "user_id": "26700",
-      "visit_id": "3184820",
-      "spot_id": "18568",
+      "comments_count": 0,
+      "type": "checkin",
+      "created_at": "2010-03-05T22:17:56+00:00",
+      "photos_count": 0,
+      "activity_url": "/checkins/4288683/activity",
+      "message": "",
       "user": {
-        "hometown": "Austin, Texas",
-        "first_name": "whurley",
-        "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/26700-standard.jpg?1259180481",
-        "name": "whurley *",
-        "friends_only": false,
-        "url": "/users/26700",
-        "username": "whurley",
-        "last_name": "*"
+        "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/3104-standard.jpg?1253304471",
+        "last_name": "Mack",
+        "url": "/users/3104",
+        "first_name": "Rob"
       },
-      "created_at": "2010/02/08 19:53:16 +0000"
+      "url": "/checkins/4288683"
     },
     {
-      "type": "visit",
-      "user_id": "1699",
-      "comment": "Fish! Taco! Taco!",
-      "visit_id": "3116860",
-      "spot_id": "18568",
+      "comments_count": 4,
+      "type": "checkin",
+      "created_at": "2010-03-05T08:05:40+00:00",
+      "photos_count": 1,
+      "activity_url": "/checkins/4257648/activity",
+      "message": "Taking a photo from the garage.",
       "user": {
-        "hometown": "Austin, TX",
-        "first_name": "Mattt",
-        "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/1699-standard.jpg?1244533485",
-        "name": "Mattt Thompson",
-        "friends_only": false,
-        "url": "/users/1699",
-        "username": "mattt",
-        "last_name": "Thompson"
-      },
-      "created_at": "2010/02/07 01:36:38 +0000"
-    },
-    {
-      "type": "pick_up",
-      "user_id": "12",
-      "item": {
-        "issue_number": 5808,
-        "image_url": "http://static.gowalla.com/kinds/1495-2b77b655334c148b858aca07ea686799.png",
-        "name": "Mexican Hot Chocolate",
-        "determiner": "a",
-        "url": "/items/495643",
-        "issue_number_str": "5808"
-      },
-      "spot_id": "18568",
-      "user": {
-        "hometown": "Austin, TX",
-        "first_name": "Phillip",
-        "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/12-standard.jpg?1249405659",
-        "name": "Phillip Bowden",
-        "friends_only": false,
-        "url": "/users/12",
-        "username": "pbowden",
-        "last_name": "Bowden"
-      },
-      "created_at": "2010/02/07 01:36:36 +0000",
-      "icon_id": "495643"
-    },
-    {
-      "type": "drop",
-      "user_id": "12",
-      "item": {
-        "issue_number": 23121,
-        "image_url": "http://static.gowalla.com/kinds/1437-fa98b437724a94766e71668a2fc98322.png",
-        "name": "Espresso",
-        "determiner": "an",
-        "url": "/items/1185706",
-        "issue_number_str": "23121"
-      },
-      "spot_id": "18568",
-      "user": {
-        "hometown": "Austin, TX",
-        "first_name": "Phillip",
-        "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/12-standard.jpg?1249405659",
-        "name": "Phillip Bowden",
-        "friends_only": false,
-        "url": "/users/12",
-        "username": "pbowden",
-        "last_name": "Bowden"
-      },
-      "created_at": "2010/02/07 01:36:36 +0000",
-      "icon_id": "1185706"
-    },
-    {
-      "type": "visit",
-      "user_id": "12",
-      "visit_id": "3116834",
-      "spot_id": "18568",
-      "user": {
-        "hometown": "Austin, TX",
-        "first_name": "Phillip",
-        "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/12-standard.jpg?1249405659",
-        "name": "Phillip Bowden",
-        "friends_only": false,
-        "url": "/users/12",
-        "username": "pbowden",
-        "last_name": "Bowden"
-      },
-      "created_at": "2010/02/07 01:35:48 +0000"
-    },
-    {
-      "type": "visit",
-      "user_id": "5",
-      "visit_id": "3116821",
-      "spot_id": "18568",
-      "user": {
-        "hometown": "Austin, Texas",
-        "first_name": "Keegan",
-        "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/5-standard.jpg?1253829277",
-        "name": "Keegan Jones",
-        "friends_only": false,
-        "url": "/users/5",
-        "username": "keeg",
-        "last_name": "Jones"
-      },
-      "created_at": "2010/02/07 01:35:38 +0000"
-    },
-    {
-      "type": "pick_up",
-      "user_id": "89918",
-      "item": {
-        "issue_number": 1407,
-        "image_url": "http://static.gowalla.com/kinds/1501-02736066098cfa70a2c9b9662ea91ac6.png",
-        "name": "Chinese Lantern",
-        "determiner": "a",
-        "url": "/items/181864",
-        "issue_number_str": "1407"
-      },
-      "spot_id": "18568",
-      "user": {
-        "hometown": "Austin, TX",
-        "first_name": "Ryan",
-        "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/89918-standard.jpg?1264731552",
-        "name": "Ryan Murphy",
-        "friends_only": false,
-        "url": "/users/89918",
-        "username": "rdmurphy",
-        "last_name": "Murphy"
-      },
-      "created_at": "2010/02/06 23:23:23 +0000",
-      "icon_id": "181864"
-    },
-    {
-      "type": "drop",
-      "user_id": "89918",
-      "item": {
-        "issue_number": 4697,
-        "image_url": "http://static.gowalla.com/kinds/1533-71a4c6d640631a42160aed8f64ad0d76.png",
-        "name": "A Crush It! book",
-        "determiner": "",
-        "url": "/items/1019923",
-        "issue_number_str": "4697"
-      },
-      "spot_id": "18568",
-      "user": {
-        "hometown": "Austin, TX",
-        "first_name": "Ryan",
-        "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/89918-standard.jpg?1264731552",
-        "name": "Ryan Murphy",
-        "friends_only": false,
-        "url": "/users/89918",
-        "username": "rdmurphy",
-        "last_name": "Murphy"
-      },
-      "created_at": "2010/02/06 23:23:23 +0000",
-      "icon_id": "1019923"
-    },
-    {
-      "type": "visit",
-      "user_id": "89918",
-      "visit_id": "3110643",
-      "spot_id": "18568",
-      "user": {
-        "hometown": "Austin, TX",
-        "first_name": "Ryan",
-        "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/89918-standard.jpg?1264731552",
-        "name": "Ryan Murphy",
-        "friends_only": false,
-        "url": "/users/89918",
-        "username": "rdmurphy",
-        "last_name": "Murphy"
-      },
-      "created_at": "2010/02/06 23:22:20 +0000"
-    },
-    {
-      "type": "visit",
-      "user_id": "33",
-      "visit_id": "3059737",
-      "spot_id": "18568",
-      "user": {
-        "hometown": "Austin, TX",
-        "first_name": "Sandi",
-        "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/33-standard.jpg?1237404524",
-        "name": "Sandi Weldon",
-        "friends_only": false,
-        "url": "/users/33",
-        "username": "Sandi",
-        "last_name": "Weldon"
-      },
-      "created_at": "2010/02/05 23:48:15 +0000"
-    },
-    {
-      "type": "visit",
-      "user_id": "1",
-      "visit_id": "3046861",
-      "spot_id": "18568",
-      "user": {
-        "hometown": "Austin, Texas",
-        "first_name": "Scott",
-        "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/1-standard.jpg?1263521844",
-        "name": "Scott Raymond",
-        "friends_only": false,
-        "url": "/users/1",
-        "username": "sco",
-        "last_name": "Raymond"
-      },
-      "created_at": "2010/02/05 18:52:44 +0000"
-    },
-    {
-      "type": "visit",
-      "user_id": "2",
-      "comment": "Done!",
-      "visit_id": "3004924",
-      "spot_id": "18568",
-      "user": {
-        "hometown": "Austin, Texas",
-        "first_name": "Josh",
         "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/2-standard.jpg?1251170137",
-        "name": "Josh Williams",
-        "friends_only": false,
+        "last_name": "Williams",
         "url": "/users/2",
-        "username": "jw",
-        "last_name": "Williams"
+        "first_name": "Josh"
       },
-      "created_at": "2010/02/04 19:01:06 +0000"
+      "url": "/checkins/4257648"
     },
     {
-      "type": "pick_up",
-      "user_id": "23795",
-      "item": {
-        "issue_number": 7650,
-        "image_url": "http://static.gowalla.com/kinds/1464-af2d01855f159ea3dfafb104a62bc154.png",
-        "name": "Foosball",
-        "determiner": "a",
-        "url": "/items/1009140",
-        "issue_number_str": "7650"
-      },
-      "spot_id": "18568",
+      "comments_count": 0,
+      "type": "checkin",
+      "created_at": "2010-03-05T03:33:10+00:00",
+      "photos_count": 0,
+      "activity_url": "/checkins/4252042/activity",
+      "message": "",
       "user": {
-        "hometown": null,
-        "first_name": "Ricky",
-        "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/23795-standard.jpg?1258837968",
-        "name": "Ricky Rosario",
-        "friends_only": false,
-        "url": "/users/23795",
-        "username": "r1cky",
-        "last_name": "Rosario"
+        "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/51430-standard.jpg?1260482148",
+        "last_name": "Jaffe",
+        "url": "/users/51430",
+        "first_name": "Allison"
       },
-      "created_at": "2010/02/03 18:35:33 +0000",
-      "icon_id": "1009140"
+      "url": "/checkins/4252042"
     },
     {
-      "type": "drop",
-      "user_id": "23795",
-      "item": {
-        "issue_number": 15134,
-        "image_url": "http://static.gowalla.com/kinds/1496-8b12234e142f46088ae8f90f87876ebc.png",
-        "name": "Beatnik Poet",
-        "determiner": "a",
-        "url": "/items/1362385",
-        "issue_number_str": "15134"
-      },
-      "spot_id": "18568",
+      "comments_count": 0,
+      "type": "checkin",
+      "created_at": "2010-03-04T19:52:24+00:00",
+      "photos_count": 0,
+      "activity_url": "/checkins/4234162/activity",
+      "message": "They removed my sticker!",
       "user": {
-        "hometown": null,
-        "first_name": "Ricky",
-        "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/23795-standard.jpg?1258837968",
-        "name": "Ricky Rosario",
-        "friends_only": false,
-        "url": "/users/23795",
-        "username": "r1cky",
-        "last_name": "Rosario"
+        "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/118107-standard.jpg?1266009607",
+        "last_name": "Frost",
+        "url": "/users/118107",
+        "first_name": "Halstead"
       },
-      "created_at": "2010/02/03 18:35:33 +0000",
-      "icon_id": "1362385"
+      "url": "/checkins/4234162"
     },
     {
-      "type": "visit",
-      "user_id": "23795",
-      "comment": "lunch time",
-      "visit_id": "2959372",
-      "spot_id": "18568",
+      "comments_count": 0,
+      "type": "checkin",
+      "created_at": "2010-03-03T21:45:33+00:00",
+      "photos_count": 0,
+      "activity_url": "/checkins/4194285/activity",
+      "message": "",
       "user": {
-        "hometown": null,
-        "first_name": "Ricky",
-        "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/23795-standard.jpg?1258837968",
-        "name": "Ricky Rosario",
-        "friends_only": false,
-        "url": "/users/23795",
-        "username": "r1cky",
-        "last_name": "Rosario"
+        "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/15722-standard.jpg?1258238278",
+        "last_name": "Smith",
+        "url": "/users/15722",
+        "first_name": "Brien"
       },
-      "created_at": "2010/02/03 18:34:58 +0000"
+      "url": "/checkins/4194285"
     },
     {
-      "type": "visit",
-      "user_id": "164",
-      "visit_id": "2807931",
-      "spot_id": "18568",
+      "comments_count": 0,
+      "type": "checkin",
+      "created_at": "2010-03-03T18:37:43+00:00",
+      "photos_count": 0,
+      "activity_url": "/checkins/4186421/activity",
+      "message": "To go order plus exercise ",
       "user": {
-        "hometown": "Austin, Texas",
-        "first_name": "Marcia",
-        "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/164-standard.jpg?1237081440",
-        "name": "Marcia Gillespie-Norder",
-        "friends_only": false,
-        "url": "/users/164",
-        "username": "juneadelle",
-        "last_name": "Gillespie-Norder"
+        "image_url": "http://gowalla.com/images/default-user.jpg",
+        "last_name": "Myers",
+        "url": "/users/104205",
+        "first_name": "Jamie"
       },
-      "created_at": "2010/01/31 01:44:58 +0000"
+      "url": "/checkins/4186421"
     },
     {
-      "type": "visit",
-      "user_id": "61797",
-      "visit_id": "2805840",
-      "spot_id": "18568",
+      "comments_count": 0,
+      "type": "checkin",
+      "created_at": "2010-03-03T18:24:38+00:00",
+      "photos_count": 0,
+      "activity_url": "/checkins/4185787/activity",
+      "message": "",
       "user": {
-        "hometown": "Austin, TX ",
-        "first_name": "Chris",
-        "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/61797-standard.jpg?1264624166",
-        "name": "Chris Marlow",
-        "friends_only": false,
-        "url": "/users/61797",
-        "username": "chrismarlow",
-        "last_name": "Marlow"
+        "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/26700-standard.jpg?1259180481",
+        "last_name": "*",
+        "url": "/users/26700",
+        "first_name": "whurley"
       },
-      "created_at": "2010/01/31 00:59:22 +0000"
+      "url": "/checkins/4185787"
     },
     {
-      "type": "create_spot",
-      "user_id": "61797",
-      "spot_id": "18568",
+      "comments_count": 0,
+      "type": "checkin",
+      "created_at": "2010-03-03T18:20:23+00:00",
+      "photos_count": 0,
+      "activity_url": "/checkins/4185568/activity",
+      "message": "",
       "user": {
-        "hometown": "Austin, TX ",
-        "first_name": "Chris",
-        "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/61797-standard.jpg?1264624166",
-        "name": "Chris Marlow",
-        "friends_only": false,
-        "url": "/users/61797",
-        "username": "chrismarlow",
-        "last_name": "Marlow"
+        "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/73028-standard.jpg?1262382990",
+        "last_name": "Beckel",
+        "url": "/users/73028",
+        "first_name": "Heather"
       },
-      "created_at": "2010/01/31 00:59:12 +0000"
+      "url": "/checkins/4185568"
     },
     {
-      "type": "pick_up",
-      "user_id": "89161",
-      "item": {
-        "issue_number": 18109,
-        "image_url": "http://static.gowalla.com/kinds/1486-1307477a2e75e0186cf66bcea17acd34.png",
-        "name": "Tacos",
-        "determiner": "some",
-        "url": "/items/1174891",
-        "issue_number_str": "18109"
-      },
-      "spot_id": "18568",
+      "comments_count": 0,
+      "type": "checkin",
+      "created_at": "2010-03-03T17:25:41+00:00",
+      "photos_count": 0,
+      "activity_url": "/checkins/4182721/activity",
+      "message": "",
       "user": {
-        "hometown": null,
-        "first_name": "John",
-        "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/89161-standard.jpg?1263361189",
-        "name": "John Miller",
-        "friends_only": false,
-        "url": "/users/89161",
-        "username": "johnm",
-        "last_name": "Miller"
+        "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/121897-standard.jpg?1266454833",
+        "last_name": "Kettle",
+        "url": "/users/121897",
+        "first_name": "Ben"
       },
-      "created_at": "2010/01/30 02:51:17 +0000",
-      "icon_id": "1174891"
+      "url": "/checkins/4182721"
     },
     {
-      "type": "drop",
-      "user_id": "89161",
-      "item": {
-        "issue_number": 7650,
-        "image_url": "http://static.gowalla.com/kinds/1464-af2d01855f159ea3dfafb104a62bc154.png",
-        "name": "Foosball",
-        "determiner": "a",
-        "url": "/items/1009140",
-        "issue_number_str": "7650"
-      },
-      "spot_id": "18568",
+      "comments_count": 0,
+      "type": "checkin",
+      "created_at": "2010-03-03T00:38:32+00:00",
+      "photos_count": 0,
+      "activity_url": "/checkins/4157429/activity",
+      "message": "",
       "user": {
-        "hometown": null,
-        "first_name": "John",
-        "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/89161-standard.jpg?1263361189",
-        "name": "John Miller",
-        "friends_only": false,
-        "url": "/users/89161",
-        "username": "johnm",
-        "last_name": "Miller"
+        "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/97465-standard.jpg?1264027703",
+        "last_name": "Sewell",
+        "url": "/users/97465",
+        "first_name": "Weston"
       },
-      "created_at": "2010/01/30 02:51:17 +0000",
-      "icon_id": "1009140"
+      "url": "/checkins/4157429"
+    },
+    {
+      "comments_count": 0,
+      "type": "checkin",
+      "created_at": "2010-03-02T16:50:26+00:00",
+      "photos_count": 0,
+      "activity_url": "/checkins/4137591/activity",
+      "message": "Testing",
+      "user": {
+        "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/3-standard.jpg?1236873337",
+        "last_name": "McManus",
+        "url": "/users/3",
+        "first_name": "Adam"
+      },
+      "url": "/checkins/4137591"
+    },
+    {
+      "comments_count": 0,
+      "type": "checkin",
+      "created_at": "2010-03-02T01:34:25+00:00",
+      "photos_count": 0,
+      "activity_url": "/checkins/4115929/activity",
+      "message": "",
+      "user": {
+        "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/4-standard.jpg?1253815773",
+        "last_name": "Critz",
+        "url": "/users/4",
+        "first_name": "John"
+      },
+      "url": "/checkins/4115929"
     }
   ],
   "url": "/spots/18568"

@@ -32,8 +32,8 @@ class TestGowalla < Test::Unit::TestCase
       should "retrieve a list of check-ins at a particular spot. Shows only the activity that is visible to a given user" do
         stub_get('http://pengwynn:0U812@api.gowalla.com/spots/452593/events', 'events.json')
         events = @client.spot_events(452593)
-        events.first[:type].should == 'visit'
-        events.first.user.username.should == 'whurley'
+        events.first[:type].should == 'checkin'
+        events.first.user.last_name.should == 'Mack'
       end
 
       should "retrieve a list of items available at a particular spot" do
@@ -142,15 +142,15 @@ class TestGowalla < Test::Unit::TestCase
     should "retrieve events for a user" do
       stub_get('http://pengwynn:0U812@api.gowalla.com/users/1707/events', 'events.json')
       events = @client.events(1707)
-      events.first[:type].should == 'visit'
-      events.first.user.username.should == 'whurley'
+      events.first[:type].should == 'checkin'
+      events.first.user.last_name.should == 'Mack'
     end
     
     should "retrieve events for a user's friends" do
       stub_get('http://pengwynn:0U812@api.gowalla.com/visits/recent', 'events.json')
       events = @client.friends_events
-      events.first[:type].should == 'visit'
-      events.first.user.username.should == 'whurley'
+      events.first[:type].should == 'checkin'
+      events.first.user.last_name.should == 'Mack'
     end
     
     should "retrieve friend requests for a user" do

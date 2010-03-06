@@ -21,11 +21,11 @@ module Gowalla
     end
     
     def events(user_id=self.username)
-      mashup(self.class.get("/users/#{user_id}/events")).events
+      mashup(self.class.get("/users/#{user_id}/events")).activity
     end
     
     def friends_events
-      mashup(self.class.get("/visits/recent")).events
+      mashup(self.class.get("/visits/recent")).activity
     end
     
     def friend_requests(user_id=self.username)
@@ -69,7 +69,7 @@ module Gowalla
     end
     
     def spot_events(spot_id)
-      mashup(self.class.get("/spots/#{spot_id}/events")).events
+      mashup(self.class.get("/spots/#{spot_id}/events")).activity
     end
     
     def spot_items(spot_id)
