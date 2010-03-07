@@ -1,69 +1,8 @@
 {
-  "spot_url": "/spots/8993",
-  "detail_text_1": "Item number",
-  "issue_number": 13998,
-  "vault_url": "/items/607583/vault",
-  "pick_up_url": "/items/607583/pick_up",
-  "detail_text_2": "13998",
-  "issue_number_str": "13998",
-  "name": "Sweets",
-  "vault_action": "Vault",
-  "drop_url": "/items/607583/drop",
-  "issue_size": null,
-  "image_url": "http://static.gowalla.com/kinds/1526-9f0d39208026a26d5afa565de4acbbe6.png",
-  "events": [
-    {
-      "type": "drop",
-      "spot": {
-        "small_image_url": "http://static.gowalla.com/categories/83-small-standard.png",
-        "name": "Jerusalem Bakery",
-        "image_url": "http://static.gowalla.com/categories/83-standard.png",
-        "url": "/spots/8993"
-      },
-      "user": {
-        "accept_url": "/friendships/accept?user_id=1",
-        "reject_url": "/friendships/reject?user_id=1",
-        "fb_id": 505421674,
-        "first_name": "Scott",
-        "website": "",
-        "hometown": "Austin, Texas",
-        "name": "Scott Raymond",
-        "twitter_username": null,
-        "bio": "CTO & co-founder of Gowalla. Ruby/Cocoa/JavaScript developer. Game designer. Author. Indoorsman.",
-        "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/1-standard.jpg?1263521844",
-        "friends_only": false,
-        "url": "/users/1",
-        "username": "sco",
-        "last_name": "Raymond",
-        "request_url": "/friendships/request?user_id=1"
-      },
-      "created_at": "2009/12/28 21:26:09 +0000"
-    },
-    {
-      "type": "bonus",
-      "user": {
-        "accept_url": "/friendships/accept?user_id=1",
-        "reject_url": "/friendships/reject?user_id=1",
-        "fb_id": 505421674,
-        "first_name": "Scott",
-        "website": "",
-        "hometown": "Austin, Texas",
-        "name": "Scott Raymond",
-        "twitter_username": null,
-        "bio": "CTO & co-founder of Gowalla. Ruby/Cocoa/JavaScript developer. Game designer. Author. Indoorsman.",
-        "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/1-standard.jpg?1263521844",
-        "friends_only": false,
-        "url": "/users/1",
-        "username": "sco",
-        "last_name": "Raymond",
-        "request_url": "/friendships/request?user_id=1"
-      },
-      "created_at": "2009/12/14 00:18:24 +0000"
-    }
-  ],
-  "events_url": "/items/607583/events",
-  "user_url": null,
-  "determiner": "some",
-  "url": "/items/607583",
-  "detail_html": null
+    "detail_html": "<html>\n\n<head>\n\t<meta name = \"viewport\" content = \"width = device-width\">\n\t<style>\n\t\t* {\n\t\t\tpadding: 0;\n\t\t\tmargin: 0;\n\t\t}\n\t\tbody {\n\t\t\twidth: 100%;\n\t\t\theight: 100%;\n\t\t\tbackground: #ebf2dd url(images/item-bg.gif) top left repeat;\n\t\t\tfont: 13px \"Helvetica Neue\", Arial, sans-serif;\n\t\t}\n\t\t.clearfix:after {\n\t\t    content: \".\";\n\t\t    display: block;\n\t\t    height: 0;\n\t\t    clear: both;\n\t\t    visibility: hidden;\n\t\t}\n\t\t.gowalla_item_detail_wrapper {\n\t\t\tpadding: 8px;\n\t\t}\n\t\t#gowalla_item_detail_item_header {\n\t\t\tmargin-bottom: 4px;\n\t\t}\n\t\t.item_number_wrapper {\n\t\t\tdisplay: block;\n\t\t\tpadding: 8px;\n\t\t\tbackground: #fff;\n\t\t\tborder: 1px solid #cddeab;\n\t\t\t-webkit-border-radius: 6px;\n\t\t\t-moz-border-radius: 6px;\n\t\t\tmargin-left: -2px;\n\t\t}\n\t\t.item_name {\n\t\t\tcolor: #37451e;\n\t\t\tfont-size: 17px;\n\t\t\tpadding: 8px 0 8px 0;\n\t\t\tfont-weight: bold;\n\t\t}\n\t\t.item_image {\n\t\t\tfloat: left;\n\t\t\tmargin-right: 12px;\n\t\t\tmargin-top: 3px;\n\t\t}\n\t\t.item_number_label {\n\t\t\ttext-transform: uppercase;\n\t\t\tfont-weight: bold;\n\t\t\tpadding: 0;\n\t\t\tmargin: 0;\n\t\t\tfont-size: 12px;\n\t\t\tcolor: #b0cb79;\n\t\t}\n\t\t.gowalla_item_detail_item_number {\n\t\t\tfont-size: 27px;\n\t\t\tfont-weight: bold;\n\t\t\tcolor: #455626;\n\t\t\tpadding: 0;\n\t\t\tmargin: 0;\n\t\t\tfont-size: 18px;\n\t\t}\n\t\t.gowalla_item_detail_item_number span {\n\t\t\tfont-family: \"Georgia\";\n\t\t\tfont-style: italic;\n\t\t\tfont-weight: normal;\n\t\t}\n\t\t.item_detail {\n\t\t\tfloat: left;\n\t\t\tmax-width: 63%;\n\t\t}\n\t\t.gowalla_item_detail_activities {\n\t\t\twidth: 100%;\n\t\t\tmargin-bottom: 8px;\n\t\t\tmargin-top: 12px;\n\t\t}\n\t\t.gowalla_item_detail_activity:first-child {\n\t\t\t-webkit-border-top-left-radius: 6px;\n\t\t\t-webkit-border-top-right-radius: 6px;\n\t\t}\n\t\t.gowalla_item_detail_activity:last-child {\n\t\t\t-webkit-border-bottom-left-radius: 6px;\n\t\t\t-webkit-border-bottom-right-radius: 6px;\n\t\t\tborder-bottom: 1px solid #cddeab;\n\t\t}\n\t\t.gowalla_item_detail_activity {\n\t\t\tbackground-color: #fff;\n\t\t\tclear: both;\n\t\t\twidth: 100%;\n\t\t\tcolor: #5a6d37;\n\t\t\t-webkit-box-sizing: border-box;\n\t\t\tpadding: 8px 8px 7px 8px;\n\t\t\tborder: 1px solid #cddeab;\n\t\t\tborder-bottom: none;\n\t\t}\n\t\t.avatar {\n\t\t\tfloat: left;\n\t\t\theight: 50px;\n\t\t\twidth: 50px;\n\t\t\tmargin-right: 8px;\n\t\t}\n\t\t.gowalla_item_detail_activity_detail {\n\t\t\tmargin-left: 10px;\n\t\t\tfloat: left;\n\t\t\tpadding: 0;\n\t\t\tmargin: 0;\n\t\t\tline-height: 15px;\n\t\t\ttext-overflow: ellipsis;\n\t\t}\n\t\t.gowalla_item_detail_user_name {\n\t\t\tdisplay: block;\n\t\t\tcolor: #2c3718;\n\t\t\tfont-weight: bold;\n\t\t\tfont-size: 14px;\n\t\t\tpadding: 0 0 3px 0;\n\t\t\tmargin: 0;\n\t\t}\n\t\t.gowalla_item_detail_activity img {\n\t\t\tdisplay: block;\n\t\t\t-webkit-border-radius: 6px;\n\t\t}\n\t\t.gowalla_item_detail_activity_time {\n\t\t\ttext-transform: uppercase;\n\t\t\tfont-weight: bold;\n\t\t\tfont-size: 11px;\n\t\t\tcolor: #b0cb79;\n\t\t\tpadding: 0;\n\t\t\tmargin: 0;\n\t\t}\n\t\t.gowalla_item_detail_activity_message {\n\t\t\tdisplay: block;\n\t\t\tfont-size: 12px;\n\t\t\tpadding: 0 0 3px 0;\n\t\t\tmargin: 0;\n\t\t}\n\t\t.clear {\n\t\t\tclear: both;\n\t\t}\n\t\t\n\t\t.gowalla_button {\n\t\t\tdisplay: block;\n\t\t\tposition: relative;\n\t\t\ttext-align: center;\n\t\t\tborder: 1px solid #dc610f;\n\t\t\tbackground: #dc610f;\n\t\t\tcolor: #fff;\n\t\t\theight: 45px;\n\t\t\tline-height: 45px;\n\t\t\tfont-size: 18px;\n\t\t\tpadding: 0;\n\t\t\tmargin: 0;\n\t\t\t-webkit-border-radius: 6px;\n\t\t\t-moz-border-radius: 6px;\n\t\t\tbackground: -webkit-gradient(\n\t\t\t    linear,\n\t\t\t    left bottom,\n\t\t\t    left top,\n\t\t\t    color-stop(0.00, rgb(255,69,1)),\n\t\t\t    color-stop(0.45, rgb(250,105,15)),\n\t\t\t    color-stop(0.46, rgb(250,125,24)),\n\t\t\t    color-stop(0.95, rgb(245,145,30)),\n\t\t\t\t\tcolor-stop(0.96, rgb(248,165,40)),\n\t\t\t\t\tcolor-stop(1.0, rgb(245,145,30))\n\t\t\t);\n\t\t\t-webkit-box-shadow: 0 1px 3px #8da269;\n\t\t}\n\t\t.gowalla_button.cancel {\n\t\t\tbackground: #90ab56;\n\t\t\tbackground: -webkit-gradient(\n\t\t\t    linear,\n\t\t\t    left bottom,\n\t\t\t    left top,\n\t\t\t\t\tcolor-stop(0.00, rgb(153,178,85)),\n\t\t\t    color-stop(0.45, rgb(172,197,115)),\n\t\t\t\t  color-stop(0.46, rgb(181,203,129)),\n\t\t\t    color-stop(1.0, rgb(200,219,161))\n\t\t\t);\n\t\t\tborder-color: #90ab56;\n\t\t}\n\t\t.gowalla_button a {\n\t\t\tfont-weight: bold;\n\t\t\tcolor: #fff;\n\t\t\ttext-align: center;\n\t\t\ttext-decoration: none;\n\t\t\ttext-shadow: #ff4400 0px -1px 1px;\n\t\t}\n\t\t.gowalla_button.cancel a {\n\t\t\ttext-shadow: #6e8c2c 0px -1px 1px;\n\t\t}\n\t\t#spinner {\n\t\t\tdisplay: none;\n\t\t\twidth: 300px;\n\t\t\tpadding: 10px;\n\t\t\tfont-size: 18px;\n\t\t\ttext-align: center;\n\t\t\tfont-weight: bold;\n\t\t\tcolor: #37451e;\n\t\t\ttext-shadow: #fff 0px 1px 1px;\n\t\t\ttext-decoration: none;\n\t\t}\n\t\t\n\t\t#gowlla_item_detail_confirmation_html {\n\t\t\theight: 480px;\n\t\t\ttext-align: center;\n\t\t\ttext-shadow: #fff 0px 1px 1px;\n    \t\tfont: 20px 'Helvetica Neue', Arial, sans-serif;\n\t\t\tcolor: #333;\n\t\t}\n\t\t\n\t\t#confirmation_text {\n\t\t\tfont-size: 18px;\n\t\t\tpadding-top: 25px;\n\t\t\tpadding-left: 25px;\n\t\t\ttext-align: center;\n\t\t\tpadding-right: 30px;\n\t\t}\n\t\t</style>\n\t\t<script type=\"text/javascript\" charset=\"utf-8\">\n\t\t\n\t\t\t//disable the bounce effect - but this disables scrolling too\n\t\t\t//document.ontouchmove = function(event){\n\t\t\t//event.preventDefault();\n\t\t\t//}\n\t\t\n\t\t\tfunction showConfirmation(){\n\t\t\t\tdocument.getElementById(\"gowalla_item_detail_confirmation_html\").style.display = 'block';\n\t\t\t\tdocument.getElementById(\"gowalla_item_detail_html\").style.display = 'none';\n\t\t\t}\n\t\t\t\n\t\t\tfunction hideConfirmation(){\n\t\t\t\tdocument.getElementById(\"gowalla_item_detail_html\").style.display = 'block';\n\t\t\t\tdocument.getElementById(\"gowalla_item_detail_confirmation_html\").style.display = 'none';\n\t\t\t}\n\t\t\t\n\t\t\tfunction vault(){\n\t\t\t\thideConfirmation();\n\t\t\t\tdocument.getElementById(\"spinner\").style.display = 'block';\n\t\t\t\tdocument.getElementById(\"gowalla_add_to_collection_button\").style.display = 'none';\n\t\t\t\t\n\t\t\t\tvar request = new XMLHttpRequest();\n\t\t\t\trequest.onreadystatechange = function(){\n\t\t\t\t  var spinner = document.getElementById('spinner');\n\t\t\t\t  if (this.readyState !== 4) return;\n\n\t\t\t\t\tif (this.status == 200) {\n\t\t\t\t\t\tspinner.innerHTML = 'Added to Your Collection!';\n\t\t\t\t\t} else {\n\t\t\t\t\t\tspinner.style.display = 'none';\n\t\t\t\t\t\tdocument.getElementById(\"gowalla_add_to_collection_button\").style.display = 'block';\n\t\t\t\t\t\tdocument.getElementById('gowalla_add_to_collection_button_text').innerHTML = 'Error! Please Try Again';\n\t\t\t\t\t}\n\t\t\t\t};\n\t\t\t\t\n\t\t\t\tvar url = 'http://gowalla.com/items/607583/client_vault.html?item_token=item_auth_token_a93cd73bbbb3165698fad080466a165f';\n\t\t\t\trequest.open('POST', url);\n\t\t\t\trequest.send();\n\t\t\t}\n\t\t</script>\n</head>\n\n<body>\n\t<div class=\"gowalla_item_detail_wrapper\">\n\t\t<div id=\"gowalla_item_detail_html\">\n\t\t\t\n\t\t<div id=\"gowalla_item_detail_item_header\" class=\"clearfix\">\n\t\t\t<img class=\"item_image\" height=\"100\" width=\"100\" src=\"http://static.gowalla.com/kinds/1526-9f0d39208026a26d5afa565de4acbbe6.png\">\n\t\t\t<div class=\"item_detail\">\n\t\t\t\t<p class=\"item_name\">Sweets</p>\n\t\t\t\t<div class=\"item_number_wrapper\">\n\t\t\t\t\t<p class=\"item_number_label\">Issue number</p>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<p class=\"gowalla_item_detail_item_number\">13,998</p>\n\t\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\t\n\t\t<p id=\"spinner\"><img src=\"/images/item-spinner-light-green.gif\" /></p>\n\t\t<p id=\"gowalla_add_to_collection_button\" class=\"gowalla_button\" onclick=\"showConfirmation();\"><a href=\"#\" id=\"add_to_collection_button_text\" onclick=\"return false;\">Add to Collection</a></p>\n\t\n\t\t<div class=\"gowalla_item_detail_activities\">\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t<div id=\"activity_0\" class=\"gowalla_item_detail_activity clearfix\">\n\t\t\t\t\t<img height=\"50\" width=\"50\" class=\"avatar\" src=\"http://s3.amazonaws.com/static.gowalla.com/users/1-standard.jpg?1263521844\">\n\t\t\t\t\t<div class=\"gowalla_item_detail_activity_detail\">\n\t\t\t\t\t\t<p class=\"gowalla_item_detail_user_name\">Scott Raymond</p>\n\t\t\t\t\t\t<p class=\"gowalla_item_detail_activity_message\">Dropped at Jerusalem Bakery</p>\n\t\t\t\t\t\t<p class=\"gowalla_item_detail_activity_time\">2 months ago</p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t<div id=\"activity_1\" class=\"gowalla_item_detail_activity clearfix\">\n\t\t\t\t\t<img height=\"50\" width=\"50\" class=\"avatar\" src=\"http://s3.amazonaws.com/static.gowalla.com/users/1-standard.jpg?1263521844\">\n\t\t\t\t\t<div class=\"gowalla_item_detail_activity_detail\">\n\t\t\t\t\t\t<p class=\"gowalla_item_detail_user_name\">Scott Raymond</p>\n\t\t\t\t\t\t<p class=\"gowalla_item_detail_activity_message\">Received bonus item</p>\n\t\t\t\t\t\t<p class=\"gowalla_item_detail_activity_time\">2 months ago</p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t</div>\n\t\t</div>\n\t\t<div id=\"gowalla_item_detail_confirmation_html\" style=\"display:none;\">\n\t\t\t<p id=\"confirmation_text\">You are about to permanently add <b>some Sweets</b> to your collection.</p>\n\t\t\t<br />\n\t\t\t<br />\n\t\t\t<p style=\"font-size: 18px; padding-bottom: 10px; text-align: center;\">Are you sure?</p>\n\t\t\t<p class=\"gowalla_button\" style=\"margin-bottom: 8px;\" onclick=\"vault();\"><a href=\"#\" id=\"gowalla_add_item_button\" onclick=\"return false;\">Yes</a></p>\n\t\t\t<p class=\"gowalla_button cancel\" onclick=\"hideConfirmation();\"><a href=\"#\" id=\"gowalla_cancel_button\" onclick=\"return false;\">No</a></p>\n\t\t<div>\n\t</div>\n</body>\n</html>", 
+    "determiner": "some", 
+    "image_url": "http://static.gowalla.com/kinds/1526-9f0d39208026a26d5afa565de4acbbe6.png", 
+    "issue_number": 13998, 
+    "name": "Sweets", 
+    "url": "/items/607583"
 }

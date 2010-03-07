@@ -93,7 +93,7 @@ class TestGowalla < Test::Unit::TestCase
         item = @client.item(607583)
         item.issue_number.should == 13998
         item.name.should == 'Sweets'
-        item.events.first.spot.name.should == 'Jerusalem Bakery'
+        item.determiner.should == 'some'
       end
     end
     
