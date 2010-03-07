@@ -94,7 +94,7 @@ module Gowalla
         options[:user_url] = "/users/#{user_id}"
       end
       query = format_geo_options(options)
-      mashup(self.class.get("/trips", :query => query))
+      mashup(self.class.get("/trips", :query => query)).trips
     end
     
     def featured_trips(options={})

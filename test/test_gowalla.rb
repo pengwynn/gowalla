@@ -101,15 +101,15 @@ class TestGowalla < Test::Unit::TestCase
       should "retrieve a list of trips" do
         stub_get('http://pengwynn:0U812@api.gowalla.com/trips', 'trips.json')
         trips = @client.trips
-        trips.first.featured?.should == true
+        trips.first.name.should == 'London Pub Crawl'
         trips.first.spots.first.url.should == '/spots/164009'
       end
       
       should "retrieve information about a specific trip" do
         stub_get('http://pengwynn:0U812@api.gowalla.com/trips/1', 'trip.json')
         trip = @client.trip(1)
-        trip.creator.name.should == 'Team Gowalla'
-        trip.map_bounds.east.should == -63.457031000000001
+        trip.creator.last_name.should == 'Gowalla'
+        trip.map_bounds.east.should == -63.457031
       end
     end
     
@@ -240,7 +240,6 @@ class TestGowalla < Test::Unit::TestCase
       trips = @client.trips(:lat => 33.234042160, :lng => -96.955138020, :user_id => 1707)
       trips.first.name.should == 'Dallas Championship Chase'
       trips.first.spots.size.should == 3
-      trips.first.published?.should == true
     end
     
     should "find featured trips by latitude, longitude, and user" do
@@ -248,7 +247,6 @@ class TestGowalla < Test::Unit::TestCase
       trips = @client.featured_trips(:lat => 33.234042160, :lng => -96.955138020, :user_id => 1707, :context => 'featured')
       trips.first.name.should == 'Dallas Championship Chase'
       trips.first.spots.size.should == 3
-      trips.first.published?.should == true    
     end
     
     should "find friends trips by latitude, longitude, and user" do
@@ -256,7 +254,6 @@ class TestGowalla < Test::Unit::TestCase
       trips = @client.friends_trips(:lat => 33.234042160, :lng => -96.955138020, :user_id => 1707, :context => 'featured')
       trips.first.name.should == 'Dallas Championship Chase'
       trips.first.spots.size.should == 3
-      trips.first.published?.should == true    
     end
     
     
