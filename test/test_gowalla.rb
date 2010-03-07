@@ -66,7 +66,7 @@ class TestGowalla < Test::Unit::TestCase
         stub_get('http://pengwynn:0U812@api.gowalla.com/users/sco', 'user.json')
         user = @client.user('sco')
         user.bio.should == "CTO & co-founder of Gowalla. Ruby/Cocoa/JavaScript developer. Game designer. Author. Indoorsman."
-        user.stamps_count.should == 486
+        user.stamps_count.should == 506
       end
       
       should "retrieve a list of the stamps the user has collected" do
