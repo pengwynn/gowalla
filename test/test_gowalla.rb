@@ -73,8 +73,8 @@ class TestGowalla < Test::Unit::TestCase
         stub_get('http://pengwynn:0U812@api.gowalla.com/users/1707/stamps?limit=20', 'stamps.json')
         stamps = @client.stamps(1707)
         stamps.size.should == 20
-        stamps.first.name.should == 'Juan Pelota Cafe'
-        stamps.first.location.city.should == 'Austin, TX'
+        stamps.first.spot.name.should == "Muck-N-Dave's Texas BBQ"
+        stamps.first.spot.address.locality.should == 'Austin'
       end
       
       should "retrieve a list of spots the user has visited most often" do

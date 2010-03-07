@@ -1,224 +1,284 @@
 {
   "stamps": [
     {
-      "user_checkins_count": 46,
-      "image_url": "http://static.gowalla.com/spots/21714-3fed705ea37c9c266efb70f3a62a2b6a.png",
-      "first_checkin_at": "2009-09-21T14:52:11+00:00",
-      "last_checkin_at": null,
-      "name": "Juan Pelota Cafe",
-      "location": {
-        "city": "Austin, TX"
+      "spot": {
+        "address": {
+          "region": "TX",
+          "locality": "Austin"
+        },
+        "image_url": "http://static.gowalla.com/categories/17-standard.png",
+        "name": "Muck-N-Dave's Texas BBQ",
+        "url": "/spots/646423"
       },
-      "url": "/spots/21714"
+      "checkins_count": 1,
+      "first_checkin_at": "2010-03-06T21:15:22+00:00",
+      "last_checkin_at": "2010-03-06T21:15:22+00:00"
     },
     {
-      "user_checkins_count": 1,
-      "image_url": "http://static.gowalla.com/categories/19-standard.png",
-      "first_checkin_at": "2010-02-16T02:33:09+00:00",
-      "last_checkin_at": null,
-      "name": "Asti",
-      "location": {
-        "city": "Austin, TX"
+      "spot": {
+        "address": {
+          "region": "TX",
+          "locality": "Austin"
+        },
+        "image_url": "http://static.gowalla.com/categories/52-standard.png",
+        "name": "South Austin Museum Of Popular Culture",
+        "url": "/spots/202957"
       },
-      "url": "/spots/366666"
+      "checkins_count": 1,
+      "first_checkin_at": "2010-03-06T19:34:39+00:00",
+      "last_checkin_at": "2010-03-06T19:34:39+00:00"
     },
     {
-      "user_checkins_count": 10,
-      "image_url": "http://static.gowalla.com/spots/9410-132ed068e83fc11c465ec25f519ed677.png",
-      "first_checkin_at": "2009-09-24T12:06:09+00:00",
-      "last_checkin_at": null,
-      "name": "AUS Austin-Bergstrom",
-      "location": {
-        "city": "Austin, TX"
+      "spot": {
+        "address": {
+          "region": "TX",
+          "locality": "Austin"
+        },
+        "image_url": "http://static.gowalla.com/categories/1-standard.png",
+        "name": "Boîte",
+        "url": "/spots/121955"
       },
-      "url": "/spots/9410"
+      "checkins_count": 1,
+      "first_checkin_at": "2010-03-06T19:08:11+00:00",
+      "last_checkin_at": "2010-03-06T19:08:11+00:00"
     },
     {
-      "user_checkins_count": 13,
-      "image_url": "http://static.gowalla.com/categories/1-standard.png",
-      "first_checkin_at": "2009-09-17T19:39:41+00:00",
-      "last_checkin_at": null,
-      "name": "Jo's Coffee",
-      "location": {
-        "city": "Austin, TX"
+      "spot": {
+        "address": {
+          "region": "TX",
+          "locality": "Austin"
+        },
+        "image_url": "http://static.gowalla.com/spots/293641-e7d7549d2a011279bb6c333cb5b7b83b.png",
+        "name": "Kung Fu Saloon",
+        "url": "/spots/293641"
       },
-      "url": "/spots/15326"
+      "checkins_count": 1,
+      "first_checkin_at": "2010-03-06T07:28:19+00:00",
+      "last_checkin_at": "2010-03-06T07:28:19+00:00"
     },
     {
-      "user_checkins_count": 1,
-      "image_url": "http://static.gowalla.com/categories/64-standard.png",
-      "first_checkin_at": "2010-02-14T19:14:31+00:00",
-      "last_checkin_at": null,
-      "name": "The Mighty Cone",
-      "location": {
-        "city": "Austin, TX"
+      "spot": {
+        "address": {
+          "region": "TX",
+          "locality": "Austin"
+        },
+        "image_url": "http://static.gowalla.com/spots/420315-790176c52df5c1b8c00a97fa57b81991.png",
+        "name": "Gowalla Incorporated",
+        "url": "/spots/420315"
       },
-      "url": "/spots/128073"
-    },
-    {
-      "user_checkins_count": 9,
-      "image_url": "http://static.gowalla.com/spots/49904-d30046742175b5bc8dcbe1b0bdd151f8.png",
-      "first_checkin_at": "2009-10-19T18:40:00+00:00",
-      "last_checkin_at": null,
-      "name": "Torchy's Tacos",
-      "location": {
-        "city": "Austin, TX"
-      },
-      "url": "/spots/49904"
-    },
-    {
-      "user_checkins_count": 1,
-      "image_url": "http://static.gowalla.com/categories/1-standard.png",
-      "first_checkin_at": "2010-02-13T22:09:41+00:00",
-      "last_checkin_at": null,
-      "name": "Once Over Coffee",
-      "location": {
-        "city": "Austin, TX"
-      },
-      "url": "/spots/505008"
-    },
-    {
-      "user_checkins_count": 2,
-      "image_url": "http://static.gowalla.com/spots/20922-e2d45abb981c2716353af9c6d254d8b5.png",
-      "first_checkin_at": "2009-11-12T23:21:05+00:00",
-      "last_checkin_at": null,
-      "name": "Birds Barbershop - South Congress",
-      "location": {
-        "city": null
-      },
-      "url": "/spots/20922"
-    },
-    {
-      "user_checkins_count": 3,
-      "image_url": "http://static.gowalla.com/categories/121-standard.png",
-      "first_checkin_at": "2010-01-26T00:26:53+00:00",
-      "last_checkin_at": null,
-      "name": "Infinite Loop 1",
-      "location": {
-        "city": "Cupertino, CA"
-      },
-      "url": "/spots/39438"
-    },
-    {
-      "user_checkins_count": 18,
-      "image_url": "http://static.gowalla.com/categories/89-standard.png",
-      "first_checkin_at": "2009-09-16T17:15:02+00:00",
-      "last_checkin_at": null,
-      "name": "Raymond Ranch South",
-      "location": {
-        "city": "Austin, TX"
-      },
-      "url": "/spots/25151"
-    },
-    {
-      "user_checkins_count": 7,
-      "image_url": "http://static.gowalla.com/spots/420315-790176c52df5c1b8c00a97fa57b81991.png",
+      "checkins_count": 24,
       "first_checkin_at": "2010-01-20T20:45:55+00:00",
-      "last_checkin_at": null,
-      "name": "Gowalla Incorporated",
-      "location": {
-        "city": "Austin, TX"
-      },
-      "url": "/spots/420315"
+      "last_checkin_at": "2010-03-06T06:11:32+00:00"
     },
     {
-      "user_checkins_count": 2,
-      "image_url": "http://static.gowalla.com/categories/1-standard.png",
-      "first_checkin_at": "2010-01-15T00:33:59+00:00",
-      "last_checkin_at": null,
-      "name": "The Coffee Bean and Tea Leaf",
-      "location": {
-        "city": "San Francisco, CA"
+      "spot": {
+        "address": {
+          "region": "TX",
+          "locality": "Austin"
+        },
+        "image_url": "http://static.gowalla.com/spots/9241-1efaa96073aec22219f0fd26734d52a2.png",
+        "name": "Whole Foods",
+        "url": "/spots/9241"
       },
-      "url": "/spots/15114"
+      "checkins_count": 5,
+      "first_checkin_at": "2009-09-15T01:25:40+00:00",
+      "last_checkin_at": "2010-03-06T02:21:25+00:00"
     },
     {
-      "user_checkins_count": 4,
-      "image_url": "http://static.gowalla.com/categories/15-standard.png",
-      "first_checkin_at": "2009-12-08T03:48:20+00:00",
-      "last_checkin_at": null,
-      "name": "Tropisueño",
-      "location": {
-        "city": "San Francisco, CA"
+      "spot": {
+        "address": {
+          "region": "TX",
+          "locality": "Austin"
+        },
+        "image_url": "http://static.gowalla.com/spots/21714-3fed705ea37c9c266efb70f3a62a2b6a.png",
+        "name": "Juan Pelota Cafe",
+        "url": "/spots/21714"
       },
-      "url": "/spots/19199"
+      "checkins_count": 56,
+      "first_checkin_at": "2009-09-21T14:52:11+00:00",
+      "last_checkin_at": "2010-03-05T22:17:17+00:00"
     },
     {
-      "user_checkins_count": 1,
-      "image_url": "http://static.gowalla.com/categories/154-standard.png",
-      "first_checkin_at": "2010-02-09T04:23:16+00:00",
-      "last_checkin_at": null,
-      "name": "Burger Bar",
-      "location": {
-        "city": "San Francisco, CA"
+      "spot": {
+        "address": {
+          "region": "TX",
+          "locality": "Austin"
+        },
+        "image_url": "http://static.gowalla.com/spots/9371-28cd644cf7f98aee67273d4d5c8d5469.png",
+        "name": "Mellow Johnny's",
+        "url": "/spots/9371"
       },
-      "url": "/spots/52264"
+      "checkins_count": 4,
+      "first_checkin_at": "2010-02-24T20:36:16+00:00",
+      "last_checkin_at": "2010-03-05T00:12:08+00:00"
     },
     {
-      "user_checkins_count": 2,
-      "image_url": "http://static.gowalla.com/spots/9114-35e553fc91c0f1d140c31b466185b317.png",
-      "first_checkin_at": "2010-01-13T05:02:01+00:00",
-      "last_checkin_at": null,
-      "name": "Union Square",
-      "location": {
-        "city": "San Francisco, CA"
+      "spot": {
+        "address": {
+          "region": "TX",
+          "locality": "Austin"
+        },
+        "image_url": "http://static.gowalla.com/categories/89-standard.png",
+        "name": "Raymond Ranch South",
+        "url": "/spots/25151"
       },
-      "url": "/spots/9114"
+      "checkins_count": 27,
+      "first_checkin_at": "2009-09-16T17:15:02+00:00",
+      "last_checkin_at": "2010-03-04T08:06:37+00:00"
     },
     {
-      "user_checkins_count": 1,
-      "image_url": "http://static.gowalla.com/spots/501252-b2413ccf9e99ad6c16fef5d5ab798960.png",
-      "first_checkin_at": "2010-02-09T01:15:51+00:00",
-      "last_checkin_at": null,
-      "name": "Barenaked Ladies Benefit Concert for Haiti",
-      "location": {
-        "city": "San Francisco, CA"
+      "spot": {
+        "address": {
+          "region": "CA",
+          "locality": "Sunnyvale"
+        },
+        "image_url": "http://static.gowalla.com/spots/53235-9808498e8976e704afea6ae3a8825b6d.png",
+        "name": "Palm",
+        "url": "/spots/53235"
       },
-      "url": "/spots/501252"
+      "checkins_count": 6,
+      "first_checkin_at": "2010-02-05T05:52:16+00:00",
+      "last_checkin_at": "2010-03-03T19:43:29+00:00"
     },
     {
-      "user_checkins_count": 1,
-      "image_url": "http://static.gowalla.com/categories/26-standard.png",
-      "first_checkin_at": "2010-02-09T00:59:04+00:00",
-      "last_checkin_at": null,
-      "name": "Infusion Lounge",
-      "location": {
-        "city": "San Francisco, CA"
+      "spot": {
+        "address": {
+          "region": "CA",
+          "locality": "Sunnyvale"
+        },
+        "image_url": "http://static.gowalla.com/categories/121-standard.png",
+        "name": "Synopsys, Sunnyvale, Buildings 1 and 2",
+        "url": "/spots/96067"
       },
-      "url": "/spots/184596"
+      "checkins_count": 1,
+      "first_checkin_at": "2010-03-03T19:41:04+00:00",
+      "last_checkin_at": "2010-03-03T19:41:04+00:00"
     },
     {
-      "user_checkins_count": 3,
-      "image_url": "http://static.gowalla.com/categories/230-standard.png",
-      "first_checkin_at": "2010-01-11T22:08:19+00:00",
-      "last_checkin_at": null,
-      "name": "Apple Company Store",
-      "location": {
-        "city": "Cupertino, CA"
+      "spot": {
+        "address": {
+          "region": "CA",
+          "locality": "San Francisco"
+        },
+        "image_url": "http://static.gowalla.com/spots/21196-f16c65810808d8c57024502ff5126cc3.png",
+        "name": "Yelp HQ",
+        "url": "/spots/21196"
       },
-      "url": "/spots/39440"
+      "checkins_count": 5,
+      "first_checkin_at": "2009-12-08T23:06:38+00:00",
+      "last_checkin_at": "2010-03-03T18:57:55+00:00"
     },
     {
-      "user_checkins_count": 1,
-      "image_url": "http://static.gowalla.com/categories/186-standard.png",
-      "first_checkin_at": "2010-02-08T22:42:43+00:00",
-      "last_checkin_at": null,
-      "name": "Bank of America",
-      "location": {
-        "city": "San Francisco, CA"
+      "spot": {
+        "address": {
+          "region": "CA",
+          "locality": "San Francisco"
+        },
+        "image_url": "http://static.gowalla.com/categories/1-standard.png",
+        "name": "Peet's Coffee & Tea",
+        "url": "/spots/53896"
       },
-      "url": "/spots/95590"
+      "checkins_count": 2,
+      "first_checkin_at": "2010-03-01T17:12:04+00:00",
+      "last_checkin_at": "2010-03-03T17:39:52+00:00"
     },
     {
-      "user_checkins_count": 3,
-      "image_url": "http://static.gowalla.com/categories/101-standard.png",
-      "first_checkin_at": "2009-06-25T21:06:53+00:00",
-      "last_checkin_at": null,
-      "name": "The Sentinel",
-      "location": {
-        "city": "San Francisco, CA"
+      "spot": {
+        "address": {
+          "region": "TX",
+          "locality": "Austin"
+        },
+        "image_url": "http://static.gowalla.com/spots/49904-d30046742175b5bc8dcbe1b0bdd151f8.png",
+        "name": "Torchy's Tacos",
+        "url": "/spots/49904"
       },
-      "url": "/spots/16002"
+      "checkins_count": 10,
+      "first_checkin_at": "2009-10-19T18:40:00+00:00",
+      "last_checkin_at": "2010-03-02T19:00:29+00:00"
+    },
+    {
+      "spot": {
+        "address": {
+          "region": "CA",
+          "locality": "Sunnyvale"
+        },
+        "image_url": "http://static.gowalla.com/categories/121-standard.png",
+        "name": "LitePoint",
+        "url": "/spots/421644"
+      },
+      "checkins_count": 1,
+      "first_checkin_at": "2010-03-02T18:16:31+00:00",
+      "last_checkin_at": "2010-03-02T18:16:31+00:00"
+    },
+    {
+      "spot": {
+        "address": {
+          "region": "TX",
+          "locality": "Austin"
+        },
+        "image_url": "http://static.gowalla.com/categories/64-standard.png",
+        "name": "Farm to Market Grocery",
+        "url": "/spots/9463"
+      },
+      "checkins_count": 1,
+      "first_checkin_at": "2010-02-28T23:45:20+00:00",
+      "last_checkin_at": "2010-02-28T23:45:20+00:00"
+    },
+    {
+      "spot": {
+        "address": {
+          "region": "TX",
+          "locality": "Austin"
+        },
+        "image_url": "http://static.gowalla.com/categories/15-standard.png",
+        "name": "La Condesa",
+        "url": "/spots/46946"
+      },
+      "checkins_count": 2,
+      "first_checkin_at": "2010-02-25T00:50:13+00:00",
+      "last_checkin_at": "2010-02-28T04:16:27+00:00"
+    },
+    {
+      "spot": {
+        "address": {
+          "region": "TX",
+          "locality": "Austin"
+        },
+        "image_url": "http://static.gowalla.com/spots/624141-f8e23c9a5ef0e93d8d251564b0389819.png",
+        "name": "Sandi's 20-something-th Birthday!",
+        "url": "/spots/624141"
+      },
+      "checkins_count": 1,
+      "first_checkin_at": "2010-02-28T02:17:09+00:00",
+      "last_checkin_at": "2010-02-28T02:17:09+00:00"
+    },
+    {
+      "spot": {
+        "address": {
+          "region": "TX",
+          "locality": "Austin"
+        },
+        "image_url": "http://static.gowalla.com/spots/9225-91813be1a4c963f192d35bd16d4b257b.png",
+        "name": "The Ginger Man",
+        "url": "/spots/9225"
+      },
+      "checkins_count": 4,
+      "first_checkin_at": "2009-03-13T03:39:17+00:00",
+      "last_checkin_at": "2010-02-28T01:33:41+00:00"
+    },
+    {
+      "spot": {
+        "address": {
+          "region": "TX",
+          "locality": "Austin"
+        },
+        "image_url": "http://static.gowalla.com/categories/155-standard.png",
+        "name": "More Home Slice",
+        "url": "/spots/608105"
+      },
+      "checkins_count": 1,
+      "first_checkin_at": "2010-02-27T23:03:35+00:00",
+      "last_checkin_at": "2010-02-27T23:03:35+00:00"
     }
   ]
 }
