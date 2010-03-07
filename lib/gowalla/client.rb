@@ -53,7 +53,7 @@ module Gowalla
     end
     
     def top_spots(user_id=self.username)
-      mashup(self.class.get("/users/#{user_id}/top_spots"))
+      mashup(self.class.get("/users/#{user_id}/top_spots")).top_spots
     end
     
     def visited_spots(user_id=self.username)

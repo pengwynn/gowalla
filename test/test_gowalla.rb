@@ -81,8 +81,8 @@ class TestGowalla < Test::Unit::TestCase
         stub_get('http://pengwynn:0U812@api.gowalla.com/users/1707/top_spots', 'top_spots.json')
         top_spots = @client.top_spots(1707)
         top_spots.size.should == 10
-        top_spots.first.name.should == 'Bank Of America'
-        top_spots.first.visits_count.should == "1"
+        top_spots.first.name.should == 'Juan Pelota Cafe'
+        top_spots.first.user_checkins_count.should == 30
       end
       
     end

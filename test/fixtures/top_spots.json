@@ -1,63 +1,64 @@
-
-[
+{
+  "top_spots": [
     {
-        "image_url": "http://static.gowalla.com/categories/186-standard.png", 
-        "name": "Bank Of America", 
-        "url": "/spots/164052", 
-        "visits_count": "1"
-    }, 
+      "image_url": "http://static.gowalla.com/spots/21714-3fed705ea37c9c266efb70f3a62a2b6a.png",
+      "user_checkins_count": 30,
+      "name": "Juan Pelota Cafe",
+      "url": "/spots/21714"
+    },
     {
-        "image_url": "http://static.gowalla.com/categories/16-standard.png", 
-        "name": "Betty's Cafe", 
-        "url": "/spots/455129", 
-        "visits_count": "1"
-    }, 
+      "image_url": "http://static.gowalla.com/spots/420315-790176c52df5c1b8c00a97fa57b81991.png",
+      "user_checkins_count": 24,
+      "name": "Gowalla Incorporated",
+      "url": "/spots/420315"
+    },
     {
-        "image_url": "http://static.gowalla.com/categories/30-standard.png", 
-        "name": "AMC Stonebriar 24", 
-        "url": "/spots/59817", 
-        "visits_count": "1"
-    }, 
+      "image_url": "http://static.gowalla.com/categories/89-standard.png",
+      "user_checkins_count": 16,
+      "name": "Raymond Ranch South",
+      "url": "/spots/25151"
+    },
     {
-        "image_url": "http://static.gowalla.com/categories/64-standard.png", 
-        "name": "Londoner Restaurant", 
-        "url": "/spots/366585", 
-        "visits_count": "1"
-    }, 
+      "image_url": "http://static.gowalla.com/spots/53235-9808498e8976e704afea6ae3a8825b6d.png",
+      "user_checkins_count": 6,
+      "name": "Palm",
+      "url": "/spots/53235"
+    },
     {
-        "image_url": "http://static.gowalla.com/categories/154-standard.png", 
-        "name": "MOOYAH Burgers & Fries", 
-        "url": "/spots/78953", 
-        "visits_count": "1"
-    }, 
+      "image_url": "http://static.gowalla.com/spots/49904-d30046742175b5bc8dcbe1b0bdd151f8.png",
+      "user_checkins_count": 6,
+      "name": "Torchy's Tacos",
+      "url": "/spots/49904"
+    },
     {
-        "image_url": "http://static.gowalla.com/categories/96-standard.png", 
-        "name": "Barnes and Noble", 
-        "url": "/spots/11641", 
-        "visits_count": "1"
-    }, 
+      "image_url": "http://static.gowalla.com/spots/9410-132ed068e83fc11c465ec25f519ed677.png",
+      "user_checkins_count": 6,
+      "name": "AUS Austin-Bergstrom",
+      "url": "/spots/9410"
+    },
     {
-        "image_url": "http://static.gowalla.com/categories/17-standard.png", 
-        "name": "Rudy's", 
-        "url": "/spots/43464", 
-        "visits_count": "1"
-    }, 
+      "image_url": "http://static.gowalla.com/spots/21196-f16c65810808d8c57024502ff5126cc3.png",
+      "user_checkins_count": 5,
+      "name": "Yelp HQ",
+      "url": "/spots/21196"
+    },
     {
-        "image_url": "http://static.gowalla.com/categories/30-standard.png", 
-        "name": "Stagecoach Theater", 
-        "url": "/spots/136029", 
-        "visits_count": "1"
-    }, 
+      "image_url": "http://static.gowalla.com/categories/121-standard.png",
+      "user_checkins_count": 5,
+      "name": "Infinite Loop 1",
+      "url": "/spots/39438"
+    },
     {
-        "image_url": "http://static.gowalla.com/categories/73-standard.png", 
-        "name": "National Museum of the Pacific War", 
-        "url": "/spots/11300", 
-        "visits_count": "1"
-    }, 
+      "image_url": "http://static.gowalla.com/spots/19542-d2f67701fe94dc48da754cc8dfc9ed7c.png",
+      "user_checkins_count": 5,
+      "name": "SFO San Francisco International",
+      "url": "/spots/19542"
+    },
     {
-        "image_url": "http://static.gowalla.com/categories/167-standard.png", 
-        "name": "Fredericksburg Brewing Co.", 
-        "url": "/spots/261180", 
-        "visits_count": "1"
+      "image_url": "http://static.gowalla.com/categories/1-standard.png",
+      "user_checkins_count": 5,
+      "name": "Latte Land",
+      "url": "/spots/8964"
     }
-]
+  ]
+}
