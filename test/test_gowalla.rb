@@ -39,8 +39,8 @@ class TestGowalla < Test::Unit::TestCase
       should "retrieve a list of items available at a particular spot" do
         stub_get('http://pengwynn:0U812@api.gowalla.com/spots/18568/items', 'items.json')
         items = @client.spot_items(18568)
-        items.first.issue_number.should == 23121
-        items.first.name.should == 'Espresso'
+        items.first.issue_number.should == 27868
+        items.first.name.should == 'Bowl of Noodles'
       end
 
       should "lists all spot categories" do
@@ -168,8 +168,8 @@ class TestGowalla < Test::Unit::TestCase
     should "retrieve items for a user" do
       stub_get('http://pengwynn:0U812@api.gowalla.com/users/1707/items', 'items.json')
       items = @client.items(1707)
-      items.first.issue_number.should == 23121
-      items.first.name.should == 'Espresso'
+      items.first.issue_number.should == 27868
+      items.first.name.should == 'Bowl of Noodles'
     end
     
     should "retrieve pins for a user" do
