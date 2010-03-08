@@ -1,4 +1,9 @@
 # Changelog
+
+## 0.1.3 March 7, 2010
+  * Updated README with correct config call
+  * Applied patch from [Kacy Fortner](http://github.com/kacy) to add vaulted items and missing items calls
+  * Applied patches from [Eric Hutzelman](http://github.com/ehutzelman) to clean up fixtures, changed api methods
 ## 0.1.2 March 3, 2010
 
   * Applied patch from [Ruben Fonseca](http://github.com/rubenfonseca) to search within a given bounds
