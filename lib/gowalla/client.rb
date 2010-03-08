@@ -40,6 +40,14 @@ module Gowalla
       mashup(self.class.get("/users/#{user_id}/items")).items
     end
     
+    def missing_items(user_id=self.username)
+      mashup(self.class.get("/users/#{user_id}/items/missing")).missing
+    end
+    
+    def vaulted_items(user_id=self.username)
+      mashup(self.class.get("/users/#{user_id}/items/vault")).vaulted
+    end
+    
     def item(id)
       mashup(self.class.get("/items/#{id}"))
     end

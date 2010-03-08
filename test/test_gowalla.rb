@@ -172,6 +172,19 @@ class TestGowalla < Test::Unit::TestCase
       items.first.name.should == 'Bowl of Noodles'
     end
     
+    should "retrieve missing items for a user" do
+      stub_get('http://pengwynn:0U812@api.gowalla.com/users/1707/items/missing', 'missing_items.json')
+      items = @client.missing_items(1707)
+      items.first.name.should == 'Torch'
+    end
+    
+    should "retrieve vaulted items for a user" do
+      stub_get('http://pengwynn:0U812@api.gowalla.com/users/1707/items/vaulted', 'vaulted_items.json')
+      items = @client.vaulted_items(1707)
+      items.first.issue_number.shout == 9932
+      items.first.name.should == 'Football Helmet'
+    end
+    
     should "retrieve pins for a user" do
       stub_get('http://pengwynn:0U812@api.gowalla.com/users/1707/pins', 'pins.json')
       pins = @client.pins(1707)
