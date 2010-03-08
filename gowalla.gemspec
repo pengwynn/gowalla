@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{gowalla}
-  s.version = "0.1.2"
+  s.version = "0.1.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Wynn Netherland"]
-  s.date = %q{2010-03-03}
+  s.date = %q{2010-03-07}
   s.description = %q{Ruby wrapper for the Gowalla API}
   s.email = %q{wynn.netherland@gmail.com}
   s.extra_rdoc_files = [
@@ -39,6 +39,7 @@ Gem::Specification.new do |s|
      "test/fixtures/item.json",
      "test/fixtures/items.json",
      "test/fixtures/me.json",
+     "test/fixtures/missing_items.json",
      "test/fixtures/new_spot.json",
      "test/fixtures/pins.json",
      "test/fixtures/potential_twitter_friends.json",
@@ -50,6 +51,7 @@ Gem::Specification.new do |s|
      "test/fixtures/trip.json",
      "test/fixtures/trips.json",
      "test/fixtures/user.json",
+     "test/fixtures/vaulted_items.json",
      "test/fixtures/visited_spots.json",
      "test/helper.rb",
      "test/test_gowalla.rb"
