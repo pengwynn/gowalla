@@ -1,1 +1,12 @@
-        {"items": [{"image_url": "http://static.gowalla.com/kinds/1661-799838260b4873e99d07fd9c1fe64757.png", "drop_url": "/items/1501734/drop", "name": "Football Helmet", "activity_url": "/items/1501734/events", "determiner": "a", "issue_number": 9932, "url": "/items/1501734", "pick_up_url": "/items/1501734/pick_up"}]}
+{
+    "items": [{
+        "image_url": "http://static.gowalla.com/kinds/1661-799838260b4873e99d07fd9c1fe64757.png",
+        "drop_url": "/items/1501734/drop",
+        "name": "Football Helmet",
+        "activity_url": "/items/1501734/events",
+        "determiner": "a",
+        "issue_number": 9932,
+        "url": "/items/1501734",
+        "pick_up_url": "/items/1501734/pick_up"
+    }]
+}

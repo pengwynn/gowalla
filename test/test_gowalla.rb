@@ -179,9 +179,9 @@ class TestGowalla < Test::Unit::TestCase
     end
     
     should "retrieve vaulted items for a user" do
-      stub_get('http://pengwynn:0U812@api.gowalla.com/users/1707/items/vaulted', 'vaulted_items.json')
+      stub_get('http://pengwynn:0U812@api.gowalla.com/users/1707/items/vault', 'vaulted_items.json')
       items = @client.vaulted_items(1707)
-      items.first.issue_number.shout == 9932
+      items.first.issue_number.should == 9932
       items.first.name.should == 'Football Helmet'
     end
     

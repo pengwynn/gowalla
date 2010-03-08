@@ -41,11 +41,11 @@ module Gowalla
     end
     
     def missing_items(user_id=self.username)
-      mashup(self.class.get("/users/#{user_id}/items/missing")).missing
+      mashup(self.class.get("/users/#{user_id}/items/missing")).items
     end
     
     def vaulted_items(user_id=self.username)
-      mashup(self.class.get("/users/#{user_id}/items/vault")).vaulted
+      mashup(self.class.get("/users/#{user_id}/items/vault")).items
     end
     
     def item(id)
