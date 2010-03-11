@@ -113,6 +113,12 @@ module Gowalla
       mashup(self.class.get("/categories/#{id}"))
     end
     
+    def checkin(spot_id, options = {})
+      query = format_geo_options(options)
+      
+      mashup(self.class.post("/checkins", :body => options, :query => { :spot_id => spot_id }))
+    end
+    
     private
     
       def format_geo_options(options={})

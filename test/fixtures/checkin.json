@@ -1,0 +1,67 @@
+
+{
+    "spot": 
+    {
+        "name": "Hospital Distrital Santar\u00e9m",
+         "image_url": "http://static.gowalla.com/categories/132-standard.png",
+         "url": "/spots/124261"
+    },
+     "detail_html": "\u003C!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01//EN\"\n   \"http://www.w3.org/TR/html4/strict.dtd\"\u003E\n\n\u003Chtml lang=\"en\"\u003E\n\u003Chead\u003E\n\t\u003Cmeta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /\u003E\n\t\u003Ctitle\u003EBonus\u003C/title\u003E\n\t\u003Cmeta name=\"author\" content=\"Keegan Jones\"\u003E\n\t\u003Cmeta name=\"viewport\" content=\"width=320; user-scalable=false\" /\u003E \n\t\u003Cstyle type=\"text/css\"\u003E\n\t\t* 
+    {
+        \n\t\t\tpadding: 0;\n\t\t\tmargin: 0;\n\t\t
+    }
+    \n\n\t\thtml,
+     body 
+    {
+        \n\t\t\theight: 100%;\n\t\t
+    }
+    \n\t\t\n\t\t.gow_item_bonus_wrapper 
+    {
+        \n\t\t\tposition: relative;\n\t\t\tmargin: 0;\n\t\t\tpadding: 0;\n\t\t\theight: 100%;\n\t\t\tborder: none;\n\t\t\ttext-align: center;\n\t\t\tfont: 18px \"Helvetica Neue\",
+         Arial,
+         sans-serif;\n\t\t
+    }
+    \n\t\t\n\t\t.gow_item_bonus_content 
+    {
+        \n\t\t\tposition: relative;\n\t\t\tmin-height: 100%;\n\t\t
+    }
+    \n\n\t\t.gow_paging_next 
+    {
+        \n\t\t  position: absolute;\n\t\t  top: 8px;\n\t\t  right: 8px;\n\t\t  text-shadow: none;\n\t\t
+    }
+    \n\t\t\n\t\t.gow_paging_next span 
+    {
+        \n\t\t  display: block;\n\t\t  height: 44px;\n\t\t  padding: 11px 8px 0 0;\n\t\t  float: right;\n\t\t  color: #f6921e;\n\t\t
+    }
+    \n\t\t\n\t\t.gow_paging_next a 
+    {
+        \n\t\t  display: block;\n\t\t  color: #fff;\n\t\t  float: right;\n\t\t  text-decoration: none;\n\t\t  text-shadow: none;\n\t\t  font-weight: bold;\n\t\t  width: 100px;\n\t\t  height: 44px;\n\t\t\tmargin-left: 8px;\n\t\t  line-height: 44px;\n\t\t  background: #f6921e;\n\t\t  -webkit-border-radius: 6px;\n\t\t  -moz-border-radius: 6px;\n\t\t
+    }
+    \n\t\t\n\t\t.gow_paging_next a:active 
+    {
+        \n\t\t  background: #d67300;\n\t\t
+    }
+    \n\t\t\n\t\t.gow_paging_next a em 
+    {
+        \n\t\t  display: block;\n\t\t  font-style: normal;\n\t\t  padding: 10px 18px;\n\t\t
+    }
+    \n\t\t\n\t\u003C/style\u003E\n\t\u003Cscript type=\"text/javascript\" charset=\"utf-8\"\u003E\n\t\tfunction gowallaHtmlViewBonusNextPage(currentPageNum) 
+    {
+        \n\t\t\tdocument.getElementById('gow_bonus_html_page_'+currentPageNum).style.display = 'none';\n\t\t\t++currentPageNum;\n\t\t\tdocument.getElementById('gow_bonus_html_page_'+currentPageNum).style.display = 'block';\n\t\t
+    }
+    \n\t\tfunction gowallaHtmlViewBonusBackPage(currentPageNum) 
+    {
+        \n\t\t\tdocument.getElementById('gow_bonus_html_page_'+currentPageNum).style.display = 'none';\n\t\t\t--currentPageNum;\n\t\t\tdocument.getElementById('gow_bonus_html_page_'+currentPageNum).style.display = 'block';\n\t\t
+    }
+    \n\t\u003C/script\u003E\n\u003C/head\u003E\n\u003Cbody\u003E\n\t\n\t\t\u003Cdiv class=\"gow_item_bonus_wrapper\" id=\"gow_bonus_html_page_0\" style=\"display: block;\"\u003E\n\t\t\t\u003Cdiv class=\"gow_item_bonus_content\" style=\"background: #ebf2dd url(/images/iphone/bg-stripes.png) top left repeat;\"\u003E\n\t\u003Cdiv id=\"gow_bonus_wrapper\" style=\"position: relative;\n\tcolor: #333;\n\toverflow: hidden;\n\ttext-align: center;\n\ttext-shadow: #fff 0px 1px 1px;\n\tfont: 18px 'Helvetica Neue',
+     Arial,
+     sans-serif;\"\u003E\n\t\t\u003Cdiv id=\"gow_bonus_stats\" style=\"position: relative: overflow: hidden;\"\u003E\n\t\t\t\u003Cimg height=\"100\" width=\"100\" src=\"http://static.gowalla.com/categories/132-standard.png\" id=\"gow_bonus_stamp\" style=\"margin-top: 70px;\" /\u003E\n\t\t\t\u003Cp\u003E\u003Cem style=\"font-weight: bold;font-style: normal;\"\u003EHospital Distrital Santar\u00e9m\u003C/em\u003E\u003C/p\u003E\n\t\t\t\u003Cp\u003EThis is your \u003Cspan style=\"color: #f6921e;font-weight: bold;\"\u003E2nd\u003C/span\u003E check-in here!\u003C/p\u003E\n\n\t\t\t\u003Cdiv id=\"gow_bonus_meta\" style=\"background: #fff;\n\t\t\t-webkit-border-radius: 6px;\n\t\t\t-moz-border-radius: 6px;\n\t\t\tfont-size: 13px;\n\t\t\ttext-align: left;\n\t\t\ttext-shadow: none;\n\t\t\tcolor: #5a6d37;\n\t\t\tline-height: 15px;\n\t\t\tdisplay: block;\n\t\t\tmargin: 8px;\n\t\t\tmargin-bottom: 20px;\"\u003E\n\n\t\t\t\t\n\t\t\n\t\t\n\t\t\t\t\n\t\t\n\t\t\t\t\n\n\t\t\t\t\n\t\t\t\u003C/div\u003E\n\t\t\u003C/div\u003E\n\t\u003C/div\u003E\n\u003C/div\u003E\n\t\t\t\n\t\t\u003C/div\u003E\n\t\n\u003C/body\u003E\n\u003C/html\u003E\n",
+     "created_at": "2010-03-11T23:01:49+00:00",
+     "activity_url": "/checkins/4604798/activity",
+     "user": 
+    {
+        "url": "/users/73842"
+    },
+     "url": "/checkins/4604798"
+}
+

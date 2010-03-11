@@ -266,9 +266,10 @@ class TestGowalla < Test::Unit::TestCase
       # BODY lat=33.23404216&name=TreeFrog%20Studios&category_url=/categories/217&description=Children%20and%20family%20photography%20studio&lng=-96.95513802000001
     end
     
-    should_eventually "check in at a spot" do
-      # POST http://api.gowalla.com/visits?spot_id=472093
-      # BODY fb_id=605681706&lat=33.23404216&accuracy=2055&post_to_facebook=0&fb_session_key=976e56d6baa517cfe77eadfc-605681706&lng=-96.95513802000001&comment=Testing%20Gowalla%20API%20&post_to_twitter=1
+    should "check in at a spot" do
+      stub_post("http://pengwynn:0U812@api.gowalla.com/checkins?spot_id=124261", "checkin.json")
+      checkin = @client.checkin(124261, :lat => 39.24180603027344, :lng => -8.695899963378906)
+      checkin.detail_html.should_not be_nil
     end
     
     
