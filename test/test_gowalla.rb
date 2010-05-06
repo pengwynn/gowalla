@@ -26,21 +26,21 @@ class TestGowalla < Test::Unit::TestCase
         spot = @client.spot(18568)
         spot.name.should == "Wahoo's"
         spot.twitter_username.should == 'Wahoos512'
-        spot.categories.first.name.should == 'Mexican'
+        spot.spot_categories.first.name.should == 'Mexican'
       end
 
       should "retrieve a list of check-ins at a particular spot. Shows only the activity that is visible to a given user" do
         stub_get('http://pengwynn:0U812@api.gowalla.com/spots/452593/events', 'events.json')
         events = @client.spot_events(452593)
-        events.first[:type].should == 'visit'
-        events.first.user.username.should == 'whurley'
+        events.first[:type].should == 'checkin'
+        events.first.user.last_name.should == 'Mack'
       end
 
       should "retrieve a list of items available at a particular spot" do
         stub_get('http://pengwynn:0U812@api.gowalla.com/spots/18568/items', 'items.json')
         items = @client.spot_items(18568)
-        items.first.issue_number.should == 23121
-        items.first.name.should == 'Espresso'
+        items.first.issue_number.should == 27868
+        items.first.name.should == 'Bowl of Noodles'
       end
 
       should "lists all spot categories" do
@@ -66,23 +66,23 @@ class TestGowalla < Test::Unit::TestCase
         stub_get('http://pengwynn:0U812@api.gowalla.com/users/sco', 'user.json')
         user = @client.user('sco')
         user.bio.should == "CTO & co-founder of Gowalla. Ruby/Cocoa/JavaScript developer. Game designer. Author. Indoorsman."
-        user.stamps_count.should == 486
+        user.stamps_count.should == 506
       end
       
       should "retrieve a list of the stamps the user has collected" do
         stub_get('http://pengwynn:0U812@api.gowalla.com/users/1707/stamps?limit=20', 'stamps.json')
         stamps = @client.stamps(1707)
         stamps.size.should == 20
-        stamps.first.name.should == 'Juan Pelota Cafe'
-        stamps.first.location.city.should == 'Austin, TX'
+        stamps.first.spot.name.should == "Muck-N-Dave's Texas BBQ"
+        stamps.first.spot.address.locality.should == 'Austin'
       end
       
       should "retrieve a list of spots the user has visited most often" do
         stub_get('http://pengwynn:0U812@api.gowalla.com/users/1707/top_spots', 'top_spots.json')
         top_spots = @client.top_spots(1707)
         top_spots.size.should == 10
-        top_spots.first.name.should == 'Bank Of America'
-        top_spots.first.visits_count.should == "1"
+        top_spots.first.name.should == 'Juan Pelota Cafe'
+        top_spots.first.user_checkins_count.should == 30
       end
       
     end
@@ -93,7 +93,7 @@ class TestGowalla < Test::Unit::TestCase
         item = @client.item(607583)
         item.issue_number.should == 13998
         item.name.should == 'Sweets'
-        item.events.first.spot.name.should == 'Jerusalem Bakery'
+        item.determiner.should == 'some'
       end
     end
     
@@ -101,15 +101,15 @@ class TestGowalla < Test::Unit::TestCase
       should "retrieve a list of trips" do
         stub_get('http://pengwynn:0U812@api.gowalla.com/trips', 'trips.json')
         trips = @client.trips
-        trips.first.featured?.should == true
+        trips.first.name.should == 'London Pub Crawl'
         trips.first.spots.first.url.should == '/spots/164009'
       end
       
       should "retrieve information about a specific trip" do
         stub_get('http://pengwynn:0U812@api.gowalla.com/trips/1', 'trip.json')
         trip = @client.trip(1)
-        trip.creator.name.should == 'Team Gowalla'
-        trip.map_bounds.east.should == -63.457031000000001
+        trip.creator.last_name.should == 'Gowalla'
+        trip.map_bounds.east.should == -63.457031
       end
     end
     
@@ -142,15 +142,15 @@ class TestGowalla < Test::Unit::TestCase
     should "retrieve events for a user" do
       stub_get('http://pengwynn:0U812@api.gowalla.com/users/1707/events', 'events.json')
       events = @client.events(1707)
-      events.first[:type].should == 'visit'
-      events.first.user.username.should == 'whurley'
+      events.first[:type].should == 'checkin'
+      events.first.user.last_name.should == 'Mack'
     end
     
     should "retrieve events for a user's friends" do
       stub_get('http://pengwynn:0U812@api.gowalla.com/visits/recent', 'events.json')
       events = @client.friends_events
-      events.first[:type].should == 'visit'
-      events.first.user.username.should == 'whurley'
+      events.first[:type].should == 'checkin'
+      events.first.user.last_name.should == 'Mack'
     end
     
     should "retrieve friend requests for a user" do
@@ -168,8 +168,21 @@ class TestGowalla < Test::Unit::TestCase
     should "retrieve items for a user" do
       stub_get('http://pengwynn:0U812@api.gowalla.com/users/1707/items', 'items.json')
       items = @client.items(1707)
-      items.first.issue_number.should == 23121
-      items.first.name.should == 'Espresso'
+      items.first.issue_number.should == 27868
+      items.first.name.should == 'Bowl of Noodles'
+    end
+    
+    should "retrieve missing items for a user" do
+      stub_get('http://pengwynn:0U812@api.gowalla.com/users/1707/items/missing', 'missing_items.json')
+      items = @client.missing_items(1707)
+      items.first.name.should == 'Torch'
+    end
+    
+    should "retrieve vaulted items for a user" do
+      stub_get('http://pengwynn:0U812@api.gowalla.com/users/1707/items/vault', 'vaulted_items.json')
+      items = @client.vaulted_items(1707)
+      items.first.issue_number.should == 9932
+      items.first.name.should == 'Football Helmet'
     end
     
     should "retrieve pins for a user" do
@@ -199,7 +212,7 @@ class TestGowalla < Test::Unit::TestCase
       spot = @client.spot(452593)
       spot.name.should == "Wahoo's"
       spot.twitter_username.should == 'Wahoos512'
-      spot.categories.first.name.should == 'Mexican'
+      spot.spot_categories.first.name.should == 'Mexican'
     end
 
     
@@ -240,7 +253,6 @@ class TestGowalla < Test::Unit::TestCase
       trips = @client.trips(:lat => 33.234042160, :lng => -96.955138020, :user_id => 1707)
       trips.first.name.should == 'Dallas Championship Chase'
       trips.first.spots.size.should == 3
-      trips.first.published?.should == true
     end
     
     should "find featured trips by latitude, longitude, and user" do
@@ -248,7 +260,6 @@ class TestGowalla < Test::Unit::TestCase
       trips = @client.featured_trips(:lat => 33.234042160, :lng => -96.955138020, :user_id => 1707, :context => 'featured')
       trips.first.name.should == 'Dallas Championship Chase'
       trips.first.spots.size.should == 3
-      trips.first.published?.should == true    
     end
     
     should "find friends trips by latitude, longitude, and user" do
@@ -256,7 +267,6 @@ class TestGowalla < Test::Unit::TestCase
       trips = @client.friends_trips(:lat => 33.234042160, :lng => -96.955138020, :user_id => 1707, :context => 'featured')
       trips.first.name.should == 'Dallas Championship Chase'
       trips.first.spots.size.should == 3
-      trips.first.published?.should == true    
     end
     
     

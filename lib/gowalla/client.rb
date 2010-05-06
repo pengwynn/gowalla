@@ -4,7 +4,7 @@ module Gowalla
     include HTTParty
     format :json
     base_uri "http://api.gowalla.com"
-    headers({'Accept' => 'application/json, text/javascript, application/json', "User-Agent" => 'Ruby gem'})
+    headers({'Accept' => 'application/json', "User-Agent" => 'Ruby gem'})
     
     attr_reader :username
     
@@ -21,11 +21,11 @@ module Gowalla
     end
     
     def events(user_id=self.username)
-      mashup(self.class.get("/users/#{user_id}/events")).events
+      mashup(self.class.get("/users/#{user_id}/events")).activity
     end
     
     def friends_events
-      mashup(self.class.get("/visits/recent")).events
+      mashup(self.class.get("/visits/recent")).activity
     end
     
     def friend_requests(user_id=self.username)
@@ -38,6 +38,14 @@ module Gowalla
     
     def items(user_id=self.username)
       mashup(self.class.get("/users/#{user_id}/items")).items
+    end
+    
+    def missing_items(user_id=self.username)
+      mashup(self.class.get("/users/#{user_id}/items/missing")).items
+    end
+    
+    def vaulted_items(user_id=self.username)
+      mashup(self.class.get("/users/#{user_id}/items/vault")).items
     end
     
     def item(id)
@@ -53,7 +61,7 @@ module Gowalla
     end
     
     def top_spots(user_id=self.username)
-      mashup(self.class.get("/users/#{user_id}/top_spots"))
+      mashup(self.class.get("/users/#{user_id}/top_spots")).top_spots
     end
     
     def visited_spots(user_id=self.username)
@@ -69,7 +77,7 @@ module Gowalla
     end
     
     def spot_events(spot_id)
-      mashup(self.class.get("/spots/#{spot_id}/events")).events
+      mashup(self.class.get("/spots/#{spot_id}/events")).activity
     end
     
     def spot_items(spot_id)
@@ -94,7 +102,7 @@ module Gowalla
         options[:user_url] = "/users/#{user_id}"
       end
       query = format_geo_options(options)
-      mashup(self.class.get("/trips", :query => query))
+      mashup(self.class.get("/trips", :query => query)).trips
     end
     
     def featured_trips(options={})

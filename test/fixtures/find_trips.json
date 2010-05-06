@@ -1,711 +1,695 @@
-[{
-    "spots": [{
-        "url": "/spots/8989"
-    },
-    {
-        "url": "/spots/9362"
-    },
-    {
-        "url": "/spots/9361"
-    }],
-    "image_url": "http://static.gowalla.com/missions/54-c407e1e63b7e9cd68715a4fabb161364.png",
-    "name": "Dallas Championship Chase",
-    "published": true,
-    "featured": true,
-    "completed": false,
-    "user_url": "/users/1934",
-    "url": "/trips/54"
-},
 {
-    "spots": [{
-        "url": "/spots/9076"
-    },
-    {
-        "url": "/spots/9077"
-    },
-    {
-        "url": "/spots/9078"
-    },
-    {
-        "url": "/spots/9079"
-    },
-    {
-        "url": "/spots/9080"
-    },
-    {
-        "url": "/spots/9081"
-    },
-    {
-        "url": "/spots/9082"
-    },
-    {
-        "url": "/spots/9083"
-    },
-    {
-        "url": "/spots/9084"
-    },
-    {
-        "url": "/spots/9085"
-    },
-    {
-        "url": "/spots/9259"
-    },
-    {
-        "url": "/spots/9087"
-    },
-    {
-        "url": "/spots/9088"
-    },
-    {
-        "url": "/spots/9090"
-    },
-    {
-        "url": "/spots/9091"
-    },
-    {
-        "url": "/spots/9092"
-    },
-    {
-        "url": "/spots/9093"
-    },
-    {
-        "url": "/spots/9097"
-    },
-    {
-        "url": "/spots/9098"
-    },
-    {
-        "url": "/spots/9100"
-    }],
-    "image_url": "http://static.gowalla.com/trips/12-bf54e6bc8b15c9b3fa172da30c4b230f.png",
-    "name": "Fort Worth Zoo Safari",
-    "published": true,
-    "featured": true,
-    "completed": false,
-    "user_url": "/users/3",
-    "url": "/trips/17"
-},
-{
-    "spots": [{
-        "url": "/spots/50339"
-    },
-    {
-        "url": "/spots/49678"
-    },
-    {
-        "url": "/spots/41568"
-    },
-    {
-        "url": "/spots/50335"
-    },
-    {
-        "url": "/spots/49677"
-    },
-    {
-        "url": "/spots/31589"
-    }],
-    "image_url": "http://static.gowalla.com/missions/82-677401f93719fe5e8d6ae65fb47dd806.png",
-    "name": "Never Been Here? ",
-    "published": true,
-    "featured": true,
-    "completed": false,
-    "user_url": "/users/8029",
-    "url": "/trips/82"
-},
-{
-    "spots": [{
-        "url": "/spots/50245"
-    },
-    {
-        "url": "/spots/16135"
-    },
-    {
-        "url": "/spots/49690"
-    },
-    {
-        "url": "/spots/50251"
-    },
-    {
-        "url": "/spots/32704"
-    },
-    {
-        "url": "/spots/49838"
-    }],
-    "image_url": "http://static.gowalla.com/missions/81-fac7562730c3d7a85309d4286375efb8.png",
-    "name": "Tasty Lunchables",
-    "published": true,
-    "featured": true,
-    "completed": false,
-    "user_url": "/users/8029",
-    "url": "/trips/81"
-},
-{
-    "spots": [{
-        "url": "/spots/55473"
-    },
-    {
-        "url": "/spots/55433"
-    },
-    {
-        "url": "/spots/55488"
-    },
-    {
-        "url": "/spots/43683"
-    },
-    {
-        "url": "/spots/55512"
-    },
-    {
-        "url": "/spots/25661"
-    },
-    {
-        "url": "/spots/56474"
-    },
-    {
-        "url": "/spots/41935"
-    },
-    {
-        "url": "/spots/39538"
-    }],
-    "image_url": "http://static.gowalla.com/missions/83-6dce712adfb5afca00494237e43ef758.png",
-    "name": "Crawl on Western Avenue",
-    "published": true,
-    "featured": true,
-    "completed": false,
-    "user_url": "/users/8029",
-    "url": "/trips/83"
-},
-{
-    "spots": [{
-        "url": "/spots/9254"
-    },
-    {
-        "url": "/spots/13730"
-    },
-    {
-        "url": "/spots/13611"
-    },
-    {
-        "url": "/spots/9227"
-    },
-    {
-        "url": "/spots/9412"
-    },
-    {
-        "url": "/spots/14484"
-    },
-    {
-        "url": "/spots/14242"
-    },
-    {
-        "url": "/spots/11352"
-    }],
-    "image_url": "http://static.gowalla.com/missions/28-0ff9f9a57cf9dcb8516ab209ea979be2.png",
-    "name": "Austin BBQ Bonanza",
-    "published": true,
-    "featured": true,
-    "completed": false,
-    "user_url": "/users/1934",
-    "url": "/trips/28"
-},
-{
-    "spots": [{
-        "url": "/spots/10056"
-    },
-    {
-        "url": "/spots/10416"
-    },
-    {
-        "url": "/spots/10417"
-    },
-    {
-        "url": "/spots/10418"
-    },
-    {
-        "url": "/spots/10421"
-    },
-    {
-        "url": "/spots/10423"
-    },
-    {
-        "url": "/spots/10425"
-    },
-    {
-        "url": "/spots/10426"
-    },
-    {
-        "url": "/spots/10428"
-    },
-    {
-        "url": "/spots/10429"
-    },
-    {
-        "url": "/spots/10477"
-    },
-    {
-        "url": "/spots/10595"
-    },
-    {
-        "url": "/spots/10617"
-    },
-    {
-        "url": "/spots/10682"
-    },
-    {
-        "url": "/spots/10687"
-    }],
-    "image_url": "http://static.gowalla.com/trips/24-c079757d46465d3351f101b99870ad61.png",
-    "name": "The Moonlight Towers",
-    "published": true,
-    "featured": true,
-    "completed": false,
-    "user_url": "/users/60",
-    "url": "/trips/9"
-},
-{
-    "spots": [{
-        "url": "/spots/9237"
-    },
-    {
-        "url": "/spots/9233"
-    },
-    {
-        "url": "/spots/9236"
-    },
-    {
-        "url": "/spots/9234"
-    },
-    {
-        "url": "/spots/9235"
-    },
-    {
-        "url": "/spots/9232"
-    }],
-    "image_url": "http://static.gowalla.com/trips/15-c9952083e353a2b6c3ed0fbb021776aa.png",
-    "name": "Capitol Grounds of Texas",
-    "published": true,
-    "featured": true,
-    "completed": false,
-    "user_url": "/users/2",
-    "url": "/trips/14"
-},
-{
-    "spots": [{
-        "url": "/spots/9231"
-    },
-    {
-        "url": "/spots/9238"
-    },
-    {
-        "url": "/spots/9245"
-    },
-    {
-        "url": "/spots/9244"
-    },
-    {
-        "url": "/spots/9239"
-    },
-    {
-        "url": "/spots/9299"
-    }],
-    "image_url": "http://static.gowalla.com/trips/13-2fb45ba176eafb466d5ccf7c943fb75c.png",
-    "name": "Austin Stairs of Doom",
-    "published": true,
-    "featured": true,
-    "completed": false,
-    "user_url": "/users/2",
-    "url": "/trips/13"
-},
-{
-    "spots": [{
-        "url": "/spots/9229"
-    },
-    {
-        "url": "/spots/9227"
-    },
-    {
-        "url": "/spots/9225"
-    },
-    {
-        "url": "/spots/9326"
-    },
-    {
-        "url": "/spots/9223"
-    },
-    {
-        "url": "/spots/9316"
-    },
-    {
-        "url": "/spots/9302"
-    },
-    {
-        "url": "/spots/9318"
-    },
-    {
-        "url": "/spots/9251"
-    },
-    {
-        "url": "/spots/9250"
-    },
-    {
-        "url": "/spots/9249"
-    },
-    {
-        "url": "/spots/9221"
-    },
-    {
-        "url": "/spots/9313"
-    }],
-    "image_url": "http://static.gowalla.com/trips/14-32292997925997285c92af218a9eb77d.png",
-    "name": "Austin Bar Hop",
-    "published": true,
-    "featured": true,
-    "completed": false,
-    "user_url": "/users/2",
-    "url": "/trips/15"
-},
-{
-    "spots": [{
-        "url": "/spots/21658"
-    },
-    {
-        "url": "/spots/21719"
-    },
-    {
-        "url": "/spots/21745"
-    },
-    {
-        "url": "/spots/21735"
-    },
-    {
-        "url": "/spots/21657"
-    },
-    {
-        "url": "/spots/21722"
-    },
-    {
-        "url": "/spots/21728"
-    },
-    {
-        "url": "/spots/21741"
-    }],
-    "image_url": "http://static.gowalla.com/missions/77-f6799799469d5736d1a18ba9f2069fe4.png",
-    "name": "University of Arkansas Tour",
-    "published": true,
-    "featured": true,
-    "completed": false,
-    "user_url": "/users/1356",
-    "url": "/trips/77"
-},
-{
-    "spots": [{
-        "url": "/spots/10205"
-    },
-    {
-        "url": "/spots/10206"
-    },
-    {
-        "url": "/spots/10213"
-    },
-    {
-        "url": "/spots/10207"
-    },
-    {
-        "url": "/spots/10214"
-    },
-    {
-        "url": "/spots/10215"
-    },
-    {
-        "url": "/spots/10212"
-    },
-    {
-        "url": "/spots/10208"
-    },
-    {
-        "url": "/spots/10209"
-    },
-    {
-        "url": "/spots/10211"
-    },
-    {
-        "url": "/spots/10218"
-    },
-    {
-        "url": "/spots/10210"
-    },
-    {
-        "url": "/spots/10230"
-    }],
-    "image_url": "http://static.gowalla.com/missions/19-491a47a369d9251789f6557e8fe44fdb.png",
-    "name": "Old St. Charles Historic Rewind",
-    "published": true,
-    "featured": true,
-    "completed": false,
-    "user_url": "/users/6",
-    "url": "/trips/19"
-},
-{
-    "spots": [{
-        "url": "/spots/9988"
-    },
-    {
-        "url": "/spots/11076"
-    },
-    {
-        "url": "/spots/11075"
-    },
-    {
-        "url": "/spots/11074"
-    },
-    {
-        "url": "/spots/11078"
-    },
-    {
-        "url": "/spots/9992"
-    }],
-    "image_url": "http://static.gowalla.com/missions/36-154148419b0a8a30b03a7392688edc61.png",
-    "name": "Nashville Honkytonk Stomp",
-    "published": true,
-    "featured": true,
-    "completed": false,
-    "user_url": "/users/72",
-    "url": "/trips/36"
-},
-{
-    "spots": [{
-        "url": "/spots/39442"
-    },
-    {
-        "url": "/spots/22217"
-    },
-    {
-        "url": "/spots/35859"
-    }],
-    "image_url": "http://static.gowalla.com/missions/84-59e6163fffe9540ebd81d645855fe640.png",
-    "name": "Denver Championship Chase",
-    "published": true,
-    "featured": true,
-    "completed": false,
-    "user_url": "/users/1934",
-    "url": "/trips/84"
-},
-{
-    "spots": [{
-        "url": "/spots/13529"
-    },
-    {
-        "url": "/spots/13513"
-    },
-    {
-        "url": "/spots/13516"
-    },
-    {
-        "url": "/spots/13512"
-    },
-    {
-        "url": "/spots/13510"
-    },
-    {
-        "url": "/spots/13506"
-    },
-    {
-        "url": "/spots/13499"
-    },
-    {
-        "url": "/spots/13501"
-    },
-    {
-        "url": "/spots/13530"
-    },
-    {
-        "url": "/spots/13528"
-    }],
-    "image_url": "http://static.gowalla.com/missions/40-fdaace0db9178c8de299cea8089055dc.png",
-    "name": "Frank Lloyd Wright Tour",
-    "published": true,
-    "featured": true,
-    "completed": false,
-    "user_url": "/users/29",
-    "url": "/trips/40"
-},
-{
-    "spots": [{
-        "url": "/spots/13582"
-    },
-    {
-        "url": "/spots/12233"
-    },
-    {
-        "url": "/spots/9948"
-    },
-    {
-        "url": "/spots/12430"
-    },
-    {
-        "url": "/spots/11601"
-    }],
-    "image_url": "http://static.gowalla.com/missions/53-4d3287dc75aa8a505f9a5ead36ce8659.png",
-    "name": "Chicago Championship Chase",
-    "published": true,
-    "featured": true,
-    "completed": false,
-    "user_url": "/users/1934",
-    "url": "/trips/53"
-},
-{
-    "spots": [{
-        "url": "/spots/12349"
-    },
-    {
-        "url": "/spots/12174"
-    },
-    {
-        "url": "/spots/12164"
-    },
-    {
-        "url": "/spots/12171"
-    },
-    {
-        "url": "/spots/12345"
-    }],
-    "image_url": "http://static.gowalla.com/missions/25-bda6754b2f978e4195a15f2304224258.png",
-    "name": "Central Park Highlights",
-    "published": true,
-    "featured": true,
-    "completed": false,
-    "user_url": "/users/2",
-    "url": "/trips/25"
-},
-{
-    "spots": [{
-        "url": "/spots/23384"
-    },
-    {
-        "url": "/spots/23385"
-    },
-    {
-        "url": "/spots/23386"
-    },
-    {
-        "url": "/spots/23505"
-    },
-    {
-        "url": "/spots/23506"
-    },
-    {
-        "url": "/spots/23508"
-    },
-    {
-        "url": "/spots/23510"
-    },
-    {
-        "url": "/spots/23379"
-    },
-    {
-        "url": "/spots/23503"
-    }],
-    "image_url": "http://static.gowalla.com/missions/66-9f485e8ac14578cf9c146d46492be2e0.png",
-    "name": "Pleasanton Ghost Walk",
-    "published": true,
-    "featured": true,
-    "completed": false,
-    "user_url": "/users/2824",
-    "url": "/trips/66"
-},
-{
-    "spots": [{
-        "url": "/spots/9122"
-    },
-    {
-        "url": "/spots/9071"
-    },
-    {
-        "url": "/spots/9135"
-    },
-    {
-        "url": "/spots/9134"
-    },
-    {
-        "url": "/spots/9133"
-    },
-    {
-        "url": "/spots/9138"
-    },
-    {
-        "url": "/spots/9130"
-    },
-    {
-        "url": "/spots/9139"
-    }],
-    "image_url": "http://static.gowalla.com/missions/23-e6869ad7d1800997d598a633d1198889.png",
-    "name": "Berkeley Coffeeshop Marathon",
-    "published": true,
-    "featured": true,
-    "completed": false,
-    "user_url": "/users/2",
-    "url": "/trips/23"
-},
-{
-    "spots": [{
-        "url": "/spots/9073"
-    },
-    {
-        "url": "/spots/10353"
-    },
-    {
-        "url": "/spots/9127"
-    },
-    {
-        "url": "/spots/9416"
-    },
-    {
-        "url": "/spots/10359"
-    },
-    {
-        "url": "/spots/10360"
-    },
-    {
-        "url": "/spots/10361"
-    },
-    {
-        "url": "/spots/10362"
-    },
-    {
-        "url": "/spots/10143"
-    },
-    {
-        "url": "/spots/10136"
-    },
-    {
-        "url": "/spots/10139"
-    },
-    {
-        "url": "/spots/10141"
-    },
-    {
-        "url": "/spots/10355"
-    },
-    {
-        "url": "/spots/10373"
-    },
-    {
-        "url": "/spots/9901"
-    },
-    {
-        "url": "/spots/10377"
-    },
-    {
-        "url": "/spots/10555"
-    },
-    {
-        "url": "/spots/10383"
-    }],
-    "image_url": "http://static.gowalla.com/trips/22-38e80a8c08c9672f00f8a93589421527.png",
-    "name": "Golden Gate Gallop",
-    "published": true,
-    "featured": true,
-    "completed": false,
-    "user_url": "/users/29",
-    "url": "/trips/11"
-}]
+  "trips": [
+    {
+      "image_url": "http://static.gowalla.com/missions/54-c407e1e63b7e9cd68715a4fabb161364.png",
+      "name": "Dallas Championship Chase",
+      "_completed": false,
+      "url": "/trips/54",
+      "spots": [
+        {
+          "url": "/spots/8989"
+        },
+        {
+          "url": "/spots/9362"
+        },
+        {
+          "url": "/spots/9361"
+        }
+      ]
+    },
+    {
+      "image_url": "http://static.gowalla.com/trips/12-bf54e6bc8b15c9b3fa172da30c4b230f.png",
+      "name": "Fort Worth Zoo Safari",
+      "_completed": false,
+      "url": "/trips/17",
+      "spots": [
+        {
+          "url": "/spots/9076"
+        },
+        {
+          "url": "/spots/9077"
+        },
+        {
+          "url": "/spots/9078"
+        },
+        {
+          "url": "/spots/9079"
+        },
+        {
+          "url": "/spots/9080"
+        },
+        {
+          "url": "/spots/9081"
+        },
+        {
+          "url": "/spots/9082"
+        },
+        {
+          "url": "/spots/9083"
+        },
+        {
+          "url": "/spots/9084"
+        },
+        {
+          "url": "/spots/9085"
+        },
+        {
+          "url": "/spots/9259"
+        },
+        {
+          "url": "/spots/9087"
+        },
+        {
+          "url": "/spots/9088"
+        },
+        {
+          "url": "/spots/9090"
+        },
+        {
+          "url": "/spots/9091"
+        },
+        {
+          "url": "/spots/9092"
+        },
+        {
+          "url": "/spots/9093"
+        },
+        {
+          "url": "/spots/9097"
+        },
+        {
+          "url": "/spots/9098"
+        },
+        {
+          "url": "/spots/9100"
+        }
+      ]
+    },
+    {
+      "image_url": "http://static.gowalla.com/missions/82-677401f93719fe5e8d6ae65fb47dd806.png",
+      "name": "Never Been Here? ",
+      "_completed": false,
+      "url": "/trips/82",
+      "spots": [
+        {
+          "url": "/spots/50339"
+        },
+        {
+          "url": "/spots/49678"
+        },
+        {
+          "url": "/spots/41568"
+        },
+        {
+          "url": "/spots/50335"
+        },
+        {
+          "url": "/spots/49677"
+        },
+        {
+          "url": "/spots/31589"
+        }
+      ]
+    },
+    {
+      "image_url": "http://static.gowalla.com/missions/81-fac7562730c3d7a85309d4286375efb8.png",
+      "name": "Tasty Lunchables",
+      "_completed": false,
+      "url": "/trips/81",
+      "spots": [
+        {
+          "url": "/spots/50245"
+        },
+        {
+          "url": "/spots/16135"
+        },
+        {
+          "url": "/spots/49690"
+        },
+        {
+          "url": "/spots/50251"
+        },
+        {
+          "url": "/spots/32704"
+        },
+        {
+          "url": "/spots/49838"
+        }
+      ]
+    },
+    {
+      "image_url": "http://static.gowalla.com/missions/83-6dce712adfb5afca00494237e43ef758.png",
+      "name": "Crawl on Western Avenue",
+      "_completed": false,
+      "url": "/trips/83",
+      "spots": [
+        {
+          "url": "/spots/55473"
+        },
+        {
+          "url": "/spots/55433"
+        },
+        {
+          "url": "/spots/55488"
+        },
+        {
+          "url": "/spots/43683"
+        },
+        {
+          "url": "/spots/55512"
+        },
+        {
+          "url": "/spots/25661"
+        },
+        {
+          "url": "/spots/56474"
+        },
+        {
+          "url": "/spots/41935"
+        },
+        {
+          "url": "/spots/39538"
+        }
+      ]
+    },
+    {
+      "image_url": "http://static.gowalla.com/missions/28-0ff9f9a57cf9dcb8516ab209ea979be2.png",
+      "name": "Austin BBQ Bonanza",
+      "_completed": false,
+      "url": "/trips/28",
+      "spots": [
+        {
+          "url": "/spots/9254"
+        },
+        {
+          "url": "/spots/13730"
+        },
+        {
+          "url": "/spots/13611"
+        },
+        {
+          "url": "/spots/9227"
+        },
+        {
+          "url": "/spots/9412"
+        },
+        {
+          "url": "/spots/14484"
+        },
+        {
+          "url": "/spots/14242"
+        },
+        {
+          "url": "/spots/11352"
+        }
+      ]
+    },
+    {
+      "image_url": "http://static.gowalla.com/trips/24-c079757d46465d3351f101b99870ad61.png",
+      "name": "The Moonlight Towers",
+      "_completed": false,
+      "url": "/trips/9",
+      "spots": [
+        {
+          "url": "/spots/10056"
+        },
+        {
+          "url": "/spots/10416"
+        },
+        {
+          "url": "/spots/10417"
+        },
+        {
+          "url": "/spots/10418"
+        },
+        {
+          "url": "/spots/10421"
+        },
+        {
+          "url": "/spots/10423"
+        },
+        {
+          "url": "/spots/10425"
+        },
+        {
+          "url": "/spots/10426"
+        },
+        {
+          "url": "/spots/10428"
+        },
+        {
+          "url": "/spots/10429"
+        },
+        {
+          "url": "/spots/10477"
+        },
+        {
+          "url": "/spots/10595"
+        },
+        {
+          "url": "/spots/10617"
+        },
+        {
+          "url": "/spots/10682"
+        },
+        {
+          "url": "/spots/10687"
+        }
+      ]
+    },
+    {
+      "image_url": "http://static.gowalla.com/trips/15-c9952083e353a2b6c3ed0fbb021776aa.png",
+      "name": "Capitol Grounds of Texas",
+      "_completed": false,
+      "url": "/trips/14",
+      "spots": [
+        {
+          "url": "/spots/9237"
+        },
+        {
+          "url": "/spots/9233"
+        },
+        {
+          "url": "/spots/9236"
+        },
+        {
+          "url": "/spots/9234"
+        },
+        {
+          "url": "/spots/9235"
+        },
+        {
+          "url": "/spots/9232"
+        }
+      ]
+    },
+    {
+      "image_url": "http://static.gowalla.com/trips/13-2fb45ba176eafb466d5ccf7c943fb75c.png",
+      "name": "Austin Stairs of Doom",
+      "_completed": false,
+      "url": "/trips/13",
+      "spots": [
+        {
+          "url": "/spots/9231"
+        },
+        {
+          "url": "/spots/9238"
+        },
+        {
+          "url": "/spots/9245"
+        },
+        {
+          "url": "/spots/9244"
+        },
+        {
+          "url": "/spots/9239"
+        },
+        {
+          "url": "/spots/9299"
+        }
+      ]
+    },
+    {
+      "image_url": "http://static.gowalla.com/trips/14-32292997925997285c92af218a9eb77d.png",
+      "name": "Austin Bar Hop",
+      "_completed": false,
+      "url": "/trips/15",
+      "spots": [
+        {
+          "url": "/spots/9229"
+        },
+        {
+          "url": "/spots/9227"
+        },
+        {
+          "url": "/spots/9225"
+        },
+        {
+          "url": "/spots/9326"
+        },
+        {
+          "url": "/spots/9223"
+        },
+        {
+          "url": "/spots/9316"
+        },
+        {
+          "url": "/spots/9302"
+        },
+        {
+          "url": "/spots/9318"
+        },
+        {
+          "url": "/spots/9251"
+        },
+        {
+          "url": "/spots/9250"
+        },
+        {
+          "url": "/spots/9249"
+        },
+        {
+          "url": "/spots/9221"
+        },
+        {
+          "url": "/spots/9313"
+        }
+      ]
+    },
+    {
+      "image_url": "http://static.gowalla.com/missions/77-f6799799469d5736d1a18ba9f2069fe4.png",
+      "name": "University of Arkansas Tour",
+      "_completed": false,
+      "url": "/trips/77",
+      "spots": [
+        {
+          "url": "/spots/21658"
+        },
+        {
+          "url": "/spots/21719"
+        },
+        {
+          "url": "/spots/21745"
+        },
+        {
+          "url": "/spots/21735"
+        },
+        {
+          "url": "/spots/21657"
+        },
+        {
+          "url": "/spots/21722"
+        },
+        {
+          "url": "/spots/21728"
+        },
+        {
+          "url": "/spots/21741"
+        }
+      ]
+    },
+    {
+      "image_url": "http://static.gowalla.com/missions/19-491a47a369d9251789f6557e8fe44fdb.png",
+      "name": "Old St. Charles Historic Rewind",
+      "_completed": false,
+      "url": "/trips/19",
+      "spots": [
+        {
+          "url": "/spots/10205"
+        },
+        {
+          "url": "/spots/10206"
+        },
+        {
+          "url": "/spots/10213"
+        },
+        {
+          "url": "/spots/10207"
+        },
+        {
+          "url": "/spots/10214"
+        },
+        {
+          "url": "/spots/10215"
+        },
+        {
+          "url": "/spots/10212"
+        },
+        {
+          "url": "/spots/10208"
+        },
+        {
+          "url": "/spots/10209"
+        },
+        {
+          "url": "/spots/10211"
+        },
+        {
+          "url": "/spots/10218"
+        },
+        {
+          "url": "/spots/10210"
+        },
+        {
+          "url": "/spots/10230"
+        }
+      ]
+    },
+    {
+      "image_url": "http://static.gowalla.com/missions/36-154148419b0a8a30b03a7392688edc61.png",
+      "name": "Nashville Honkytonk Stomp",
+      "_completed": false,
+      "url": "/trips/36",
+      "spots": [
+        {
+          "url": "/spots/9988"
+        },
+        {
+          "url": "/spots/11076"
+        },
+        {
+          "url": "/spots/11075"
+        },
+        {
+          "url": "/spots/11074"
+        },
+        {
+          "url": "/spots/11078"
+        },
+        {
+          "url": "/spots/9992"
+        }
+      ]
+    },
+    {
+      "image_url": "http://static.gowalla.com/missions/84-59e6163fffe9540ebd81d645855fe640.png",
+      "name": "Denver Championship Chase",
+      "_completed": false,
+      "url": "/trips/84",
+      "spots": [
+        {
+          "url": "/spots/39442"
+        },
+        {
+          "url": "/spots/22217"
+        },
+        {
+          "url": "/spots/35859"
+        }
+      ]
+    },
+    {
+      "image_url": "http://static.gowalla.com/missions/40-fdaace0db9178c8de299cea8089055dc.png",
+      "name": "Frank Lloyd Wright Tour",
+      "_completed": false,
+      "url": "/trips/40",
+      "spots": [
+        {
+          "url": "/spots/13529"
+        },
+        {
+          "url": "/spots/13513"
+        },
+        {
+          "url": "/spots/13516"
+        },
+        {
+          "url": "/spots/13512"
+        },
+        {
+          "url": "/spots/13510"
+        },
+        {
+          "url": "/spots/13506"
+        },
+        {
+          "url": "/spots/13499"
+        },
+        {
+          "url": "/spots/13501"
+        },
+        {
+          "url": "/spots/13530"
+        },
+        {
+          "url": "/spots/13528"
+        }
+      ]
+    },
+    {
+      "image_url": "http://static.gowalla.com/missions/53-4d3287dc75aa8a505f9a5ead36ce8659.png",
+      "name": "Chicago Championship Chase",
+      "_completed": false,
+      "url": "/trips/53",
+      "spots": [
+        {
+          "url": "/spots/13582"
+        },
+        {
+          "url": "/spots/12233"
+        },
+        {
+          "url": "/spots/9948"
+        },
+        {
+          "url": "/spots/12430"
+        },
+        {
+          "url": "/spots/11601"
+        }
+      ]
+    },
+    {
+      "image_url": "http://static.gowalla.com/missions/25-bda6754b2f978e4195a15f2304224258.png",
+      "name": "Central Park Highlights",
+      "_completed": false,
+      "url": "/trips/25",
+      "spots": [
+        {
+          "url": "/spots/12349"
+        },
+        {
+          "url": "/spots/12174"
+        },
+        {
+          "url": "/spots/12164"
+        },
+        {
+          "url": "/spots/12171"
+        },
+        {
+          "url": "/spots/12345"
+        }
+      ]
+    },
+    {
+      "image_url": "http://static.gowalla.com/missions/66-9f485e8ac14578cf9c146d46492be2e0.png",
+      "name": "Pleasanton Ghost Walk",
+      "_completed": false,
+      "url": "/trips/66",
+      "spots": [
+        {
+          "url": "/spots/23384"
+        },
+        {
+          "url": "/spots/23385"
+        },
+        {
+          "url": "/spots/23386"
+        },
+        {
+          "url": "/spots/23505"
+        },
+        {
+          "url": "/spots/23506"
+        },
+        {
+          "url": "/spots/23508"
+        },
+        {
+          "url": "/spots/23510"
+        },
+        {
+          "url": "/spots/23379"
+        },
+        {
+          "url": "/spots/23503"
+        }
+      ]
+    },
+    {
+      "image_url": "http://static.gowalla.com/missions/23-e6869ad7d1800997d598a633d1198889.png",
+      "name": "Berkeley Coffeeshop Marathon",
+      "_completed": false,
+      "url": "/trips/23",
+      "spots": [
+        {
+          "url": "/spots/9122"
+        },
+        {
+          "url": "/spots/9071"
+        },
+        {
+          "url": "/spots/9135"
+        },
+        {
+          "url": "/spots/9134"
+        },
+        {
+          "url": "/spots/9133"
+        },
+        {
+          "url": "/spots/9138"
+        },
+        {
+          "url": "/spots/9130"
+        },
+        {
+          "url": "/spots/9139"
+        }
+      ]
+    },
+    {
+      "image_url": "http://static.gowalla.com/trips/22-38e80a8c08c9672f00f8a93589421527.png",
+      "name": "Golden Gate Gallop",
+      "_completed": false,
+      "url": "/trips/11",
+      "spots": [
+        {
+          "url": "/spots/9073"
+        },
+        {
+          "url": "/spots/10353"
+        },
+        {
+          "url": "/spots/9127"
+        },
+        {
+          "url": "/spots/9416"
+        },
+        {
+          "url": "/spots/10359"
+        },
+        {
+          "url": "/spots/10360"
+        },
+        {
+          "url": "/spots/10361"
+        },
+        {
+          "url": "/spots/10362"
+        },
+        {
+          "url": "/spots/10143"
+        },
+        {
+          "url": "/spots/10136"
+        },
+        {
+          "url": "/spots/10139"
+        },
+        {
+          "url": "/spots/10141"
+        },
+        {
+          "url": "/spots/10355"
+        },
+        {
+          "url": "/spots/10373"
+        },
+        {
+          "url": "/spots/9901"
+        },
+        {
+          "url": "/spots/10377"
+        },
+        {
+          "url": "/spots/10555"
+        },
+        {
+          "url": "/spots/10383"
+        }
+      ]
+    }
+  ]
+}

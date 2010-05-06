@@ -1,172 +1,100 @@
 {
   "items": [
     {
-      "detail_text_2": "23121",
-      "issue_number": 23121,
-      "issue_size": null,
-      "pick_up_url": "/items/1185706/pick_up",
-      "image_url": "http://static.gowalla.com/kinds/1437-fa98b437724a94766e71668a2fc98322.png",
-      "name": "Espresso",
-      "drop_url": "/items/1185706/drop",
-      "determiner": "an",
-      "events_url": "/items/1185706/events",
-      "url": "/items/1185706",
-      "detail_text_1": "Item number",
-      "issue_number_str": "23121"
-    },
-    {
-      "detail_text_2": "4697",
-      "issue_number": 4697,
-      "issue_size": null,
-      "pick_up_url": "/items/1019923/pick_up",
-      "image_url": "http://static.gowalla.com/kinds/1533-71a4c6d640631a42160aed8f64ad0d76.png",
-      "name": "A Crush It! book",
-      "drop_url": "/items/1019923/drop",
-      "determiner": "",
-      "events_url": "/items/1019923/events",
-      "url": "/items/1019923",
-      "detail_text_1": "Item number",
-      "issue_number_str": "4697"
-    },
-    {
-      "detail_text_2": "15134",
-      "issue_number": 15134,
-      "issue_size": null,
-      "pick_up_url": "/items/1362385/pick_up",
-      "image_url": "http://static.gowalla.com/kinds/1496-8b12234e142f46088ae8f90f87876ebc.png",
-      "name": "Beatnik Poet",
-      "drop_url": "/items/1362385/drop",
+      "image_url": "http://static.gowalla.com/kinds/1522-91946954ac080dd17017ca931472a87f.png",
+      "issue_number": 27868,
+      "name": "Bowl of Noodles",
       "determiner": "a",
-      "events_url": "/items/1362385/events",
-      "url": "/items/1362385",
-      "detail_text_1": "Item number",
-      "issue_number_str": "15134"
+      "url": "/items/1693342",
+      "pick_up_url": "/items/1693342/pick_up"
     },
     {
-      "detail_text_2": "17137",
-      "issue_number": 17137,
-      "issue_size": null,
-      "pick_up_url": "/items/1300501/pick_up",
+      "image_url": "http://static.gowalla.com/kinds/1486-1307477a2e75e0186cf66bcea17acd34.png",
+      "issue_number": 8482,
+      "name": "Tacos",
+      "determiner": "some",
+      "url": "/items/590731",
+      "pick_up_url": "/items/590731/pick_up"
+    },
+    {
+      "image_url": "http://static.gowalla.com/kinds/1517-b250c16539c455a5c51c21e3e45666b4.png",
+      "issue_number": 7822,
+      "name": "Oranges",
+      "determiner": "some",
+      "url": "/items/521222",
+      "pick_up_url": "/items/521222/pick_up"
+    },
+    {
+      "image_url": "http://static.gowalla.com/kinds/1470-e79b74e4a39d28d1ec892a8106ea369d.png",
+      "issue_number": 13532,
+      "name": "Clickity-Bricks",
+      "determiner": "some",
+      "url": "/items/1173656",
+      "pick_up_url": "/items/1173656/pick_up"
+    },
+    {
+      "image_url": "http://static.gowalla.com/kinds/1581-b547ed1f1b26ddd46b6c9d84fe1a5c95.png",
+      "issue_number": 26604,
+      "name": "Luggage Tag",
+      "determiner": "a",
+      "url": "/items/1114147",
+      "pick_up_url": "/items/1114147/pick_up"
+    },
+    {
+      "image_url": "http://static.gowalla.com/kinds/1500-004fc5d192336e2667143188c391ad9f.png",
+      "issue_number": 8269,
+      "name": "Blender",
+      "determiner": "a",
+      "url": "/items/392997",
+      "pick_up_url": "/items/392997/pick_up"
+    },
+    {
+      "image_url": "http://static.gowalla.com/kinds/1442-87b36719f54c04e86ca5dfc2b67b12ae.png",
+      "issue_number": 23105,
+      "name": "Turquoise Mask",
+      "determiner": "a",
+      "url": "/items/1476326",
+      "pick_up_url": "/items/1476326/pick_up"
+    },
+    {
       "image_url": "http://static.gowalla.com/kinds/1659-7c8ba0f18a61f799b84b9031d1780400.png",
+      "issue_number": 17137,
       "name": "Box of Cookies",
-      "drop_url": "/items/1300501/drop",
       "determiner": "a",
-      "events_url": "/items/1300501/events",
       "url": "/items/1300501",
-      "detail_text_1": "Item number",
-      "issue_number_str": "17137"
+      "pick_up_url": "/items/1300501/pick_up"
     },
     {
-      "detail_text_2": "24741",
-      "issue_number": 24741,
-      "issue_size": null,
-      "pick_up_url": "/items/952817/pick_up",
-      "image_url": "http://static.gowalla.com/kinds/1478-3a2e69784a68267ac0f50c15271ac0a2.png",
-      "name": "Slice of Pizza",
-      "drop_url": "/items/952817/drop",
-      "determiner": "a",
-      "events_url": "/items/952817/events",
-      "url": "/items/952817",
-      "detail_text_1": "Item number",
-      "issue_number_str": "24741"
-    },
-    {
-      "detail_text_2": "14211",
+      "image_url": "http://static.gowalla.com/kinds/1486-1307477a2e75e0186cf66bcea17acd34.png",
       "issue_number": 14211,
-      "issue_size": null,
-      "pick_up_url": "/items/898829/pick_up",
-      "image_url": "http://static.gowalla.com/kinds/1486-1307477a2e75e0186cf66bcea17acd34.png",
       "name": "Tacos",
-      "drop_url": "/items/898829/drop",
       "determiner": "some",
-      "events_url": "/items/898829/events",
       "url": "/items/898829",
-      "detail_text_1": "Item number",
-      "issue_number_str": "14211"
+      "pick_up_url": "/items/898829/pick_up"
     },
     {
-      "detail_text_2": "2277",
-      "issue_number": 2277,
-      "issue_size": null,
-      "pick_up_url": "/items/180102/pick_up",
-      "image_url": "http://static.gowalla.com/kinds/1499-5f193b7684b0a9a52a64e9bfcb22e95d.png",
-      "name": "Blended Drink",
-      "drop_url": "/items/180102/drop",
-      "determiner": "a",
-      "events_url": "/items/180102/events",
-      "url": "/items/180102",
-      "detail_text_1": "Item number",
-      "issue_number_str": "2277"
-    },
-    {
-      "detail_text_2": "9922",
+      "image_url": "http://static.gowalla.com/kinds/1486-1307477a2e75e0186cf66bcea17acd34.png",
       "issue_number": 9922,
-      "issue_size": null,
-      "pick_up_url": "/items/676571/pick_up",
-      "image_url": "http://static.gowalla.com/kinds/1486-1307477a2e75e0186cf66bcea17acd34.png",
       "name": "Tacos",
-      "drop_url": "/items/676571/drop",
       "determiner": "some",
-      "events_url": "/items/676571/events",
       "url": "/items/676571",
-      "detail_text_1": "Item number",
-      "issue_number_str": "9922"
+      "pick_up_url": "/items/676571/pick_up"
     },
     {
-      "detail_text_2": "10822",
-      "issue_number": 10822,
-      "issue_size": null,
-      "pick_up_url": "/items/539125/pick_up",
       "image_url": "http://static.gowalla.com/kinds/1478-3a2e69784a68267ac0f50c15271ac0a2.png",
+      "issue_number": 10822,
       "name": "Slice of Pizza",
-      "drop_url": "/items/539125/drop",
       "determiner": "a",
-      "events_url": "/items/539125/events",
       "url": "/items/539125",
-      "detail_text_1": "Item number",
-      "issue_number_str": "10822"
+      "pick_up_url": "/items/539125/pick_up"
     },
     {
-      "detail_text_2": "735",
-      "issue_number": 735,
-      "issue_size": null,
-      "pick_up_url": "/items/137953/pick_up",
       "image_url": "http://static.gowalla.com/kinds/1455-1e030e4274081ea8a92cc1718336de30.png",
+      "issue_number": 735,
       "name": "Bratwurst",
-      "drop_url": "/items/137953/drop",
       "determiner": "a",
-      "events_url": "/items/137953/events",
       "url": "/items/137953",
-      "detail_text_1": "Item number",
-      "issue_number_str": "735"
-    },
-    {
-      "detail_text_2": "4234",
-      "issue_number": 4234,
-      "issue_size": null,
-      "pick_up_url": "/items/306155/pick_up",
-      "image_url": "http://static.gowalla.com/kinds/1486-1307477a2e75e0186cf66bcea17acd34.png",
-      "name": "Tacos",
-      "drop_url": "/items/306155/drop",
-      "determiner": "some",
-      "events_url": "/items/306155/events",
-      "url": "/items/306155",
-      "detail_text_1": "Item number",
-      "issue_number_str": "4234"
-    },
-    {
-      "detail_text_2": "2186",
-      "issue_number": 2186,
-      "issue_size": null,
-      "pick_up_url": "/items/192416/pick_up",
-      "image_url": "http://static.gowalla.com/kinds/1486-1307477a2e75e0186cf66bcea17acd34.png",
-      "name": "Tacos",
-      "drop_url": "/items/192416/drop",
-      "determiner": "some",
-      "events_url": "/items/192416/events",
-      "url": "/items/192416",
-      "detail_text_1": "Item number",
-      "issue_number_str": "2186"
+      "pick_up_url": "/items/137953/pick_up"
     }
   ]
 }

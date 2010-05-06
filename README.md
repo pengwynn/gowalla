@@ -21,8 +21,8 @@ Be sure and get your API key: [http://gowalla.com/api/keys](http://gowalla.com/a
 
     >> Gowalla.configure do |config|
     >>   config.api_key = 'your_api_key'
-    >>   config.api_key = 'pengwynn'
-    >>   config.api_key = 'somepassword'
+    >>   config.username = 'pengwynn'
+    >>   config.password = 'somepassword'
     >> end
     >> gowalla = Gowalla::Client.new
     
