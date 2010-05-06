@@ -4,7 +4,7 @@ module Gowalla
     include HTTParty
     format :json
     base_uri "http://api.gowalla.com"
-    headers({'Accept' => 'application/json, text/javascript, application/json', "User-Agent" => 'Ruby gem'})
+    headers({'Accept' => 'application/json', "User-Agent" => 'Ruby gem'})
     
     attr_reader :username
     
