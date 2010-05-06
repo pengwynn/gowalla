@@ -14,7 +14,7 @@ begin
     gem.add_dependency('hashie', '>= 0.1.3')
     gem.add_dependency('httparty', '>= 0.5.0')
 
-    gem.add_development_dependency('thoughtbot-shoulda', '>= 2.10.1')
+    gem.add_development_dependency('shoulda', '>= 2.10.1')
     gem.add_development_dependency('jnunemaker-matchy', '0.4.0')
     gem.add_development_dependency('fakeweb', '>= 1.2.5')
     gem.add_development_dependency "yard", ">= 0"
