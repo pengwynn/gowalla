@@ -1,5 +1,7 @@
 # Changelog
-
+## 0.1.4 May 6, 2010
+  * Updated accepts header
+  * Added patch from [Ruben Fonseca](http://github.com/rubenfonseca) to check in at a spot
 ## 0.1.3 March 7, 2010
   * Updated README with correct config call
   * Applied patch from [Kacy Fortner](http://github.com/kacy) to add vaulted items and missing items calls
