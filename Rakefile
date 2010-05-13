@@ -1,5 +1,5 @@
-require 'rubygems'
 require 'rake'
+require 'shoulda/tasks'
 
 begin
   require 'jeweler'
@@ -17,6 +17,7 @@ begin
     gem.add_development_dependency('shoulda', '>= 2.10.1')
     gem.add_development_dependency('jnunemaker-matchy', '0.4.0')
     gem.add_development_dependency('fakeweb', '>= 1.2.5')
+    
     gem.add_development_dependency "yard", ">= 0"
   end
   Jeweler::GemcutterTasks.new
@@ -27,7 +28,7 @@ end
 require 'rake/testtask'
 Rake::TestTask.new(:test) do |test|
   test.libs << 'lib' << 'test'
-  test.pattern = 'test/**/test_*.rb'
+  test.pattern = 'test/**/*_test.rb'
   test.verbose = true
 end
 
@@ -35,7 +36,7 @@ begin
   require 'rcov/rcovtask'
   Rcov::RcovTask.new do |test|
     test.libs << 'test'
-    test.pattern = 'test/**/test_*.rb'
+    test.pattern = 'test/**/*_test.rb'
     test.verbose = true
   end
 rescue LoadError
