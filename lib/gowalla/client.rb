@@ -1,56 +1,63 @@
+require 'forwardable'
+
 module Gowalla
-  
   class Client
-    include HTTParty
-    format :json
-    base_uri "http://api.gowalla.com"
-    headers({'Accept' => 'application/json', "User-Agent" => 'Ruby gem'})
+    extend Forwardable
     
-    attr_reader :username
+    attr_reader :username, :api_key, :api_secret
+    
+    def_delegators :oauth_client, :web_server, :authorize_url, :access_token_url
     
     def initialize(options={})
-      api_key = options[:api_key] || Gowalla.api_key
+      @api_key = options[:api_key] || Gowalla.api_key
+      @api_secret = options[:api_secret] || Gowalla.api_secret
       @username = options[:username] || Gowalla.username
+      @access_token = options[:access_token]
       password = options[:password] || Gowalla.password
-      self.class.basic_auth(@username, password) unless @username.nil?
-      self.class.headers({'X-Gowalla-API-Key' => api_key }) unless api_key.nil?
+      connection.basic_auth(@username, password) unless @api_secret
     end
     
     def user(user_id=self.username)
-      mashup(self.class.get("/users/#{user_id}"))
+      handle_response(connection.get("/users/#{user_id}"))
     end
 
     def item(id)
-      mashup(self.class.get("/items/#{id}"))
+      handle_response(connection.get("/items/#{id}"))
     end
 
     def stamps(user_id=self.username, limit=20)
-      mashup(self.class.get("/users/#{user_id}/stamps", :query => {:limit => limit})).stamps
+      response = connection.get do |req|
+        req.url "/users/#{user_id}/stamps", :limit => limit
+      end
+      handle_response(response).stamps
     end
 
     def top_spots(user_id=self.username)
-      mashup(self.class.get("/users/#{user_id}/top_spots")).top_spots
+      handle_response(connection.get("/users/#{user_id}/top_spots")).top_spots
     end
 
     def trip(trip_id)
-      mashup(self.class.get("/trips/#{trip_id}"))
+      handle_response(connection.get("/trips/#{trip_id}"))
     end
     
     def spot(spot_id)
-      mashup(self.class.get("/spots/#{spot_id}"))
+      handle_response(connection.get("/spots/#{spot_id}"))
     end
     
     def spot_events(spot_id)
-      mashup(self.class.get("/spots/#{spot_id}/events")).activity
+      handle_response(connection.get("/spots/#{spot_id}/events")).activity
     end
     
     def spot_items(spot_id)
-      mashup(self.class.get("/spots/#{spot_id}/items")).items
+      handle_response(connection.get("/spots/#{spot_id}/items")).items
     end
     
     def list_spots(options={})
       query = format_geo_options(options)
-      mashup(self.class.get("/spots", :query => query)).spots
+      response = connection.get do |req|
+        req.url "/spots", query
+      end
+      handle_response(response).spots
     end
     
 
@@ -59,15 +66,46 @@ module Gowalla
         options[:user_url] = "/users/#{user_id}"
       end
       query = format_geo_options(options)
-      mashup(self.class.get("/trips", :query => query)).trips
+      response = connection.get do |req|
+        req.url "/trips", query
+      end
+      handle_response(response).trips
     end
 
     def categories
-      mashup(self.class.get("/categories")).spot_categories
+      handle_response(connection.get("/categories")).spot_categories
     end
     
     def category(id)
-      mashup(self.class.get("/categories/#{id}"))
+      handle_response(connection.get("/categories/#{id}"))
+    end
+    
+    def needs_access?
+      @api_secret and @access_token.to_s == ''
+    end
+    
+    def connection
+      headers = {
+        :accept =>  'application/json', 
+        :user_agent => 'Ruby gem'
+      }
+        
+      if api_secret
+        @connection ||= OAuth2::AccessToken.new(oauth_client, @access_token)
+      else
+        headers['X-Gowalla-API-Key'] = api_key if api_key
+        @connection ||= Faraday::Connection.new \
+          :url => "http://api.gowalla.com", 
+          :headers => headers
+      end
+    end
+    
+    def oauth_client
+      @oauth_client ||= OAuth2::Client.new(api_key, api_secret, oauth_options = {
+        :site => 'https://api.gowalla.com',
+        :authorize_url => 'https://gowalla.com/api/oauth/new',
+        :access_token_url => 'https://gowalla.com/api/oauth/token'
+      })
     end
 
     private
@@ -81,20 +119,22 @@ module Gowalla
         options
       end
     
-      def mashup(response)
-        case response.code
+      def handle_response(response)
+        case response.status
         when 200
-          if response.is_a?(Hash)
-            Hashie::Mash.new(response)
+          data = MultiJson.decode(response.body)
+          if data.is_a?(Hash)
+            Hashie::Mash.new(data)
           else
-            if response.first.is_a?(Hash)
-              response.map{|item| Hashie::Mash.new(item)}
+            if data.first.is_a?(Hash)
+              data.map{|item| Hashie::Mash.new(item)}
             else
-              response
+              data
             end
           end
         end
       end
+      
     
   end
   

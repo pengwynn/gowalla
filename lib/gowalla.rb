@@ -1,5 +1,7 @@
 require 'hashie'
-require 'httparty'
+require 'faraday'
+require 'multi_json'
+require 'oauth2'
 
 directory = File.expand_path(File.dirname(__FILE__))
 
@@ -27,6 +29,7 @@ module Gowalla
     attr_accessor :api_key
     attr_accessor :username
     attr_accessor :password
+    attr_accessor :api_secret
   end
   
 end

@@ -16,7 +16,7 @@ class GowallaTest < Test::Unit::TestCase
       end
       
       should "Retrieve a list of spots within a specified bounds" do
-        stub_get("http://pengwynn:0U812@api.gowalla.com/spots?sw=(39.25565142103586%2C%20-8.717308044433594)&nw=(39.31411296530539%2C%20-8.490715026855469)", "spots.json")
+        stub_get("http://pengwynn:0U812@api.gowalla.com/spots?sw=%2839.25565142103586%2C%20-8.717308044433594%29&nw=%2839.31411296530539%2C%20-8.490715026855469%29", "spots.json")
         spots = @client.list_spots(:sw => "(39.25565142103586, -8.717308044433594)", :nw => "(39.31411296530539, -8.490715026855469)")
         spots.first.name.should == 'Gnomb Bar'
       end
@@ -115,21 +115,53 @@ class GowallaTest < Test::Unit::TestCase
     
   end
   
-  
-  should "configure api_key, username, and password for easy access" do
-    
-    Gowalla.configure do |config|
-      config.api_key = 'api_key'
-      config.username = 'username'
-      config.password = 'password'
-    end
+  context "when using basic auth" do
+    should "configure api_key, username, and password for easy access" do
 
-    @client = Gowalla::Client.new
+      Gowalla.configure do |config|
+        config.api_key = 'api_key'
+        config.api_secret = nil
+        config.username = 'username'
+        config.password = 'password'
+      end
+
+      @client = Gowalla::Client.new
+
+      stub_get('http://username:password@api.gowalla.com/trips', 'trips.json')
+      trips = @client.trips
+
+      @client.username.should == 'username'
+    end
+  end
+
+  context "when using OAuth2" do
     
-    stub_get('http://username:password@api.gowalla.com/trips', 'trips.json')
-    trips = @client.trips
+    setup do
+      Gowalla.configure do |config|
+        config.api_key = 'api_key'
+        config.api_secret = 'api_secret'
+      end
+
+      @client = Gowalla::Client.new
+    end
     
-    @client.username.should == 'username'
+    should "confiure api_key, api_secret" do
+      @client.api_secret.should == 'api_secret'
+      @client.oauth_client.id.should == 'api_key'
+    end
+    
+    should "create an OAuth2 client" do
+      @client.oauth_client.class.to_s.should == "OAuth2::Client"
+    end
+    
+    should "create an OAuth2 connection" do
+      @client.connection.class.to_s.should == "OAuth2::AccessToken"
+    end
+    
+    should "indicate if it needs an access_token" do
+      @client.needs_access?.should == true
+    end
+    
   end
   
   
