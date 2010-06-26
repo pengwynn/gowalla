@@ -17,7 +17,8 @@ module Gowalla
       connection.basic_auth(@username, password) unless @api_secret
     end
     
-    def user(user_id=self.username)
+    def user(user_id=nil)
+      user_id ||= username
       handle_response(connection.get("/users/#{user_id}"))
     end
 
@@ -85,14 +86,11 @@ module Gowalla
     end
     
     def connection
-      headers = {
-        :accept =>  'application/json', 
-        :user_agent => 'Ruby gem'
-      }
-        
+      
       if api_secret
         @connection ||= OAuth2::AccessToken.new(oauth_client, @access_token)
       else
+        headers = default_headers
         headers['X-Gowalla-API-Key'] = api_key if api_key
         @connection ||= Faraday::Connection.new \
           :url => "http://api.gowalla.com", 
@@ -101,11 +99,21 @@ module Gowalla
     end
     
     def oauth_client
-      @oauth_client ||= OAuth2::Client.new(api_key, api_secret, oauth_options = {
-        :site => 'https://api.gowalla.com',
-        :authorize_url => 'https://gowalla.com/api/oauth/new',
-        :access_token_url => 'https://gowalla.com/api/oauth/token'
-      })
+      if @oauth_client
+        @oauth_client
+      else
+        conn ||= Faraday::Connection.new \
+          :url => "https://api.gowalla.com", 
+          :headers => default_headers
+
+        oauth= OAuth2::Client.new(api_key, api_secret, oauth_options = {
+          :site => 'https://api.gowalla.com',
+          :authorize_url => 'https://gowalla.com/api/oauth/new',
+          :access_token_url => 'https://gowalla.com/api/oauth/token'
+        })
+        oauth.connection = conn
+        oauth
+      end
     end
 
     private
@@ -118,11 +126,19 @@ module Gowalla
         end
         options
       end
+      
+      def default_headers
+        headers = {
+          :accept =>  'application/json', 
+          :user_agent => 'Ruby gem'
+        }
+      end
     
       def handle_response(response)
         case response.status
         when 200
-          data = MultiJson.decode(response.body)
+          body = response.respond_to?(:body) ? response.body : response
+          data = MultiJson.decode(body)
           if data.is_a?(Hash)
             Hashie::Mash.new(data)
           else
