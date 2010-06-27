@@ -18,5 +18,7 @@ coverage
 rdoc
 pkg
 *.gem
+.yardopts
+.yardoc
 
 ## PROJECT::SPECIFIC
