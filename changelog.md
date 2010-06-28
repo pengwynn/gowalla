@@ -1,4 +1,9 @@
 # Changelog
+## 0.2.1 June 28, 2010
+  * Use Faraday middleware for JSON parsing, Mash creation
+## 0.2.0 June 27, 2010
+  * Refactored to use Faraday
+  * Now supports OAuth2
 ## 0.1.4 May 6, 2010
   * Updated accepts header
   * Added patch from [Ruben Fonseca](http://github.com/rubenfonseca) to check in at a spot
