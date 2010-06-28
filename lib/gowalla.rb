@@ -2,6 +2,7 @@ require 'hashie'
 require 'faraday'
 require 'multi_json'
 require 'oauth2'
+require 'faraday_middleware'
 
 directory = File.expand_path(File.dirname(__FILE__))
 

@@ -15,6 +15,7 @@ module Gowalla
       @access_token = options[:access_token]
       password = options[:password] || Gowalla.password
       connection.basic_auth(@username, password) unless @api_secret
+      connection.token_auth(@access_token) if @access_token
     end
     
     # Retrieve information about a specific user
@@ -136,20 +137,19 @@ module Gowalla
       @api_secret and @access_token.to_s == ''
     end
     
-    # Raw HTTP connection, either Faraday::Connection or OAuth2::AccessToken
+    # Raw HTTP connection, either Faraday::Connection 
     #
-    # @return [OAuth2::Client]
+    # @return [Faraday::Connection]
     def connection
-      
-      if api_secret
-        @connection ||= OAuth2::AccessToken.new(oauth_client, @access_token)
-      else
-        headers = default_headers
-        headers['X-Gowalla-API-Key'] = api_key if api_key
-        @connection ||= Faraday::Connection.new \
-          :url => "http://api.gowalla.com", 
-          :headers => headers
+      url = @access_token ? "https://api.gowalla.com" : "http://api.gowalla.com"
+      params = {}
+      params[:access_token] = @access_token if @access_token
+      @connection ||= Faraday::Connection.new(:url => url, :params => params, :headers => default_headers) do |builder|
+        builder.adapter Faraday.default_adapter
+        builder.use Faraday::Response::MultiJson
+        builder.use Faraday::Response::Mashify
       end
+            
     end
     
     # Provides raw access to the OAuth2 Client
@@ -189,7 +189,8 @@ module Gowalla
       def default_headers
         headers = {
           :accept =>  'application/json', 
-          :user_agent => 'Ruby gem'
+          :user_agent => 'Ruby gem',
+          'X-Gowalla-API-Key' => api_key
         }
       end
       
@@ -197,17 +198,7 @@ module Gowalla
       def handle_response(response)
         case response.status
         when 200
-          body = response.respond_to?(:body) ? response.body : response
-          data = MultiJson.decode(body)
-          if data.is_a?(Hash)
-            Hashie::Mash.new(data)
-          else
-            if data.first.is_a?(Hash)
-              data.map{|item| Hashie::Mash.new(item)}
-            else
-              data
-            end
-          end
+          response.body
         end
       end
       

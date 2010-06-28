@@ -154,10 +154,6 @@ class GowallaTest < Test::Unit::TestCase
       @client.oauth_client.class.to_s.should == "OAuth2::Client"
     end
     
-    should "create an OAuth2 connection" do
-      @client.connection.class.to_s.should == "OAuth2::AccessToken"
-    end
-    
     should "indicate if it needs an access_token" do
       @client.needs_access?.should == true
     end
