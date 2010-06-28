@@ -24,7 +24,7 @@ module Gowalla
     # @return [Hashie::Mash] User info
     def user(user_id=nil)
       user_id ||= username
-      handle_response(connection.get("/users/#{user_id}"))
+      connection.get("/users/#{user_id}").body
     end
 
     # Retrieve information about a specific item
@@ -32,7 +32,7 @@ module Gowalla
     # @param [Integer] id Item ID
     # @return [Hashie::Mash] item info
     def item(id)
-      handle_response(connection.get("/items/#{id}"))
+      connection.get("/items/#{id}").body
     end
 
     # Retrieve a list of the stamps the user has collected
@@ -44,7 +44,7 @@ module Gowalla
       response = connection.get do |req|
         req.url "/users/#{user_id}/stamps", :limit => limit
       end
-      handle_response(response).stamps
+      response.body.stamps
     end
 
     # Retrieve a list of spots the user has visited most often
@@ -52,7 +52,7 @@ module Gowalla
     # @param [String] user_id (authenticated basic auth user) User ID (screen name)
     # @return [Hashie::Mash] item info
     def top_spots(user_id=self.username)
-      handle_response(connection.get("/users/#{user_id}/top_spots")).top_spots
+      connection.get("/users/#{user_id}/top_spots").body.top_spots
     end
 
     # Retrieve information about a specific trip
@@ -60,7 +60,7 @@ module Gowalla
     # @param [Integer] trip_id Trip ID
     # @return [Hashie::Mash] trip info
     def trip(trip_id)
-      handle_response(connection.get("/trips/#{trip_id}"))
+      connection.get("/trips/#{trip_id}").body
     end
     
     # Retrieve information about a specific spot
@@ -68,7 +68,7 @@ module Gowalla
     # @param [Integer] spot_id Spot ID
     # @return [Hashie::Mash] Spot info
     def spot(spot_id)
-      handle_response(connection.get("/spots/#{spot_id}"))
+      connection.get("/spots/#{spot_id}").body
     end
     
     # Retrieve a list of check-ins at a particular spot. Shows only the activity that is visible to a given user.
@@ -76,7 +76,7 @@ module Gowalla
     # @param [Integer] spot_id Spot ID
     # @return [Hashie::Mash] Spot info
     def spot_events(spot_id)
-      handle_response(connection.get("/spots/#{spot_id}/events")).activity
+      connection.get("/spots/#{spot_id}/events").body.activity
     end
     
     # Retrieve a list of items available at a particular spot
@@ -84,7 +84,7 @@ module Gowalla
     # @param [Integer] spot_id Spot ID
     # @return [Hashie::Mash] Spot info
     def spot_items(spot_id)
-      handle_response(connection.get("/spots/#{spot_id}/items")).items
+      connection.get("/spots/#{spot_id}/items").body.items
     end
     
     # Retrieve a list of spots within a specified distance of a location
@@ -98,7 +98,7 @@ module Gowalla
       response = connection.get do |req|
         req.url "/spots", query
       end
-      handle_response(response).spots
+      response.body.spots
     end
     
     # List of trips
@@ -112,14 +112,14 @@ module Gowalla
       response = connection.get do |req|
         req.url "/trips", query
       end
-      handle_response(response).trips
+      response.body.trips
     end
 
     # Lists all spot categories
     #
     # @return [<Hashie::Mash>] category info
     def categories
-      handle_response(connection.get("/categories")).spot_categories
+      connection.get("/categories").body.spot_categories
     end
     
     # Retrieve information about a specific category
@@ -127,7 +127,7 @@ module Gowalla
     # @param [Integer] id Category ID
     # @return [Hashie::Mash] category info
     def category(id)
-      handle_response(connection.get("/categories/#{id}"))
+      connection.get("/categories/#{id}").body
     end
     
     # Check for missing access token
@@ -192,14 +192,6 @@ module Gowalla
           :user_agent => 'Ruby gem',
           'X-Gowalla-API-Key' => api_key
         }
-      end
-      
-      # @private
-      def handle_response(response)
-        case response.status
-        when 200
-          response.body
-        end
       end
       
     
