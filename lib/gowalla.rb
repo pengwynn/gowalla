@@ -10,7 +10,7 @@ Hash.send :include, Hashie::HashExtensions
 
 module Gowalla
   
-  VERSION = "0.2.1".freeze
+  VERSION = "0.2.2".freeze
   
   # config/initializers/gowalla.rb (for instance)
   # 
