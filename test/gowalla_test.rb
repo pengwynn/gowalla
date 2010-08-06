@@ -58,6 +58,15 @@ class GowallaTest < Test::Unit::TestCase
         category = @client.category(1)
         category.name.should == 'Coffee Shop'
       end
+      
+      should "retrieve flags associated with that spot" do
+        stub_get("http://pengwynn:0U812@api.gowalla.com/spots/1/flags", "flags.json")
+        flags = @client.spot_flags(1)
+        flags.first.spot.name.should == 'Wild Gowallaby #1'
+        flags.first.user.url.should == '/users/340897'
+        flags.first[:type].should == 'invalid'
+        flags.first.status.should == 'open'
+      end
     end
     
     context "and working with Users" do
@@ -113,6 +122,25 @@ class GowallaTest < Test::Unit::TestCase
       end
     end
     
+    context "and working with Flags" do
+      should "retrieve a list of flags" do
+        stub_get("http://pengwynn:0U812@api.gowalla.com/flags", "flags.json")
+        flags = @client.list_flags
+        flags.first.spot.name.should == 'Wild Gowallaby #1'
+        flags.first.user.url.should == '/users/340897'
+        flags.first[:type].should == 'invalid'
+        flags.first.status.should == 'open'
+      end
+      
+      should "retrieve information about a specific flag" do
+        stub_get("http://pengwynn:0U812@api.gowalla.com/flags/1", "flag.json")
+        flag = @client.flag(1)
+        flag.spot.name.should == 'Wild Gowallaby #1'
+        flag.user.url.should == '/users/340897'
+        flag[:type].should == 'invalid'
+        flag.status.should == 'open'
+      end
+    end
   end
   
   context "when using basic auth" do

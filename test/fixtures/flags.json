@@ -1,0 +1,31 @@
+{
+    "total_entries": 1,
+    "total_pages": 1,
+    "flags":
+    [{
+      "spot": {
+          "city_state": "Austin, TX",
+          "image_url": "http://static.gowalla.com/categories/59-cb7e4692ac273d7ac26f9554d85b7671-100.png?1",
+          "url": "/spots/9365",
+          "lat": 30.2691793333,
+          "description": "Alamofire captured the video of this rare specie of spot which aided in the registration of it to the database.",
+          "lng": -97.7511334333,
+          "name": "Wild Gowallaby #1"
+      },
+      "user":
+      {
+          "last_name": "De Luca",
+          "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/340897-standard.jpg?1278521087?1",
+          "url": "/users/340897",
+          "first_name": "Gabriella",
+          "name": "Gabriella De Luca"
+      },
+      "type": "invalid",
+      "status": "open",
+      "closed_at": null,
+      "description": null,
+      "created_at": "2010-07-28T17:23:17Z"
+    }],
+    "per_page": 50,
+    "current_page": 1
+}

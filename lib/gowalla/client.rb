@@ -87,6 +87,29 @@ module Gowalla
       connection.get("/spots/#{spot_id}/items").body.items
     end
     
+    # Retrieve a list of flags for a particular spot
+    #
+    # @param [Integer] spot_id Spot ID
+    # @return [Hashie::Mash] Array of Flags
+    def spot_flags(spot_id)
+      connection.get("/spots/#{spot_id}/flags").body.flags
+    end
+    
+    # Retrieve a list of flags 
+    #
+    # @return [<Hashie::Mash>] Flag info
+    def list_flags(options={})
+      connection.get("/flags").body.flags
+    end
+    
+    # Retrieve information about a particular flag
+    #
+    # @param [Integer] flag_id Flag ID
+    # @return [Hashie::Mash] Flag info
+    def flag(flag_id)
+      connection.get("/flags/#{flag_id}").body
+    end
+    
     # Retrieve a list of spots within a specified distance of a location
     #
     # @option options [Float] :latitude Latitude of search location
