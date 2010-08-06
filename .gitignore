@@ -20,5 +20,6 @@ pkg
 *.gem
 .yardopts
 .yardoc
+.bundle
 
 ## PROJECT::SPECIFIC
