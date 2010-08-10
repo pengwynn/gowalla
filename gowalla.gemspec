@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.required_rubygems_version = ">= 1.3.6"
   s.authors = ["Wynn Netherland"]
-  s.date = %q{2010-06-26}
+  s.date = %q{2010-08-09}
   s.description = %q{Ruby wrapper for the Gowalla API}
   s.email = %q{wynn.netherland@gmail.com}
   s.files = Dir.glob("{lib}/**/*")
