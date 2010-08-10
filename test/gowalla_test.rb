@@ -141,6 +141,15 @@ class GowallaTest < Test::Unit::TestCase
         flag.status.should == 'open'
       end
     end
+    
+    context "and working with checkins" do
+      should "fetch info for a checkin" do
+        stub_get("http://pengwynn:0U812@api.gowalla.com/checkins/88", "checkin.json")
+        checkin = @client.checkin_info(88)
+        checkin.spot.name.should == 'Movie Tavern'
+        checkin.message.should == 'There sending us Back-- to the Future!'
+      end
+    end
   end
   
   context "when using basic auth" do
@@ -159,6 +168,19 @@ class GowallaTest < Test::Unit::TestCase
       trips = @client.trips
 
       @client.username.should == 'username'
+    end
+    
+    should "configure test mode" do
+      Gowalla.configure do |config|
+        config.api_key = 'api_key'
+        config.api_secret = nil
+        config.username = 'username'
+        config.password = 'password'
+        config.test_mode = true
+      end
+      
+      Gowalla.test_mode?.should == true
+      
     end
   end
 

@@ -10,7 +10,7 @@ Hash.send :include, Hashie::HashExtensions
 
 module Gowalla
   
-  VERSION = "0.2.2".freeze
+  VERSION = "0.3.0".freeze
   
   # config/initializers/gowalla.rb (for instance)
   # 
@@ -33,6 +33,11 @@ module Gowalla
     attr_accessor :username
     attr_accessor :password
     attr_accessor :api_secret
+    attr_accessor :test_mode
+    
+    def test_mode?
+      !!self.test_mode
+    end
   end
   
 end

@@ -44,6 +44,10 @@ Let's create the client in a protected method in our controller:
 We need to get an access token. Perhaps in an a before filter where you need to access Gowalla:
     
     redirect(@client.web_server.authorize_url(:redirect_uri => redirect_uri, :state => 1))
+
+or if you need read-write access:
+
+    redirect(@client.web_server.authorize_url(:redirect_uri => redirect_uri, :state => 1, :scope => 'read-write))
     
 You'll need a callback route to catch the code coming back from Gowalla after a user grants you access and this must match what you specified when you created your app on Gowalla:
 

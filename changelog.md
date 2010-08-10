@@ -1,4 +1,7 @@
 # Changelog
+## 0.3.0 August 9, 2010
+  * Added checkin API
+  * Patch from [mattt](http://github.com/mattt) for Flag Spots API
 ## 0.2.1 June 28, 2010
   * Use Faraday middleware for JSON parsing, Mash creation
 ## 0.2.0 June 27, 2010
