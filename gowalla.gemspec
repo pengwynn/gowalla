@@ -1,3 +1,4 @@
+$LOAD_PATH.unshift File.expand_path("../lib", __FILE__)
 require 'bundler'
 require 'bundler/version'
 require 'gowalla'
@@ -5,7 +6,7 @@ require 'gowalla'
 Gem::Specification.new do |s|
   s.name = %q{gowalla}
   s.version = Gowalla::VERSION
-  s.platform    = Gem::Platform::RUBY
+  s.platform = Gem::Platform::RUBY
   s.required_rubygems_version = ">= 1.3.6"
   s.authors = ["Wynn Netherland"]
   s.date = %q{2010-06-26}
@@ -20,6 +21,5 @@ Gem::Specification.new do |s|
     "test/helper.rb",
     "test/gowalla_test.rb"
   ]
-
   s.add_bundler_dependencies
 end
