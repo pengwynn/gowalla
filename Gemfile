@@ -8,4 +8,5 @@ gem 'faraday-middleware'
 
 group :development do
   gem 'shoulda', '~> 2.10.0'
+  gem 'jnunemaker-matchy', '>= 0.4.0'
 end
