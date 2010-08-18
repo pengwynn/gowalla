@@ -1,7 +1,7 @@
 $LOAD_PATH.unshift File.expand_path("../lib", __FILE__)
 require "bundler/version"
 require "shoulda/tasks"
-require 'lib/gowalla'
+require 'gowalla'
 
 require "rake/testtask"
 Rake::TestTask.new(:test) do |test|

@@ -1,6 +1,6 @@
 require 'bundler'
 require 'bundler/version'
-require 'lib/gowalla'
+require 'gowalla'
 
 Gem::Specification.new do |s|
   s.name = %q{gowalla}
