@@ -112,8 +112,8 @@ module Gowalla
     
     # Retrieve a list of spots within a specified distance of a location
     #
-    # @option options [Float] :latitude Latitude of search location
-    # @option options [Float] :longitude Longitude of search location
+    # @option options [Float] :lat Latitude of search location
+    # @option options [Float] :lng Longitude of search location
     # @option options [Integer] :radius Search radius (in meters)
     # @return [Hashie::Mash] spots info
     def list_spots(options={})
