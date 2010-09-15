@@ -6,7 +6,7 @@ class GowallaTest < Test::Unit::TestCase
     setup do
       @client = Gowalla::Client.new(:username => 'pengwynn', :password => '0U812', :api_key => 'gowallawallabingbang')
     end
-    
+
     context "and working with Spots" do
       should "Retrieve a list of spots within a specified distance of a location" do
         stub_get("http://pengwynn:0U812@api.gowalla.com/spots?lat=%2B33.237593417&lng=-96.960559033&radius=50", "spots.json")
@@ -14,7 +14,7 @@ class GowallaTest < Test::Unit::TestCase
         spots.first.name.should == 'Gnomb Bar'
         spots.first.radius_meters.should == 50
       end
-      
+
       should "Retrieve a list of spots within a specified bounds" do
         stub_get("http://pengwynn:0U812@api.gowalla.com/spots?sw=%2839.25565142103586%2C%20-8.717308044433594%29&nw=%2839.31411296530539%2C%20-8.490715026855469%29", "spots.json")
         spots = @client.list_spots(:sw => "(39.25565142103586, -8.717308044433594)", :nw => "(39.31411296530539, -8.490715026855469)")
@@ -58,7 +58,7 @@ class GowallaTest < Test::Unit::TestCase
         category = @client.category(1)
         category.name.should == 'Coffee Shop'
       end
-      
+
       should "retrieve flags associated with that spot" do
         stub_get("http://pengwynn:0U812@api.gowalla.com/spots/1/flags", "flags.json")
         flags = @client.spot_flags(1)
@@ -68,16 +68,16 @@ class GowallaTest < Test::Unit::TestCase
         flags.first.status.should == 'open'
       end
     end
-    
+
     context "and working with Users" do
-      
+
       should "retrieve information about a specific user" do
         stub_get('http://pengwynn:0U812@api.gowalla.com/users/sco', 'user.json')
         user = @client.user('sco')
         user.bio.should == "CTO & co-founder of Gowalla. Ruby/Cocoa/JavaScript developer. Game designer. Author. Indoorsman."
         user.stamps_count.should == 506
       end
-      
+
       should "retrieve a list of the stamps the user has collected" do
         stub_get('http://pengwynn:0U812@api.gowalla.com/users/1707/stamps?limit=20', 'stamps.json')
         stamps = @client.stamps(1707)
@@ -85,7 +85,7 @@ class GowallaTest < Test::Unit::TestCase
         stamps.first.spot.name.should == "Muck-N-Dave's Texas BBQ"
         stamps.first.spot.address.locality.should == 'Austin'
       end
-      
+
       should "retrieve a list of spots the user has visited most often" do
         stub_get('http://pengwynn:0U812@api.gowalla.com/users/1707/top_spots', 'top_spots.json')
         top_spots = @client.top_spots(1707)
@@ -93,9 +93,9 @@ class GowallaTest < Test::Unit::TestCase
         top_spots.first.name.should == 'Juan Pelota Cafe'
         top_spots.first.user_checkins_count.should == 30
       end
-      
+
     end
-    
+
     context "and working with Items" do
       should "retrieve information about a specific item" do
         stub_get('http://pengwynn:0U812@api.gowalla.com/items/607583', 'item.json')
@@ -105,7 +105,7 @@ class GowallaTest < Test::Unit::TestCase
         item.determiner.should == 'some'
       end
     end
-    
+
     context "and working with Trips" do
       should "retrieve a list of trips" do
         stub_get('http://pengwynn:0U812@api.gowalla.com/trips', 'trips.json')
@@ -113,7 +113,7 @@ class GowallaTest < Test::Unit::TestCase
         trips.first.name.should == 'London Pub Crawl'
         trips.first.spots.first.url.should == '/spots/164009'
       end
-      
+
       should "retrieve information about a specific trip" do
         stub_get('http://pengwynn:0U812@api.gowalla.com/trips/1', 'trip.json')
         trip = @client.trip(1)
@@ -121,7 +121,7 @@ class GowallaTest < Test::Unit::TestCase
         trip.map_bounds.east.should == -63.457031
       end
     end
-    
+
     context "and working with Flags" do
       should "retrieve a list of flags" do
         stub_get("http://pengwynn:0U812@api.gowalla.com/flags", "flags.json")
@@ -131,7 +131,7 @@ class GowallaTest < Test::Unit::TestCase
         flags.first[:type].should == 'invalid'
         flags.first.status.should == 'open'
       end
-      
+
       should "retrieve information about a specific flag" do
         stub_get("http://pengwynn:0U812@api.gowalla.com/flags/1", "flag.json")
         flag = @client.flag(1)
@@ -141,7 +141,7 @@ class GowallaTest < Test::Unit::TestCase
         flag.status.should == 'open'
       end
     end
-    
+
     context "and working with checkins" do
       should "fetch info for a checkin" do
         stub_get("http://pengwynn:0U812@api.gowalla.com/checkins/88", "checkin.json")
@@ -151,7 +151,7 @@ class GowallaTest < Test::Unit::TestCase
       end
     end
   end
-  
+
   context "when using basic auth" do
     should "configure api_key, username, and password for easy access" do
 
@@ -169,7 +169,7 @@ class GowallaTest < Test::Unit::TestCase
 
       @client.username.should == 'username'
     end
-    
+
     should "configure test mode" do
       Gowalla.configure do |config|
         config.api_key = 'api_key'
@@ -178,14 +178,14 @@ class GowallaTest < Test::Unit::TestCase
         config.password = 'password'
         config.test_mode = true
       end
-      
+
       Gowalla.test_mode?.should == true
-      
+
     end
   end
 
   context "when using OAuth2" do
-    
+
     setup do
       Gowalla.configure do |config|
         config.api_key = 'api_key'
@@ -194,21 +194,21 @@ class GowallaTest < Test::Unit::TestCase
 
       @client = Gowalla::Client.new
     end
-    
+
     should "confiure api_key, api_secret" do
       @client.api_secret.should == 'api_secret'
       @client.oauth_client.id.should == 'api_key'
     end
-    
+
     should "create an OAuth2 client" do
       @client.oauth_client.class.to_s.should == "OAuth2::Client"
     end
-    
+
     should "indicate if it needs an access_token" do
       @client.needs_access?.should == true
     end
-    
+
   end
-  
-  
+
+
 end
