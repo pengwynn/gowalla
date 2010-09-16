@@ -3,11 +3,17 @@ require 'forwardable'
 module Gowalla
   class Client
     extend Forwardable
-    
+
+    include Spots
+    include Users
+    include Items
+    include Trips
+    include Checkins
+
     attr_reader :username, :api_key, :api_secret
-    
+
     def_delegators :oauth_client, :web_server, :authorize_url, :access_token_url
-    
+
     def initialize(options={})
       @api_key = options[:api_key] || Gowalla.api_key
       @api_secret = options[:api_secret] || Gowalla.api_secret
@@ -17,91 +23,14 @@ module Gowalla
       connection.basic_auth(@username, password) unless @api_secret
       connection.token_auth(@access_token) if @access_token
     end
-    
-    # Retrieve information about a specific user
-    #
-    # @param [String] user_id (authenticated basic auth user) User ID (screen name)
-    # @return [Hashie::Mash] User info
-    def user(user_id=nil)
-      user_id ||= username
-      connection.get("/users/#{user_id}").body
-    end
 
-    # Retrieve information about a specific item
-    #
-    # @param [Integer] id Item ID
-    # @return [Hashie::Mash] item info
-    def item(id)
-      connection.get("/items/#{id}").body
-    end
-
-    # Retrieve a list of the stamps the user has collected
-    #
-    # @param [String] user_id (authenticated basic auth user) User ID (screen name)
-    # @param [Integer] limit (20) limit per page
-    # @return [Hashie::Mash] stamps info
-    def stamps(user_id=self.username, limit=20)
-      response = connection.get do |req|
-        req.url "/users/#{user_id}/stamps", :limit => limit
-      end
-      response.body.stamps
-    end
-
-    # Retrieve a list of spots the user has visited most often
-    #
-    # @param [String] user_id (authenticated basic auth user) User ID (screen name)
-    # @return [Hashie::Mash] item info
-    def top_spots(user_id=self.username)
-      connection.get("/users/#{user_id}/top_spots").body.top_spots
-    end
-
-    # Retrieve information about a specific trip
-    #
-    # @param [Integer] trip_id Trip ID
-    # @return [Hashie::Mash] trip info
-    def trip(trip_id)
-      connection.get("/trips/#{trip_id}").body
-    end
-    
-    # Retrieve information about a specific spot
-    #
-    # @param [Integer] spot_id Spot ID
-    # @return [Hashie::Mash] Spot info
-    def spot(spot_id)
-      connection.get("/spots/#{spot_id}").body
-    end
-    
-    # Retrieve a list of check-ins at a particular spot. Shows only the activity that is visible to a given user.
-    #
-    # @param [Integer] spot_id Spot ID
-    # @return [Hashie::Mash] Spot info
-    def spot_events(spot_id)
-      connection.get("/spots/#{spot_id}/events").body.activity
-    end
-    
-    # Retrieve a list of items available at a particular spot
-    #
-    # @param [Integer] spot_id Spot ID
-    # @return [Hashie::Mash] Spot info
-    def spot_items(spot_id)
-      connection.get("/spots/#{spot_id}/items").body.items
-    end
-    
-    # Retrieve a list of flags for a particular spot
-    #
-    # @param [Integer] spot_id Spot ID
-    # @return [Hashie::Mash] Array of Flags
-    def spot_flags(spot_id)
-      connection.get("/spots/#{spot_id}/flags").body.flags
-    end
-    
-    # Retrieve a list of flags 
+    # Retrieve a list of flags
     #
     # @return [<Hashie::Mash>] Flag info
     def list_flags(options={})
       connection.get("/flags").body.flags
     end
-    
+
     # Retrieve information about a particular flag
     #
     # @param [Integer] flag_id Flag ID
@@ -109,84 +38,15 @@ module Gowalla
     def flag(flag_id)
       connection.get("/flags/#{flag_id}").body
     end
-    
-    # Retrieve a list of spots within a specified distance of a location
-    #
-    # @option options [Float] :latitude Latitude of search location
-    # @option options [Float] :longitude Longitude of search location
-    # @option options [Integer] :radius Search radius (in meters)
-    # @return [Hashie::Mash] spots info
-    def list_spots(options={})
-      query = format_geo_options(options)
-      response = connection.get do |req|
-        req.url "/spots", query
-      end
-      response.body.spots
-    end
-    
-    # List of trips
-    #
-    # @return [<Hashie::Mash>] trip info
-    def trips(options={})
-      if user_id = options.delete(:user_id)
-        options[:user_url] = "/users/#{user_id}"
-      end
-      query = format_geo_options(options)
-      response = connection.get do |req|
-        req.url "/trips", query
-      end
-      response.body.trips
-    end
 
-    # Lists all spot categories
-    #
-    # @return [<Hashie::Mash>] category info
-    def categories
-      connection.get("/categories").body.spot_categories
-    end
-    
-    # Retrieve information about a specific category
-    #
-    # @param [Integer] id Category ID
-    # @return [Hashie::Mash] category info
-    def category(id)
-      connection.get("/categories/#{id}").body
-    end
-    
-    # Fetch info for a checkin
-    # 
-    # @param [Integer] id Checkin ID
-    # @return [Hashie::Mash] checkin info
-    def checkin_info(id)
-      connection.get("/checkins/#{id}").body
-    end
-    
-    # Check in at a spot
-    # 
-    # @option details [Integer] :spot_id Spot ID
-    # @option details [Float] :lat Latitude of spot
-    # @option details [Float] :lng Longitude of spot
-    # @option details [String] :comment Checkin comment
-    # @option details [Boolean] :post_to_twitter Post Checkin to Twitter
-    # @option details [Boolean] :post_to_facebook Post Checkin to Facebook
-    def checkin(details={})
-      checkin_path = "/checkins"
-      checkin_path += "/test" if Gowalla.test_mode?
-      response = connection.post do |req|
-        req.url checkin_path
-        req.body = details
-      end
-      response.body
-    end
-    
     # Check for missing access token
     #
     # @return [Boolean] whether or not to redirect to get an access token
     def needs_access?
       @api_secret and @access_token.to_s == ''
     end
-    
-    # Raw HTTP connection, either Faraday::Connection 
+
+    # Raw HTTP connection, either Faraday::Connection
     #
     # @return [Faraday::Connection]
     def connection
@@ -198,18 +58,18 @@ module Gowalla
         builder.use Faraday::Response::MultiJson
         builder.use Faraday::Response::Mashify
       end
-            
+
     end
-    
+
     # Provides raw access to the OAuth2 Client
     #
-    # @return [OAuth2::Client] 
+    # @return [OAuth2::Client]
     def oauth_client
       if @oauth_client
         @oauth_client
       else
         conn ||= Faraday::Connection.new \
-          :url => "https://api.gowalla.com", 
+          :url => "https://api.gowalla.com",
           :headers => default_headers
 
         oauth= OAuth2::Client.new(api_key, api_secret, oauth_options = {
@@ -223,7 +83,7 @@ module Gowalla
     end
 
     private
-    
+
       # @private
       def format_geo_options(options={})
         options[:lat] = "+#{options[:lat]}" if options[:lat].to_i > 0
@@ -233,17 +93,17 @@ module Gowalla
         end
         options
       end
-      
+
       # @private
       def default_headers
         headers = {
-          :accept =>  'application/json', 
+          :accept =>  'application/json',
           :user_agent => 'Ruby gem',
           'X-Gowalla-API-Key' => api_key
         }
       end
-      
-    
+
+
   end
-  
+
 end
