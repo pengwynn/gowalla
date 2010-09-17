@@ -30,6 +30,14 @@ module Gowalla
       connection.get("/users/#{user_id}/top_spots").body.top_spots
     end
 
+    # Retrieve a list of spot urls the user has visited
+    #
+    # @param [String] user_id (authenticated basic auth user) User ID (screen name)
+    # @return [Hashie::Mash] item info
+    def visited_spots_urls(user_id=self.username)
+      connection.get("/users/#{user_id}/visited_spots_urls").body.urls
+    end
+
 
   end
 end

@@ -71,6 +71,13 @@ class GowallaTest < Test::Unit::TestCase
 
     context "and working with Users" do
 
+      should "retrive information about the current user if no user specified" do
+        stub_get('http://pengwynn:0U812@api.gowalla.com/users/pengwynn', 'user.json')
+        user = @client.user
+        user.bio.should == "CTO & co-founder of Gowalla. Ruby/Cocoa/JavaScript developer. Game designer. Author. Indoorsman."
+        user.stamps_count.should == 506
+      end
+
       should "retrieve information about a specific user" do
         stub_get('http://pengwynn:0U812@api.gowalla.com/users/sco', 'user.json')
         user = @client.user('sco')
@@ -92,6 +99,13 @@ class GowallaTest < Test::Unit::TestCase
         top_spots.size.should == 10
         top_spots.first.name.should == 'Juan Pelota Cafe'
         top_spots.first.user_checkins_count.should == 30
+      end
+
+      should "retrieve a list of spot urls the user has visited" do
+        stub_get('http://pengwynn:0U812@api.gowalla.com/users/sco/visited_spots_urls', 'spots_urls.json')
+        spot_urls = @client.visited_spots_urls('sco')
+        spot_urls.size.should == 22
+        spot_urls.first.should == '/spots/682460'
       end
 
     end
