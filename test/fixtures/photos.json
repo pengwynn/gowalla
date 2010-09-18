@@ -1,0 +1,88 @@
+{
+  "activity": [
+    {
+      "type": "photo",
+      "checkin_url": "/checkins/17142731",
+      "spot": {
+        "image_url": "http://static.gowalla.com/categories/373-e1e4e31b4f61a14f7b6b2b245b2d9693-100.png?1",
+        "url": "/spots/3842712",
+        "name": "Big Ass Twitter Happy Hour #BATHH September Meet Up at Union Park",
+        "region": "TX",
+        "locality": "Austin"
+      },
+      "message": "Keegbeard. ",
+      "photo_urls": {
+        "high_res_320x480": "http://static.gowalla.com/photos/912078_high_res_320x480.jpg",
+        "square_75": "http://static.gowalla.com/photos/912078_square_75.jpg",
+        "low_res_320x480": "http://static.gowalla.com/photos/912078_low_res_320x480.jpg",
+        "square_100": "http://static.gowalla.com/photos/912078_square_100.jpg",
+        "square_10": "http://static.gowalla.com/photos/912078_square_10.jpg",
+        "square_50": "http://static.gowalla.com/photos/912078_square_50.jpg"
+      },
+      "created_at": "2010-09-17T00:36:24Z"
+    },
+    {
+      "type": "photo",
+      "checkin_url": "/checkins/16471262",
+      "spot": {
+        "image_url": "http://static.gowalla.com/spots/420315-9f7dd8b8018555908bfe3539616a6f3f-100.png?1",
+        "url": "/spots/420315",
+        "name": "Gowalla Incorporated",
+        "region": "TX",
+        "locality": "Austin"
+      },
+      "message": "Testing",
+      "photo_urls": {
+        "high_res_320x480": "http://static.gowalla.com/photos/856788_high_res_320x480.jpg",
+        "square_75": "http://static.gowalla.com/photos/856788_square_75.jpg",
+        "low_res_320x480": "http://static.gowalla.com/photos/856788_low_res_320x480.jpg",
+        "square_100": "http://static.gowalla.com/photos/856788_square_100.jpg",
+        "square_10": "http://static.gowalla.com/photos/856788_square_10.jpg",
+        "square_50": "http://static.gowalla.com/photos/856788_square_50.jpg"
+      },
+      "created_at": "2010-09-07T21:09:09Z"
+    },
+    {
+      "type": "photo",
+      "checkin_url": "/checkins/16072550",
+      "spot": {
+        "image_url": "http://static.gowalla.com/spots/9313-e13e56d515294b079abc5ffeb9e2d342-100.png?1",
+        "url": "/spots/9313",
+        "name": "The Belmont",
+        "region": "TX",
+        "locality": "Austin"
+      },
+      "message": "",
+      "photo_urls": {
+        "high_res_320x480": "http://static.gowalla.com/photos/821601_high_res_320x480.jpg",
+        "square_75": "http://static.gowalla.com/photos/821601_square_75.jpg",
+        "low_res_320x480": "http://static.gowalla.com/photos/821601_low_res_320x480.jpg",
+        "square_100": "http://static.gowalla.com/photos/821601_square_100.jpg",
+        "square_10": "http://static.gowalla.com/photos/821601_square_10.jpg",
+        "square_50": "http://static.gowalla.com/photos/821601_square_50.jpg"
+      },
+      "created_at": "2010-09-03T01:11:07Z"
+    },
+    {
+      "type": "photo",
+      "checkin_url": "/checkins/15790773",
+      "spot": {
+        "image_url": "http://static.gowalla.com/categories/80-d6b180338b45a5c1d43ed6167429929b-100.png?1",
+        "url": "/spots/9508",
+        "name": "Amy's Ice Creams",
+        "region": "TX",
+        "locality": "Austin"
+      },
+      "message": "",
+      "photo_urls": {
+        "high_res_320x480": "http://static.gowalla.com/photos/800878_high_res_320x480.jpg",
+        "square_75": "http://static.gowalla.com/photos/800878_square_75.jpg",
+        "low_res_320x480": "http://static.gowalla.com/photos/800878_low_res_320x480.jpg",
+        "square_100": "http://static.gowalla.com/photos/800878_square_100.jpg",
+        "square_10": "http://static.gowalla.com/photos/800878_square_10.jpg",
+        "square_50": "http://static.gowalla.com/photos/800878_square_50.jpg"
+      },
+      "created_at": "2010-08-30T00:12:50Z"
+    }
+  ]
+}

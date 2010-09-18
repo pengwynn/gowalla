@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/330493-standard.jpg?1277914145?1",
+      "first_name": "Chalkbot",
+      "last_name": "",
+      "url": "/users/330493",
+      "hometown": "Pittsburgh, PA"
+    },
+    {
+      "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/309765-standard.jpg?1276496139?1",
+      "first_name": "Red Bull",
+      "last_name": "",
+      "url": "/users/309765",
+      "hometown": "Everywhere you want to be"
+    },
+    {
+      "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/343958-standard.jpg?1278684129?1",
+      "first_name": "CNNMoney",
+      "last_name": " ",
+      "url": "/users/343958",
+      "hometown": "Best Places To Live"
+    },
+    {
+      "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/25096-standard.jpg?1259001300?1",
+      "first_name": "Tyler",
+      "last_name": "$chultz",
+      "url": "/users/25096",
+      "hometown": "San Francisco, CA"
+    },
+    {
+      "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/26700-standard.jpg?1259180481?1",
+      "first_name": "whurley",
+      "last_name": "*",
+      "url": "/users/26700",
+      "hometown": "Austin, Texas"
+    },
+    {
+      "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/135506-standard.jpg?1267714751?1",
+      "first_name": "Lawrence",
+      "last_name": ".com",
+      "url": "/users/135506",
+      "hometown": "Lawrence, Kansas"
+    }
+  ]
+}
