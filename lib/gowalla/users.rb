@@ -33,11 +33,50 @@ module Gowalla
     # Retrieve a list of spot urls the user has visited
     #
     # @param [String] user_id (authenticated basic auth user) User ID (screen name)
-    # @return [Hashie::Mash] item info
+    # @return [Hashie::Mash] spot urls
     def visited_spots_urls(user_id=self.username)
       connection.get("/users/#{user_id}/visited_spots_urls").body.urls
     end
 
+    # Retrieve a list of items the user is carrying
+    # WARNING: This method uses calls not officially supported by Gowalla.
+    #
+    # @param [String] user_id (authenticated basic auth user) User ID (screen name)
+    # @param [String] context The type of item: pack, vault, missing
+    # @return [Hashie::Mash] items info
+    def user_items(user_id=self.username, context)
+      response = connection.get do |req|
+        req.url "/users/#{user_id}/items", :context => context
+      end
+      response.body.items
+    end
+
+    # Retrieve a list of photos the user has taken
+    # WARNING: This method uses calls not officially supported by Gowalla.
+    #
+    # @param [String] user_id (authenticated basic auth user) User ID (screen name)
+    # @return [Hashie::Mash] photos info
+    def user_photos(user_id=self.username)
+      connection.get("/users/#{user_id}/photos").body.activity
+    end
+
+    # Retrieve a list of trips the user has created
+    # WARNING: This method uses calls not officially supported by Gowalla.
+    #
+    # @param [String] user_id (authenticated basic auth user) User ID (screen name)
+    # @return [Hashie::Mash] trips info
+    def user_trips(user_id=self.username)
+      connection.get("/users/#{user_id}/trips").body.trips
+    end
+
+    # Retrieve a list of friends for the user
+    # WARNING: This method uses calls not officially supported by Gowalla.
+    #
+    # @param [String] user_id (authenticated basic auth user) User ID (screen name)
+    # @return [Hashie::Mash] friends info
+    def friends(user_id=self.username)
+      connection.get("/users/#{user_id}/friends").body.users
+    end
 
   end
 end
