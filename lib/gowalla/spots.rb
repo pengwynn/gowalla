@@ -55,11 +55,21 @@ module Gowalla
     end
 
     # Retrieve a list of flags for a particular spot
+    # WARNING: This method uses calls not officially supported by Gowalla.
     #
     # @param [Integer] spot_id Spot ID
     # @return [Hashie::Mash] Array of Flags
     def spot_flags(spot_id)
       connection.get("/spots/#{spot_id}/flags").body.flags
+    end
+
+    # Retrieve a list of photos for a particular spot
+    # WARNING: This method uses calls not officially supported by Gowalla.
+    #
+    # @param [Integer] spot_id Spot ID
+    # @return [Hashie::Mash] Array of photos
+    def spot_photos(spot_id)
+      connection.get("/spots/#{spot_id}/photos").body.activity
     end
 
   end

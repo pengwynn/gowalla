@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "user": {
+        "first_name": "Scott",
+        "username": "sco",
+        "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/1-standard.jpg?1279173852?1",
+        "last_name": "Raymond",
+        "hometown": "Austin, Texas",
+        "url": "/users/1",
+        "name": "Scott Raymond"
+      },
+      "type": "drop",
+      "spot": {
+        "image_url": "http://static.gowalla.com/categories/83-d43e1674929b58117b08628377c87de9-100.png?1",
+        "url": "/spots/8993",
+        "name": "Jerusalem Bakery"
+      },
+      "created_at": "2009-12-28T21:26:09Z"
+    },
+    {
+      "user": {
+        "first_name": "Scott",
+        "username": "sco",
+        "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/1-standard.jpg?1279173852?1",
+        "last_name": "Raymond",
+        "hometown": "Austin, Texas",
+        "url": "/users/1",
+        "name": "Scott Raymond"
+      },
+      "type": "bonus",
+      "created_at": "2009-12-14T00:18:24Z"
+    }
+  ]
+}

@@ -67,6 +67,13 @@ class SpotsTest < Test::Unit::TestCase
       flags.first.status.should == 'open'
     end
 
+    should "retrieve photos taken at a spot" do
+      stub_get('http://pengwynn:0U812@api.gowalla.com/spots/18568/photos', 'photos.json')
+      photos = @client.spot_photos(18568)
+      photos.first.type.should == 'photo'
+      photos.first.photo_urls.square_50.should == 'http://static.gowalla.com/photos/912078_square_50.jpg'
+    end
+
   end
 
 end

@@ -7,32 +7,6 @@ class ClientTest < Test::Unit::TestCase
       @client = gowalla_test_client
     end
 
-    context "and working with Items" do
-      should "retrieve information about a specific item" do
-        stub_get('http://pengwynn:0U812@api.gowalla.com/items/607583', 'item.json')
-        item = @client.item(607583)
-        item.issue_number.should == 13998
-        item.name.should == 'Sweets'
-        item.determiner.should == 'some'
-      end
-    end
-
-    context "and working with Trips" do
-      should "retrieve a list of trips" do
-        stub_get('http://pengwynn:0U812@api.gowalla.com/trips', 'trips.json')
-        trips = @client.trips
-        trips.first.name.should == 'London Pub Crawl'
-        trips.first.spots.first.url.should == '/spots/164009'
-      end
-
-      should "retrieve information about a specific trip" do
-        stub_get('http://pengwynn:0U812@api.gowalla.com/trips/1', 'trip.json')
-        trip = @client.trip(1)
-        trip.creator.last_name.should == 'Gowalla'
-        trip.map_bounds.east.should == -63.457031
-      end
-    end
-
     context "and working with Flags" do
       should "retrieve a list of flags" do
         stub_get("http://pengwynn:0U812@api.gowalla.com/flags", "flags.json")
@@ -53,14 +27,6 @@ class ClientTest < Test::Unit::TestCase
       end
     end
 
-    context "and working with checkins" do
-      should "fetch info for a checkin" do
-        stub_get("http://pengwynn:0U812@api.gowalla.com/checkins/88", "checkin.json")
-        checkin = @client.checkin_info(88)
-        checkin.spot.name.should == 'Movie Tavern'
-        checkin.message.should == 'There sending us Back-- to the Future!'
-      end
-    end
   end
 
   context "when using basic auth" do
