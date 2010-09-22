@@ -64,11 +64,18 @@ class UsersTest < Test::Unit::TestCase
       trips.first.spots.first.url.should == '/spots/164009'
     end
 
-    should "retrieve a list of phots taken by the user" do
+    should "retrieve a list of photos taken by the user" do
       stub_get('http://pengwynn:0U812@api.gowalla.com/users/sco/photos', 'photos.json')
       photos = @client.user_photos('sco')
       photos.first.type.should == 'photo'
       photos.first.photo_urls.square_50.should == 'http://static.gowalla.com/photos/912078_square_50.jpg'
+    end
+
+    should "retrieve a list of pins collected by the user" do
+      stub_get('http://pengwynn:0U812@api.gowalla.com/users/sco/pins', 'pins.json')
+      pins = @client.user_pins('sco')
+      pins.first.name.should == '110 Film'
+      pins.first.trip.type.should == 'challenge'
     end
 
   end

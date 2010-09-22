@@ -69,6 +69,15 @@ module Gowalla
       connection.get("/users/#{user_id}/trips").body.trips
     end
 
+    # Retrieve a list of pins the user has collected
+    # WARNING: This method uses calls not officially supported by Gowalla.
+    #
+    # @param [String] user_id (authenticated basic auth user) User ID (screen name)
+    # @return [Hashie::Mash] pins info
+    def user_pins(user_id=self.username)
+      connection.get("/users/#{user_id}/pins").body.pins
+    end
+
     # Retrieve a list of friends for the user
     # WARNING: This method uses calls not officially supported by Gowalla.
     #

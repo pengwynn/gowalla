@@ -7,25 +7,6 @@ class ClientTest < Test::Unit::TestCase
       @client = gowalla_test_client
     end
 
-    context "and working with Flags" do
-      should "retrieve a list of flags" do
-        stub_get("http://pengwynn:0U812@api.gowalla.com/flags", "flags.json")
-        flags = @client.list_flags
-        flags.first.spot.name.should == 'Wild Gowallaby #1'
-        flags.first.user.url.should == '/users/340897'
-        flags.first[:type].should == 'invalid'
-        flags.first.status.should == 'open'
-      end
-
-      should "retrieve information about a specific flag" do
-        stub_get("http://pengwynn:0U812@api.gowalla.com/flags/1", "flag.json")
-        flag = @client.flag(1)
-        flag.spot.name.should == 'Wild Gowallaby #1'
-        flag.user.url.should == '/users/340897'
-        flag[:type].should == 'invalid'
-        flag.status.should == 'open'
-      end
-    end
 
   end
 

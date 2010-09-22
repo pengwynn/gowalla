@@ -1,36 +1,81 @@
-[{
-    "image_url": "http://static.gowalla.com/missions/60-316a866168eadbff6507416187f0b7c8.png",
-    "name": "Ranger",
-    "trip": {
-        "url": "/trips/60"
-    },
-    "url": "/pins/210860",
-    "issue_number": 12345
-},
 {
-    "image_url": "http://static.gowalla.com/missions/62-18c1aa0ca22640afa0718655bb4c672c.png",
-    "name": "Sightseer",
+"pins": [
+  {
+    "url": "/trips/7723",
+    "name": "110 Film",
+    "_image_url_200": "http://static.gowalla.com/trips/7723-0b17cee6b7b7f293791e3982f9f9a166-100.png?1",
+    "image_url": "http://static.gowalla.com/trips/7723-0b17cee6b7b7f293791e3982f9f9a166-100.png?1",
+    "issue_number": 12345,
     "trip": {
-        "url": "/trips/62"
-    },
-    "url": "/pins/193242",
-    "issue_number": 12345
-},
-{
-    "image_url": "http://static.gowalla.com/missions/61-65f8a1f8f7790ac5c3d3feb860c02f2a.png",
-    "name": "Wanderer",
+      "type": "challenge",
+      "url": "/trips/7723"
+    }
+  },
+  {
+    "url": "/trips/7725",
+    "name": "120 Film",
+    "_image_url_200": "http://static.gowalla.com/trips/7725-791e82f9a166dcdf2e7c6c6acfd42bb4-100.png?1",
+    "image_url": "http://static.gowalla.com/trips/7725-791e82f9a166dcdf2e7c6c6acfd42bb4-100.png?1",
+    "issue_number": 12345,
     "trip": {
-        "url": "/trips/61"
-    },
-    "url": "/pins/189645",
-    "issue_number": 12345
-},
-{
-    "image_url": "http://static.gowalla.com/missions/1-ec53eae4b07e222b9a95805d28508986.png",
-    "name": "I Installed Gowalla!",
+      "type": "challenge",
+      "url": "/trips/7725"
+    }
+  },
+  {
+    "url": "/trips/7724",
+    "name": "35mm Film",
+    "_image_url_200": "http://static.gowalla.com/trips/7724-b7b7f293791e82f9a1660cdcdfef2e7c-100.png?1",
+    "image_url": "http://static.gowalla.com/trips/7724-b7b7f293791e82f9a1660cdcdfef2e7c-100.png?1",
+    "issue_number": 12345,
     "trip": {
-        "url": "/trips/1"
-    },
-    "url": "/pins/162687",
-    "issue_number": 12345
-}]
+      "type": "challenge",
+      "url": "/trips/7724"
+    }
+  },
+  {
+    "url": "/trips/8",
+    "name": "39th Street Eats",
+    "_image_url_200": "http://static.gowalla.com/trip_categories/17-2309d8ffb8992ea2bdd02e057697e695-100.png?1",
+    "image_url": "http://static.gowalla.com/trip_categories/17-2309d8ffb8992ea2bdd02e057697e695-100.png?1",
+    "issue_number": 12345,
+    "trip": {
+      "type": "trip",
+      "url": "/trips/8"
+    }
+  },
+  {
+    "url": "/trips/966",
+    "name": "Afternoon Work Walk",
+    "_image_url_200": "http://static.gowalla.com/trip_categories/17-2309d8ffb8992ea2bdd02e057697e695-100.png?1",
+    "image_url": "http://static.gowalla.com/trip_categories/17-2309d8ffb8992ea2bdd02e057697e695-100.png?1",
+    "issue_number": 12345,
+    "trip": {
+      "type": "trip",
+      "url": "/trips/966"
+    }
+  },
+  {
+    "url": "/trips/2593",
+    "name": "Bar Hop",
+    "_image_url_200": "http://static.gowalla.com/trips/2593-7e5822aa560ad0d715a3d577d27161f9-100.png?1",
+    "image_url": "http://static.gowalla.com/trips/2593-7e5822aa560ad0d715a3d577d27161f9-100.png?1",
+    "issue_number": 12345,
+    "trip": {
+      "type": "challenge",
+      "url": "/trips/2593"
+    }
+  },
+  {
+    "url": "/trips/93",
+    "name": "Best Austin Coffee Shops",
+    "_image_url_200": "http://static.gowalla.com/trip_categories/3-c8527a5a45be6dd137b007ddff2f5c6e-100.png?1",
+    "image_url": "http://static.gowalla.com/trip_categories/3-c8527a5a45be6dd137b007ddff2f5c6e-100.png?1",
+    "issue_number": 12345,
+    "trip": {
+      "type": "trip",
+      "url": "/trips/93"
+    }
+  }
+  ]
+}

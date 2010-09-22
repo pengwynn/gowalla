@@ -46,6 +46,7 @@ module Gowalla
   autoload :Users, 'gowalla/users'
   autoload :Trips, 'gowalla/trips'
   autoload :Checkins, 'gowalla/checkins'
+  autoload :Flags, 'gowalla/flags'
 
 end
 

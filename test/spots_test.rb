@@ -58,15 +58,6 @@ class SpotsTest < Test::Unit::TestCase
       category.name.should == 'Coffee Shop'
     end
 
-    should "retrieve flags associated with that spot" do
-      stub_get("http://pengwynn:0U812@api.gowalla.com/spots/1/flags", "flags.json")
-      flags = @client.spot_flags(1)
-      flags.first.spot.name.should == 'Wild Gowallaby #1'
-      flags.first.user.url.should == '/users/340897'
-      flags.first[:type].should == 'invalid'
-      flags.first.status.should == 'open'
-    end
-
     should "retrieve photos taken at a spot" do
       stub_get('http://pengwynn:0U812@api.gowalla.com/spots/18568/photos', 'photos.json')
       photos = @client.spot_photos(18568)

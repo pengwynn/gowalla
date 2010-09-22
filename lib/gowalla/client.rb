@@ -9,6 +9,7 @@ module Gowalla
     include Items
     include Trips
     include Checkins
+    include Flags
 
     attr_reader :username, :api_key, :api_secret
 
@@ -22,21 +23,6 @@ module Gowalla
       password = options[:password] || Gowalla.password
       connection.basic_auth(@username, password) unless @api_secret
       connection.token_auth(@access_token) if @access_token
-    end
-
-    # Retrieve a list of flags
-    #
-    # @return [<Hashie::Mash>] Flag info
-    def list_flags(options={})
-      connection.get("/flags").body.flags
-    end
-
-    # Retrieve information about a particular flag
-    #
-    # @param [Integer] flag_id Flag ID
-    # @return [Hashie::Mash] Flag info
-    def flag(flag_id)
-      connection.get("/flags/#{flag_id}").body
     end
 
     # Check for missing access token
