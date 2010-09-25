@@ -1,0 +1,43 @@
+PATH
+  remote: .
+  specs:
+    gowalla (0.4.0)
+      faraday (~> 0.4.5)
+      faraday-middleware
+      hashie (~> 0.2.0)
+      multi_json (~> 0.0.4)
+      oauth2
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    addressable (2.2.1)
+    fakeweb (1.3.0)
+    faraday (0.4.6)
+      addressable (>= 2.1.1)
+      rack (>= 1.0.1)
+    faraday-middleware (0.0.1)
+      faraday (~> 0.4.5)
+    hashie (0.2.2)
+    jnunemaker-matchy (0.4.0)
+    multi_json (0.0.4)
+    oauth2 (0.0.13)
+      faraday (~> 0.4.1)
+      multi_json (>= 0.0.4)
+    rack (1.2.1)
+    shoulda (2.10.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (>= 1.0.0)
+  fakeweb
+  faraday (~> 0.4.5)
+  faraday-middleware
+  gowalla!
+  hashie (~> 0.2.0)
+  jnunemaker-matchy (~> 0.4.0)
+  multi_json (~> 0.0.4)
+  oauth2
+  shoulda (~> 2.10.0)

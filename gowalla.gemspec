@@ -1,21 +1,30 @@
-$LOAD_PATH.unshift File.expand_path("../lib", __FILE__)
+# -*- encoding: utf-8 -*-
+require File.expand_path("../lib/gowalla/version", __FILE__)
 
 Gem::Specification.new do |s|
   s.name = %q{gowalla}
-  s.version = "0.2.2"
-  s.platform = Gem::Platform::RUBY
-  s.required_rubygems_version = ">= 1.3.6"
-  s.authors = ["Wynn Netherland"]
-  s.date = %q{2010-08-09}
-  s.description = %q{Ruby wrapper for the Gowalla API}
+  s.version = Gowalla::VERSION
+  s.authors = ["Wynn Netherland", "Eric Hutzelman"]
   s.email = %q{wynn.netherland@gmail.com}
-  s.files = Dir.glob("{lib}/**/*")
-  s.homepage = %q{http://wynnnetherland.com/projects/gowalla/}
-  s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.3.6}
   s.summary = %q{Wrapper for the Gowalla API}
-  s.test_files = [
-    "test/helper.rb",
-    "test/gowalla_test.rb"
-  ]
+  s.description = %q{Ruby wrapper for the Gowalla API}
+  s.homepage = %q{http://wynnnetherland.com/projects/gowalla/}
+
+  s.add_dependency 'oauth2'
+  s.add_dependency 'faraday', '~> 0.4.5'
+  s.add_dependency 'hashie', '~> 0.2.0'
+  s.add_dependency 'multi_json', '~> 0.0.4'
+  s.add_dependency 'faraday-middleware'
+
+  s.add_development_dependency 'shoulda', '~> 2.10.0'
+  s.add_development_dependency 'jnunemaker-matchy', '~> 0.4.0'
+  s.add_development_dependency 'fakeweb'
+  s.add_development_dependency "bundler", ">= 1.0.0"
+
+  s.required_rubygems_version = ">= 1.3.6"
+  s.platform = Gem::Platform::RUBY
+  s.require_path  = 'lib'
+  s.files         = `git ls-files`.split("\n")
+  s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
+  s.executables   = `git ls-files`.split("\n").map{|f| f =~ /^bin\/(.*)/ ? $1 : nil}.compact
 end

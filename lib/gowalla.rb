@@ -10,8 +10,6 @@ Hash.send :include, Hashie::HashExtensions
 
 module Gowalla
 
-  VERSION = "0.3.0".freeze
-
   class << self
     attr_accessor :api_key
     attr_accessor :username
@@ -49,5 +47,3 @@ module Gowalla
   autoload :Flags, 'gowalla/flags'
 
 end
-
-# require File.join(directory, 'gowalla', 'client')
