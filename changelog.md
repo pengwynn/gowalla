@@ -1,4 +1,9 @@
 # Changelog
+## 0.4.0 August 9, 2010
+  * refactor api methods into individual container classes
+  * Additional user method support (visited spots, pins)
+  * Problem reporting via flags
+  * Patch from [armanddp](http://github.com/armanddp) for Ruby 1.9, Bundler
 ## 0.3.0 August 9, 2010
   * Added checkin API
   * Patch from [mattt](http://github.com/mattt) for Flag Spots API
