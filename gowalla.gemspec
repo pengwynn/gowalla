@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'faraday', '~> 0.4.5'
   s.add_dependency 'hashie', '~> 0.2.0'
   s.add_dependency 'multi_json', '~> 0.0.4'
-  s.add_dependency 'faraday-middleware'
+  s.add_dependency 'faraday_middleware'
 
   s.add_development_dependency 'shoulda', '~> 2.10.0'
   s.add_development_dependency 'jnunemaker-matchy', '~> 0.4.0'

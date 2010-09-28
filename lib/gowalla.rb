@@ -38,12 +38,18 @@ module Gowalla
     end
   end
 
-  autoload :Client, 'gowalla/client'
-  autoload :Spots, 'gowalla/spots'
-  autoload :Items, 'gowalla/items'
-  autoload :Users, 'gowalla/users'
-  autoload :Trips, 'gowalla/trips'
-  autoload :Checkins, 'gowalla/checkins'
-  autoload :Flags, 'gowalla/flags'
-
+  # autoload :Client, 'gowalla/client'
+  # autoload :Spots, 'gowalla/spots'
+  # autoload :Items, 'gowalla/items'
+  # autoload :Users, 'gowalla/users'
+  # autoload :Trips, 'gowalla/trips'
+  # autoload :Checkins, 'gowalla/checkins'
+  # autoload :Flags, 'gowalla/flags'
+  require 'gowalla/spots'
+  require 'gowalla/items'
+  require 'gowalla/trips'
+  require 'gowalla/checkins'
+  require 'gowalla/flags'
+  require 'gowalla/users'
+  require 'gowalla/client'
 end

@@ -3,7 +3,7 @@ PATH
   specs:
     gowalla (0.4.0)
       faraday (~> 0.4.5)
-      faraday-middleware
+      faraday_middleware
       hashie (~> 0.2.0)
       multi_json (~> 0.0.4)
       oauth2
@@ -16,7 +16,7 @@ GEM
     faraday (0.4.6)
       addressable (>= 2.1.1)
       rack (>= 1.0.1)
-    faraday-middleware (0.0.1)
+    faraday_middleware (0.0.4)
       faraday (~> 0.4.5)
     hashie (0.2.2)
     jnunemaker-matchy (0.4.0)
@@ -34,7 +34,7 @@ DEPENDENCIES
   bundler (>= 1.0.0)
   fakeweb
   faraday (~> 0.4.5)
-  faraday-middleware
+  faraday_middleware
   gowalla!
   hashie (~> 0.2.0)
   jnunemaker-matchy (~> 0.4.0)

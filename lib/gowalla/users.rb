@@ -44,7 +44,7 @@ module Gowalla
     # @param [String] user_id (authenticated basic auth user) User ID (screen name)
     # @param [String] context The type of item: pack, vault, missing
     # @return [Hashie::Mash] items info
-    def user_items(user_id=self.username, context)
+    def user_items(user_id=self.username, context='pack')
       response = connection.get do |req|
         req.url "/users/#{user_id}/items", :context => context
       end
