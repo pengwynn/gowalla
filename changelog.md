@@ -1,5 +1,6 @@
 # Changelog
-## 0.4.0 August 9, 2010
+## 0.4.0 September 28, 2010
+  * faraday_middleware gem renamed
   * refactor api methods into individual container classes
   * Additional user method support (visited spots, pins)
   * Problem reporting via flags
