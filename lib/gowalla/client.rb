@@ -41,7 +41,7 @@ module Gowalla
       params[:access_token] = @access_token if @access_token
       @connection ||= Faraday::Connection.new(:url => url, :params => params, :headers => default_headers) do |builder|
         builder.adapter Faraday.default_adapter
-        builder.use Faraday::Response::MultiJson
+        builder.use Faraday::Response::ParseJson
         builder.use Faraday::Response::Mashify
       end
 
