@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    gowalla (0.4.1)
+    gowalla (0.4.2)
       faraday (~> 0.4.5)
       faraday_middleware (~> 0.1.0)
       oauth2
