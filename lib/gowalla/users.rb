@@ -38,6 +38,14 @@ module Gowalla
       connection.get("/users/#{user_id}/visited_spots_urls").body.urls
     end
 
+    # Retrieve a list of the user's most recent checkins.
+    #
+    # @param [String] user_id (authenticated basic auth user) User ID (screen name)
+    # @return [Hashie::Mash] Array of checkin events
+    def user_events(user_id=self.username)
+      connection.get("/users/#{user_id}/events").body.activity
+    end
+
     # Retrieve a list of items the user is carrying
     # WARNING: This method uses calls not officially supported by Gowalla.
     #
