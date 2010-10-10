@@ -36,15 +36,21 @@ module Gowalla
     #
     # @return [Faraday::Connection]
     def connection
-      url = @access_token ? "https://api.gowalla.com" : "http://api.gowalla.com"
       params = {}
       params[:access_token] = @access_token if @access_token
-      @connection ||= Faraday::Connection.new(:url => url, :params => params, :headers => default_headers) do |builder|
+      @connection ||= Faraday::Connection.new(:url => api_url, :params => params, :headers => default_headers) do |builder|
         builder.adapter Faraday.default_adapter
         builder.use Faraday::Response::ParseJson
         builder.use Faraday::Response::Mashify
       end
 
+    end
+
+    # Provides the URL for accessing the API
+    #
+    # @return [String]
+    def api_url
+      authentication_credentials_provided? ? "https://api.gowalla.com" : "http://api.gowalla.com"
     end
 
     # Provides raw access to the OAuth2 Client
@@ -89,6 +95,10 @@ module Gowalla
         }
       end
 
+      # @private
+      def authentication_credentials_provided?
+        @api_key || @api_secret || @username || @access_token
+      end
 
   end
 

@@ -8,7 +8,7 @@ class FlagsTest < Test::Unit::TestCase
     end
 
     should "retrieve a list of flags" do
-      stub_get("http://pengwynn:0U812@api.gowalla.com/flags", "flags.json")
+      stub_get("https://pengwynn:0U812@api.gowalla.com/flags", "flags.json")
       flags = @client.list_flags
       flags.first.spot.name.should == 'Wild Gowallaby #1'
       flags.first.user.url.should == '/users/340897'
@@ -17,7 +17,7 @@ class FlagsTest < Test::Unit::TestCase
     end
 
     should "retrieve information about a specific flag" do
-      stub_get("http://pengwynn:0U812@api.gowalla.com/flags/1", "flag.json")
+      stub_get("https://pengwynn:0U812@api.gowalla.com/flags/1", "flag.json")
       flag = @client.flag(1)
       flag.spot.name.should == 'Wild Gowallaby #1'
       flag.user.url.should == '/users/340897'
@@ -27,7 +27,7 @@ class FlagsTest < Test::Unit::TestCase
 
 
     should "retrieve flags associated with that spot" do
-      stub_get("http://pengwynn:0U812@api.gowalla.com/spots/1/flags", "flags.json")
+      stub_get("https://pengwynn:0U812@api.gowalla.com/spots/1/flags", "flags.json")
       flags = @client.spot_flags(1)
       flags.first.spot.name.should == 'Wild Gowallaby #1'
       flags.first.user.url.should == '/users/340897'
@@ -36,7 +36,7 @@ class FlagsTest < Test::Unit::TestCase
     end
 
     should "set a flag on a specific spot" do
-      url = "http://pengwynn:0U812@api.gowalla.com/spots/1/flags/invalid"
+      url = "https://pengwynn:0U812@api.gowalla.com/spots/1/flags/invalid"
       FakeWeb.register_uri(:post, url, :body => '{"result": "flag created"}')
       response = @client.flag_spot(1, 'invalid', 'my problem description')
       response.result.should == 'flag created'
