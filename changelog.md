@@ -1,4 +1,7 @@
 # Changelog
+## 0.5.1 October 10, 2010
+  * Patch from [jasonrudolph](http://github.com/jasonrudolph) for #user_events
+  * Patch from [jasonrudolph](http://github.com/jasonrudolph) to authenticate via HTTPS
 ## 0.4.2 October 2, 2010
   * Patch from [sferik](http://github.com/sferik) for faraday_middleware
 ## 0.4.1 September 28, 2010
