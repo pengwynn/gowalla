@@ -1,0 +1,194 @@
+{
+  "activity": [
+    {
+      "type": "checkin",
+      "_comments_count": 0,
+      "url": "/checkins/18863224",
+      "_photos_count": 1,
+      "created_at": "2010-10-10T19:00:30Z",
+      "message": "",
+      "activity_url": "/checkins/18863224/activity",
+      "spot": {
+        "lat": 33.236283164,
+        "lng": -96.963132806,
+        "image_url": "http://static.gowalla.com/categories/372-36fde6fbcef1326270d821925f5bc8a2-100.png?1",
+        "url": "/spots/5294067",
+        "description": "Doggie Halloween",
+        "city_state": "Aubrey, TX",
+        "name": "Barktoberfest"
+      },
+      "item": null
+    },
+    {
+      "type": "checkin",
+      "_comments_count": 0,
+      "url": "/checkins/18841423",
+      "_photos_count": 0,
+      "created_at": "2010-10-10T13:48:26Z",
+      "message": "",
+      "activity_url": "/checkins/18841423/activity",
+      "spot": {
+        "lat": 33.234945482,
+        "lng": -97.1040451527,
+        "image_url": "http://static.gowalla.com/categories/68-97f92f05f9c89ac1318acbed6e8756d7-100.png?1",
+        "url": "/spots/148001",
+        "description": "",
+        "city_state": "Denton, TX",
+        "name": "Denton Bible Church"
+      },
+      "item": null
+    },
+    {
+      "type": "checkin",
+      "_comments_count": 0,
+      "url": "/checkins/18761602",
+      "_photos_count": 0,
+      "created_at": "2010-10-09T13:49:19Z",
+      "message": "Cheering for flag football",
+      "activity_url": "/checkins/18761602/activity",
+      "spot": {
+        "lat": 33.2414638833,
+        "lng": -97.1543097333,
+        "image_url": "http://static.gowalla.com/categories/38-69fb37a4291ebf8e325eb9ecf67f4a51-100.png?1",
+        "url": "/spots/12710",
+        "description": "Jogging trails, sports fields, playgrounds, fishing lakes, batting cage, driving range, model airplane field, and much more.",
+        "city_state": "Denton, TX",
+        "name": "North Lakes Park"
+      },
+      "item": null
+    },
+    {
+      "type": "checkin",
+      "_comments_count": 0,
+      "url": "/checkins/18716653",
+      "_photos_count": 0,
+      "created_at": "2010-10-08T21:53:01Z",
+      "message": "",
+      "activity_url": "/checkins/18716653/activity",
+      "spot": {
+        "lat": 33.22220165,
+        "lng": -96.96178115,
+        "image_url": "http://static.gowalla.com/categories/15-86c95944931ab87b5af70d9cf48de40e-100.png?1",
+        "url": "/spots/548312",
+        "description": null,
+        "city_state": "Little Elm, TX",
+        "name": "Raphael's"
+      },
+      "item": null
+    },
+    {
+      "type": "checkin",
+      "_comments_count": 0,
+      "url": "/checkins/18342058",
+      "_photos_count": 0,
+      "created_at": "2010-10-03T13:52:40Z",
+      "message": "",
+      "activity_url": "/checkins/18342058/activity",
+      "spot": {
+        "lat": 33.234945482,
+        "lng": -97.1040451527,
+        "image_url": "http://static.gowalla.com/categories/68-97f92f05f9c89ac1318acbed6e8756d7-100.png?1",
+        "url": "/spots/148001",
+        "description": "",
+        "city_state": "Denton, TX",
+        "name": "Denton Bible Church"
+      },
+      "item": null
+    },
+    {
+      "type": "checkin",
+      "_comments_count": 0,
+      "url": "/checkins/17931703",
+      "_photos_count": 0,
+      "created_at": "2010-09-27T17:06:57Z",
+      "message": "Loved the cream corn, @glv's recommendation ",
+      "activity_url": "/checkins/17931703/activity",
+      "spot": {
+        "lat": 33.1597476135,
+        "lng": -96.8392467499,
+        "image_url": "http://static.gowalla.com/categories/17-65ff6fdefa899c5b215485e87ec8a89e-100.png?1",
+        "url": "/spots/43464",
+        "description": "Real Texas Bar-B-Q",
+        "city_state": "Frisco, TX",
+        "name": "Rudy's"
+      },
+      "item": null
+    },
+    {
+      "type": "checkin",
+      "_comments_count": 0,
+      "url": "/checkins/17915508",
+      "_photos_count": 1,
+      "created_at": "2010-09-27T12:43:26Z",
+      "message": "",
+      "activity_url": "/checkins/17915508/activity",
+      "spot": {
+        "lat": 33.226585803,
+        "lng": -96.952728502,
+        "image_url": "http://static.gowalla.com/categories/114-dfa8b00854ef26823d8b0d2b998568ff-100.png?1",
+        "url": "/spots/4530278",
+        "description": null,
+        "city_state": "Little Elm, TX",
+        "name": "Providence Lake"
+      },
+      "item": null
+    },
+    {
+      "type": "checkin",
+      "_comments_count": 0,
+      "url": "/checkins/17858609",
+      "_photos_count": 0,
+      "created_at": "2010-09-26T15:28:55Z",
+      "message": "",
+      "activity_url": "/checkins/17858609/activity",
+      "spot": {
+        "lat": 33.234945482,
+        "lng": -97.1040451527,
+        "image_url": "http://static.gowalla.com/categories/68-97f92f05f9c89ac1318acbed6e8756d7-100.png?1",
+        "url": "/spots/148001",
+        "description": "",
+        "city_state": "Denton, TX",
+        "name": "Denton Bible Church"
+      },
+      "item": null
+    },
+    {
+      "type": "checkin",
+      "_comments_count": 0,
+      "url": "/checkins/17731583",
+      "_photos_count": 0,
+      "created_at": "2010-09-24T23:19:18Z",
+      "message": "Waiting on Bob & Larry",
+      "activity_url": "/checkins/17731583/activity",
+      "spot": {
+        "lat": 33.028165038,
+        "lng": -96.84656915,
+        "image_url": "http://static.gowalla.com/categories/387-5bc1a08e12564a38fc119abf8865ffde-100.png?1",
+        "url": "/spots/4373116",
+        "description": null,
+        "city_state": "Plano, TX",
+        "name": "VeggieTales Live"
+      },
+      "item": null
+    },
+    {
+      "type": "checkin",
+      "_comments_count": 0,
+      "url": "/checkins/17726509",
+      "_photos_count": 0,
+      "created_at": "2010-09-24T21:58:49Z",
+      "message": "",
+      "activity_url": "/checkins/17726509/activity",
+      "spot": {
+        "lat": 33.0269792167,
+        "lng": -96.82855735,
+        "image_url": "http://static.gowalla.com/categories/15-86c95944931ab87b5af70d9cf48de40e-100.png?1",
+        "url": "/spots/32973",
+        "description": "Fine Mexican Food! ",
+        "city_state": "Plano, TX",
+        "name": "Los Cucos"
+      },
+      "item": null
+    }
+  ]
+}
