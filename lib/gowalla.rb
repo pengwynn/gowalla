@@ -13,17 +13,8 @@ module Gowalla
     attr_accessor :api_secret
     attr_accessor :test_mode
 
-    # config/initializers/gowalla.rb (for instance)
-    #
-    # Gowalla.configure do |config|
-    #   config.api_key = 'api_key'
-    #   config.username = 'username'
-    #   config.password = 'password'
-    # end
-    #
-    # elsewhere
-    #
-    # client = Gowalla::Client.new
+    # Configures default credentials easily 
+    # @yield [api_key, username, password]
     def configure
       yield self
       true
