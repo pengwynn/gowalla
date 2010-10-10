@@ -29,7 +29,7 @@ class SpotsTest < Test::Unit::TestCase
     end
 
     should "retrieve a list of check-ins at a particular spot. Shows only the activity that is visible to a given user" do
-      stub_get('http://pengwynn:0U812@api.gowalla.com/spots/452593/events', 'events.json')
+      stub_get('http://pengwynn:0U812@api.gowalla.com/spots/452593/events', 'spot_events.json')
       events = @client.spot_events(452593)
       events.first[:type].should == 'checkin'
       events.first.user.last_name.should == 'Mack'
