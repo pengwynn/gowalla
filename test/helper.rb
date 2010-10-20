@@ -11,9 +11,6 @@ require 'gowalla'
 
 FakeWeb.allow_net_connect = false
 
-class Test::Unit::TestCase
-end
-
 def gowalla_test_client
   Gowalla::Client.new(:username => 'pengwynn', :password => '0U812', :api_key => 'gowallawallabingbang')
 end
@@ -29,12 +26,17 @@ def gowalla_url(url)
 end
 
 def stub_get(url, filename, options={})
-  opts = {:body => fixture_file(filename)}.merge(options)
-
+  opts = {
+    :body => fixture_file(filename),
+    :content_type => 'application/json; charset=utf-8'
+  }.merge(options)
   FakeWeb.register_uri(:get, gowalla_url(url), opts)
 end
 
-def stub_post(url, filename)
-  FakeWeb.register_uri(:post, gowalla_url(url), :body => fixture_file(filename))
+def stub_post(url, filename, options={})
+  opts = {
+    :body => fixture_file(filename),
+    :content_type => 'application/json; charset=utf-8'
+  }.merge(options)
+  FakeWeb.register_uri(:post, gowalla_url(url), opts)
 end
-

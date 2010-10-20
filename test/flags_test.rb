@@ -37,7 +37,7 @@ class FlagsTest < Test::Unit::TestCase
 
     should "set a flag on a specific spot" do
       url = "https://pengwynn:0U812@api.gowalla.com/spots/1/flags/invalid"
-      FakeWeb.register_uri(:post, url, :body => '{"result": "flag created"}')
+      stub_post(url, "flag_created.json")
       response = @client.flag_spot(1, 'invalid', 'my problem description')
       response.result.should == 'flag created'
     end
