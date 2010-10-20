@@ -13,7 +13,7 @@ module Gowalla
     attr_accessor :api_secret
     attr_accessor :test_mode
 
-    # Configures default credentials easily 
+    # Configures default credentials easily
     # @yield [api_key, username, password]
     def configure
       yield self

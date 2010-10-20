@@ -6,8 +6,6 @@ class ClientTest < Test::Unit::TestCase
     setup do
       @client = gowalla_test_client
     end
-
-
   end
 
   context "when accessing the API anonymously" do
@@ -34,7 +32,7 @@ class ClientTest < Test::Unit::TestCase
 
       @client.username.should == 'username'
     end
-    
+
     should "use HTTPS to avoid sending password in plain text" do
       Gowalla.configure do |config|
         config.api_key = 'api_key'
@@ -79,7 +77,7 @@ class ClientTest < Test::Unit::TestCase
     should "use HTTPS to avoid sending credentials in plain text" do
       @client.api_url.should == 'https://api.gowalla.com'
     end
-    
+
     should "create an OAuth2 client" do
       @client.oauth_client.class.to_s.should == "OAuth2::Client"
     end
@@ -89,6 +87,5 @@ class ClientTest < Test::Unit::TestCase
     end
 
   end
-
 
 end
