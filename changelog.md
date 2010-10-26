@@ -1,4 +1,6 @@
 # Changelog
+## 0.5.3 October 26, 2010
+  * Patch from [sferik](http://github.com/sferik) for dependency updates
 ## 0.5.2 October 14, 2010
   * Patch from [sferik](http://github.com/sferik) for dependency updates
 ## 0.5.1 October 10, 2010
