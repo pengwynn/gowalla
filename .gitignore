@@ -21,5 +21,6 @@ pkg
 .yardopts
 .yardoc
 .bundle
+Gemfile.lock
 
 ## PROJECT::SPECIFIC
