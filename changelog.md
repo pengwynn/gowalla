@@ -1,5 +1,7 @@
 # Changelog
-## 0.5.4 January 12, 2010
+## 0.5.5 January 27, 2011
+  * Patch from [sferik](http://github.com/sferik) for dependency updates
+## 0.5.4 January 12, 2011
   * Patch from [jasonrudolph](http://github.com/jasonrudolph) for dependency updates
 ## 0.5.3 October 26, 2010
   * Patch from [sferik](http://github.com/sferik) for dependency updates
