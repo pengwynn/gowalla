@@ -1,25 +1,27 @@
-## MAC OS
+# Mac OS
 .DS_Store
 
-## TEXTMATE
+# TextMate
 *.tmproj
 tmtags
 
-## EMACS
+# emacs
 *~
 \#*
 .\#*
 
-## VIM
+# vim
 *.swp
 
-## PROJECT::GENERAL
+# General
 coverage
 rdoc
-pkg
-*.gem
 .yardopts
 .yardoc
 .bundle
 
-## PROJECT::SPECIFIC
+# Bundler
+*.gem
+.bundle
+Gemfile.lock
+pkg/*
