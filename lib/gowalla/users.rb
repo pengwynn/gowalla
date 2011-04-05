@@ -41,6 +41,7 @@ module Gowalla
     # Retrieve a list of the user's most recent checkins.
     #
     # @param [String] user_id (authenticated basic auth user) User ID (screen name)
+    # @param [Integer] page (1) page # to query for
     # @return [Hashie::Mash] Array of checkin events
     def user_events(user_id=self.username,page=1)
       connection.get("/users/#{user_id}/events?page=#{page}").body.activity
