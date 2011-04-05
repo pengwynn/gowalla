@@ -42,8 +42,8 @@ module Gowalla
     #
     # @param [String] user_id (authenticated basic auth user) User ID (screen name)
     # @return [Hashie::Mash] Array of checkin events
-    def user_events(user_id=self.username)
-      connection.get("/users/#{user_id}/events").body.activity
+    def user_events(user_id=self.username,page=1)
+      connection.get("/users/#{user_id}/events?page=#{page}").body.activity
     end
 
     # Retrieve a list of items the user is carrying
