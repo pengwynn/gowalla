@@ -1,4 +1,6 @@
 # Changelog
+## 0.5.6 April 24, 2011
+  * update dependencies on faraday and middleware
 ## 0.5.5 January 27, 2011
   * Patch from [sferik](http://github.com/sferik) for dependency updates
 ## 0.5.4 January 12, 2011
