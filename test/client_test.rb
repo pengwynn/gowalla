@@ -26,10 +26,6 @@ class ClientTest < Test::Unit::TestCase
       end
 
       @client = Gowalla::Client.new
-
-      stub_get('https://username:password@api.gowalla.com/trips', 'trips.json')
-      trips = @client.trips
-
       @client.username.should == 'username'
     end
 

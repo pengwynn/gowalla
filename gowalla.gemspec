@@ -10,15 +10,15 @@ Gem::Specification.new do |s|
   s.description = %q{Ruby wrapper for the Gowalla API}
   s.homepage = 'http://wynnnetherland.com/projects/gowalla/'
 
-  s.add_runtime_dependency 'faraday', '~> 0.5.3'
-  s.add_runtime_dependency 'faraday_middleware', '~> 0.3.0'
+  s.add_runtime_dependency 'faraday', '~> 0.6'
+  s.add_runtime_dependency 'faraday_middleware', '~> 0.6'
   s.add_runtime_dependency 'hashie', '~> 1.0.0'
-  s.add_runtime_dependency 'oauth2', '~> 0.1.0'
+  s.add_runtime_dependency 'oauth2', '~> 0.4'
 
   s.add_development_dependency 'bundler', '~> 1.0'
   s.add_development_dependency 'fakeweb', '~> 1.3'
   s.add_development_dependency 'jnunemaker-matchy', '~> 0.4'
-  s.add_development_dependency 'json_pure', '~> 1.4'
+  s.add_development_dependency 'json_pure', '~> 1.5'
   s.add_development_dependency 'rake', '~> 0.8'
   s.add_development_dependency 'shoulda', '~> 2.11'
   s.add_development_dependency 'test-unit', '~> 2.1'
