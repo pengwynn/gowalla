@@ -52,6 +52,14 @@ class UsersTest < Test::Unit::TestCase
       user_events.first.spot.name.should == "Barktoberfest"
     end
 
+    should "retrieve a list of the user's most recent checkins with pagination" do
+      stub_get('https://pengwynn:0U812@api.gowalla.com/users/1707/events?page=2&per_page=50', 'user_events.json')
+      user_events = @client.user_events(1707, :page => 2, :per_page => 50)
+      user_events.size.should == 10
+      user_events.first.url.should == '/checkins/18863224'
+      user_events.first.spot.name.should == "Barktoberfest"
+    end
+
     should "retrieve a list of items the user is carrying" do
       stub_get('https://pengwynn:0U812@api.gowalla.com/users/sco/items?context=vault', 'items.json')
       items = @client.user_items('sco', 'vault')
