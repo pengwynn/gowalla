@@ -51,8 +51,20 @@ or if you need read-write access:
 You'll need a callback route to catch the code coming back from Gowalla after a user grants you access and this must match what you specified when you created your app on Gowalla:
 
     get '/auth/gowalla/callback' do
-      session[:access_token] = client.web_server.get_access_token(params[:code], :redirect_uri => redirect_uri).token
-    
+      access_token = client.web_server.get_access_token(
+        params[:code],
+        :redirect_uri => gowalla_callback_url
+      )
+
+      if access_token.expires_at < Time.now.utc
+        access_token = client.web_server.refresh_access_token(
+          session[:refresh_token]
+        )
+      end
+
+      session[:access_token] = access_token.token
+      session[:refresh_token] = access_token.refresh_token
+
       if session[:access_token]
         redirect '/auth/gowalla/test'
       else
