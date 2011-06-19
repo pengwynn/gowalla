@@ -41,10 +41,14 @@ module Gowalla
     # Retrieve a list of the user's most recent checkins.
     #
     # @param [String] user_id (authenticated basic auth user) User ID (screen name)
-    # @param [Integer] page (1) page # to query for
+    # @option options [Integer] :page Results page number
+    # @option options [Integer] :per_page Results page number
     # @return [Hashie::Mash] Array of checkin events
-    def user_events(user_id=self.username,page=1)
-      connection.get("/users/#{user_id}/events?page=#{page}").body.activity
+    def user_events(user_id=self.username, options={})
+      response = connection.get do |req|
+         req.url "/users/#{user_id}/events", options
+      end
+      response.body.activity
     end
 
     # Retrieve a list of items the user is carrying
