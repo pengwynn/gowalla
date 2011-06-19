@@ -1,4 +1,6 @@
 # Changelog
+## 0.5.7 June 19, 2011
+  * user events pagination and readme updates from [tylerhunt](https://github.com/tylerhunt) and [ctide](https://github.com/ctide)
 ## 0.5.6 April 24, 2011
   * update dependencies on faraday and middleware
 ## 0.5.5 January 27, 2011
