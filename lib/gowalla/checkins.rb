@@ -9,7 +9,7 @@ module Gowalla
       connection.get("/checkins/#{id}").body
     end
 
-    # Check in at a spot
+    # Check in at a spot (requires oauth token authentication)
     #
     # @option details [Integer] :spot_id Spot ID
     # @option details [Float] :lat Latitude of spot

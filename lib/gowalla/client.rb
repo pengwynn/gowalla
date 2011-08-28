@@ -1,4 +1,10 @@
 require 'forwardable'
+require 'gowalla/spots'
+require 'gowalla/items'
+require 'gowalla/trips'
+require 'gowalla/checkins'
+require 'gowalla/flags'
+require 'gowalla/users'
 
 module Gowalla
   class Client
@@ -37,13 +43,13 @@ module Gowalla
     # @return [Faraday::Connection]
     def connection
       params = {}
-      params[:access_token] = @access_token if @access_token
+      params[:oauth_token] = @access_token if @access_token
       @connection ||= Faraday.new(:url => api_url, :params => params, :headers => default_headers) do |builder|
-        builder.adapter Faraday.default_adapter
+        builder.use Faraday::Request::UrlEncoded
         builder.use Faraday::Response::Mashify
         builder.use Faraday::Response::ParseJson
+        builder.adapter Faraday.default_adapter
       end
-
     end
 
     # Provides the URL for accessing the API

@@ -21,16 +21,10 @@ module Gowalla
     end
 
     def test_mode?
-      !!self.test_mode
+      !!test_mode
     end
   end
 
-  require 'gowalla/spots'
-  require 'gowalla/items'
-  require 'gowalla/trips'
-  require 'gowalla/checkins'
-  require 'gowalla/flags'
-  require 'gowalla/users'
   require 'gowalla/client'
 
 end
