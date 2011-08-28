@@ -4,7 +4,7 @@ class ClientTest < Test::Unit::TestCase
 
   context "When using the Gowalla API" do
     setup do
-      @client = gowalla_test_client
+      @client = gowalla_basic_client
     end
   end
 
