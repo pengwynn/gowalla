@@ -1,4 +1,7 @@
 # Changelog
+## 0.5.8 August 28, 2011
+  * update faraday and middleware dependencies
+  * fix checkin to work correctly with oauth token
 ## 0.5.7 June 19, 2011
   * user events pagination and readme updates from [tylerhunt](https://github.com/tylerhunt) and [ctide](https://github.com/ctide)
 ## 0.5.6 April 24, 2011
