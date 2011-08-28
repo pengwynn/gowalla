@@ -1,0 +1,21 @@
+{
+    "activity": [], 
+    "activity_url": "/checkins/13963823/activity", 
+    "created_at": "2010-08-06T01:42:13Z", 
+    "message": "There sending us Back-- to the Future!", 
+    "spot": {
+        "image_url": "http://static.gowalla.com/categories/30-c21e752b813cd8873603a18e06431675-100.png?1", 
+        "name": "Movie Tavern", 
+        "url": "/spots/195556"
+    }, 
+    "type": "checkin", 
+    "url": "/checkins/13963823", 
+    "user": {
+        "_is_friend": true, 
+        "first_name": "Wynn", 
+        "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/1707-standard.jpg?1262011383?1", 
+        "last_name": "Netherland", 
+        "photos_url": "/users/1707/photos", 
+        "url": "/users/1707"
+    }
+}

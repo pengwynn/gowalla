@@ -1,21 +1,13 @@
-{
-    "activity": [], 
-    "activity_url": "/checkins/13963823/activity", 
-    "created_at": "2010-08-06T01:42:13Z", 
-    "message": "There sending us Back-- to the Future!", 
-    "spot": {
-        "image_url": "http://static.gowalla.com/categories/30-c21e752b813cd8873603a18e06431675-100.png?1", 
-        "name": "Movie Tavern", 
-        "url": "/spots/195556"
-    }, 
-    "type": "checkin", 
-    "url": "/checkins/13963823", 
-    "user": {
-        "_is_friend": true, 
-        "first_name": "Wynn", 
-        "image_url": "http://s3.amazonaws.com/static.gowalla.com/users/1707-standard.jpg?1262011383?1", 
-        "last_name": "Netherland", 
-        "photos_url": "/users/1707/photos", 
-        "url": "/users/1707"
-    }
-}
+{"created_at":"2011-08-28T03:32:09Z",
+ "activity_url":"/checkins/123456/activity",
+ "spot":
+  {"image_url":
+    "http://static.gowalla.com/spots/21714-e178c13584f09af661f4cec1b4f24bdb-100.png",
+   "name":"Juan Pelota Cafe",
+   "url":"/spots/21714"},
+ "user":{"url":"/users/2385"},
+ "message":"coffee test",
+ "detail_text":
+  "\nThis is your 0th checkin at Juan Pelota Cafe. Spot Check In Message: Try out an iced honey latte - it's where it's at! You received a Big Bag o' Swag. Team Gowalla left you a note: Thanks for using the Gowalla API! You earned the Cup o' Joe Pin! My Happy Place Highlight from Scott Raymond: I think I could come here every day and not tire of it.\n",
+ "detail_html":"",
+ "url":"/checkins/123456"}
